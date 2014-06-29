@@ -26,7 +26,7 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
+Icon
 
 # Thumbnails
 ._*
@@ -34,3 +34,19 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+# DF specific files
+
+# Saves, we ignore everything inside data/save, except current
+# Spaces must be escaped with a "\"
+Dwarf\ Fortress/data/save/*
+-Dwarf\ Fortress/data/save/current
+
+# Game logs
+Dwarf\ Fortress/gamelog.txt
+Dwarf\ Fortress/errorlog.txt
+Dwarf\ Fortress/stderr.txt
+Dwarf\ Fortress/stdout.txt
+Dwarf\ Fortress/Stonesense.txt
+Dwarf\ Fortress/liquids.history
+Dwarf\ Fortress/dfhack.history
