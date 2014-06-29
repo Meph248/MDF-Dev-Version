@@ -1,0 +1,773 @@
+item_tool_kobold_loot
+
+[OBJECT:ITEM]
+
+######################################################################################################################################
+/// Kobolds Tools
+
+[ITEM_TOOL:ITEM_TOOL_TRACK_WAGON]
+[NAME:lorry:lorries]
+[VALUE:50]
+[METAL_MAT]
+[WOOD_MAT]
+[TOOL_USE:TRACK_CART]
+[FURNITURE]
+[TILE:254]
+[INVERTED_TILE]
+[SIZE:40000]
+[MATERIAL_SIZE:6]
+[CONTAINER_CAPACITY:250000] *half as good as a Minecart*
+
+[ITEM_TOOL:ITEM_TOOL_CART]
+[NAME:hand-cart:hand-carts]
+[VALUE:50]
+[METAL_MAT]
+[WOOD_MAT]
+[TOOL_USE:HEAVY_OBJECT_HAULING]
+[FURNITURE]
+[TILE:153]
+[SIZE:30000]
+[MATERIAL_SIZE:6]
+[CONTAINER_CAPACITY:50000] *half as good as a Wheelbarrow*
+
+######################################################################################################################################
+///
+
+[ITEM_TOOL:ITEM_TOOL_SLEEPING_POWDER]
+[NAME:bag of sleeping powder:bags of sleeping powder]
+[VALUE:11] 
+[TILE:11] 
+[SIZE:1] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:ITEM_TOOL_VOODOO_POWDER]
+[NAME:bag of voodoo powder:bags of voodoo powder]
+[VALUE:11] 
+[TILE:11] 
+[SIZE:1] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:ITEM_TOOL_POLYMORPH_POWDER]
+[NAME:bag of polymorph powder:bags of polymorph powder]
+[VALUE:11] 
+[TILE:11] 
+[SIZE:1] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:ITEM_TOOL_BLINDING_POWDER]
+[NAME:bag of blinding powder:bags of blinding powder]
+[VALUE:11] 
+[TILE:11] 
+[SIZE:1] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+[ITEM_TOOL:ITEM_TOOL_HEX_SUMMON]
+[NAME:summoning hex:summoning hex]
+[VALUE:150]
+[TILE:163]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+[ITEM_TOOL:ITEM_TOOL_HEX_GROW]
+[NAME:growth hex:growth hex]
+[VALUE:150]
+[TILE:163]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+[ITEM_TOOL:ITEM_TOOL_HEX_MAN]
+[NAME:upheaval hex:upheaval hex]
+[VALUE:150]
+[TILE:163]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:ITEM_TOOL_HEX_MAD]
+[NAME:mad hex:mad hex]
+[VALUE:150]
+[TILE:163]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+[ITEM_TOOL:ITEM_TOOL_HEX_SICK]
+[NAME:sick hex:sick hex]
+[VALUE:150]
+[TILE:163]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:ITEM_TOOL_HEX_SLOW]
+[NAME:slow hex:slow hex]
+[VALUE:150]
+[TILE:163]
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+############################################################################################################
+/// Kobold Blueprints
+
+//material name: sketched.
+
+[ITEM_TOOL:PLAN_BANSHEE_KOBOLD]
+[NAME:banshee plan:banshee plans]
+[VALUE:150] [TILE:235] [SIZE:10] [MATERIAL_SIZE:1] [UNIMPROVABLE]
+
+[ITEM_TOOL:PLAN_WEREWOLF_KOBOLD]
+[NAME:werewolf plan:werewolf plans]
+[VALUE:150] [TILE:235] [SIZE:10] [MATERIAL_SIZE:1] [UNIMPROVABLE]
+
+[ITEM_TOOL:PLAN_CENTAUREN_KOBOLD]
+[NAME:centauren plan:centauren plans]
+[VALUE:150] [TILE:235] [SIZE:10] [MATERIAL_SIZE:1] [UNIMPROVABLE]
+
+[ITEM_TOOL:PLAN_NAGA_KOBOLD]
+[NAME:naga plan:naga plans]
+[VALUE:150] [TILE:235] [SIZE:10] [MATERIAL_SIZE:1] [UNIMPROVABLE]
+
+[ITEM_TOOL:PLAN_SUCCUBUS_KOBOLD]
+[NAME:succubus plan:succubus plans]
+[VALUE:150] [TILE:235] [SIZE:10] [MATERIAL_SIZE:1] [UNIMPROVABLE]
+	
+[ITEM_TOOL:PLAN_WARLOCK_KOBOLD]
+[NAME:warlock plan:warlock plans]
+[VALUE:150] [TILE:235] [SIZE:10] [MATERIAL_SIZE:1] [UNIMPROVABLE] 
+[ITEM_TOOL:PLAN_FROST_GIANT_KOBOLD]
+[NAME:frost giant plan:frost giant plans]
+[VALUE:150] 
+[TILE:235] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:PLAN_ORC_KOBOLD]
+[NAME:orc plan:orc plans]
+[VALUE:150] 
+[TILE:235] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:PLAN_GOBLIN_KOBOLD]
+[NAME:goblin plan:goblin plans]
+[VALUE:150] 
+[TILE:235] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]  
+[ITEM_TOOL:PLAN_ELF_KOBOLD]
+[NAME:elf plan:elf plans]
+[VALUE:150] 
+[TILE:235] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:PLAN_HUMAN_KOBOLD]
+[NAME:human plan:human plans]
+[VALUE:150] 
+[TILE:235] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:PLAN_DWARF_KOBOLD]
+[NAME:dwarf plan:dwarf plans]
+[VALUE:150] 
+[TILE:235] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:PLAN_DROW_KOBOLD]
+[NAME:drow plan:drow plans]
+[VALUE:150] 
+[TILE:235] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:PLAN_GNOME_KOBOLD]
+[NAME:gnome plan:gnome plans]
+[VALUE:150] 
+[TILE:235] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:PLAN_AUTOMATON_KOBOLD]
+[NAME:automaton plan:automaton plans]
+[VALUE:150] 
+[TILE:235] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+
+
+[ITEM_TOOL:TOOL_HENNA]
+[NAME:henna powder:henna powder]
+[VALUE:15] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+[ITEM_TOOL:TOOL_PAINT]
+[NAME:paint:paint]
+[VALUE:3] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+
+############################################################################################################
+/// Kobolds Arena
+
+
+[ITEM_TOOL:ITEM_TOOL_KOBOLD_ARENA_1]
+[NAME:lvl1 arena reward:lvl1 arena reward]
+[VALUE:15] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_KOBOLD_ARENA_2]
+[NAME:lvl2 arena reward:lvl2 arena reward]
+[VALUE:15] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_KOBOLD_ARENA_3]
+[NAME:lvl3 arena reward:lvl3 arena reward]
+[VALUE:15] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_KOBOLD_ARENA_4]
+[NAME:lvl4 arena reward:lvl4 arena reward]
+[VALUE:15] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_KOBOLD_ARENA_5]
+[NAME:lvl5 arena reward:lvl5 arena reward]
+[VALUE:15] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_KOBOLD_ARENA_6]
+[NAME:lvl6 arena reward:lvl6 arena reward]
+[VALUE:15] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_KOBOLD_ARENA_7]
+[NAME:lvl7 arena reward:lvl7 arena reward]
+[VALUE:15] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_KOBOLD_ARENA_8]
+[NAME:lvl8 arena reward:lvl8 arena reward]
+[VALUE:15] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+[ITEM_TOOL:ITEM_TOOL_KOBOLD_ARENA_1_F]
+[NAME:lvl1 arena token:lvl1 arena token]
+[VALUE:15] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_KOBOLD_ARENA_2_F]
+[NAME:lvl2 arena token:lvl2 arena token]
+[VALUE:15] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_KOBOLD_ARENA_3_F]
+[NAME:lvl3 arena token:lvl3 arena token]
+[VALUE:15] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_KOBOLD_ARENA_4_F]
+[NAME:lvl4 arena token:lvl4 arena token]
+[VALUE:15] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_KOBOLD_ARENA_5_F]
+[NAME:lvl5 arena token:lvl5 arena token]
+[VALUE:15] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_KOBOLD_ARENA_6_F]
+[NAME:lvl6 arena token:lvl6 arena token]
+[VALUE:15] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_KOBOLD_ARENA_7_F]
+[NAME:lvl7 arena token:lvl7 arena token]
+[VALUE:15] 
+[TILE:163] 
+[SIZE:10] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+
+############################################################################################################
+/// Kobold loot from stealing from other civs
+
+[ITEM_TOOL:ELF_LOOT_CRATE_KOBOLD_SIEGE]
+[NAME:bag full of elvish loot:bags full of elvish loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+[ITEM_TOOL:HUMAN_LOOT_CRATE_KOBOLD_SIEGE]
+[NAME:bag full of human loot:bags full of human loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+[ITEM_TOOL:DWARF_LOOT_CRATE_KOBOLD_SIEGE]
+[NAME:bag full of dwarven loot:bags full of dwarven loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+[ITEM_TOOL:DROW_LOOT_CRATE_KOBOLD_SIEGE]
+[NAME:bag full of drow loot:bags full of drow loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+
+[ITEM_TOOL:GNOME_LOOT_CRATE_KOBOLD_SIEGE]
+[NAME:bag full of gnomish loot:bags full of gnomish loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:KOBOLD_LOOT_CRATE_KOBOLD_SIEGE]
+[NAME:bag full of kobold loot:bags full of kobold loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:GOBLIN_LOOT_CRATE_KOBOLD_SIEGE]
+[NAME:bag full of goblin loot:bags full of goblin loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+[ITEM_TOOL:ORC_LOOT_CRATE_KOBOLD_SIEGE]
+[NAME:bag full of orc loot:bags full of orc loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:FROST_GIANT_LOOT_CRATE_KOBOLD_SIEGE]
+[NAME:bag full of frost giant loot:bags full of frost giant loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:WARLOCK_LOOT_CRATE_KOBOLD_SIEGE]
+[NAME:bag full of warlock loot:bags full of warlock loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:AUTOMATON_LOOT_CRATE_KOBOLD_SIEGE]
+[NAME:bag full of automaton loot:bags full of automaton loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:ELF_LOOT_CRATE_KOBOLD_BIG_SIEGE]
+[NAME:bag full of elvish loot:bags full of elvish loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+[ITEM_TOOL:HUMAN_LOOT_CRATE_KOBOLD_BIG_SIEGE]
+[NAME:bag full of human loot:bags full of human loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+[ITEM_TOOL:DWARF_LOOT_CRATE_KOBOLD_BIG_SIEGE]
+[NAME:bag full of dwarven loot:bags full of dwarven loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:DROW_LOOT_CRATE_KOBOLD_BIG_SIEGE]
+[NAME:bag full of drow loot:bags full of drow loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+[ITEM_TOOL:GNOME_LOOT_CRATE_KOBOLD_BIG_SIEGE]
+[NAME:bag full of gnomish loot:bags full of gnomish loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+[ITEM_TOOL:KOBOLD_LOOT_CRATE_KOBOLD_BIG_SIEGE]
+[NAME:bag full of kobold loot:bags full of kobold loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE] 
+[ITEM_TOOL:GOBLIN_LOOT_CRATE_KOBOLD_BIG_SIEGE]
+[NAME:bag full of goblin loot:bags full of goblin loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ORC_LOOT_CRATE_KOBOLD_BIG_SIEGE]
+[NAME:bag full of orc loot:bags full of orc loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:FROST_GIANT_LOOT_CRATE_KOBOLD_BIG_SIEGE]
+[NAME:bag full of frost giant loot:bags full of frost giant loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:WARLOCK_LOOT_CRATE_KOBOLD_BIG_SIEGE]
+[NAME:bag full of warlock loot:bags full of warlock loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:AUTOMATON_LOOT_CRATE_KOBOLD_BIG_SIEGE]
+[NAME:bag full of automaton loot:bags full of automaton loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ANTMEN_LOOT_CRATE_KOBOLD_SIEGE]
+[NAME:bag full of antmen loot:bags full of antmen loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+ 
+[ITEM_TOOL:TROGLODYTE_LOOT_CRATE_KOBOLD_SIEGE]
+[NAME:bag full of cave ogre loot:bags full of cave ogre loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ANTMEN_LOOT_CRATE_KOBOLD_BIG_SIEGE]
+[NAME:bag full of antmen loot:bags full of antmen loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+  
+[ITEM_TOOL:TROGLODYTE_LOOT_CRATE_KOBOLD_BIG_SIEGE]
+[NAME:bag full of cave ogre loot:bags full of cave ogre loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+ 
+[ITEM_TOOL:ELF_LOOT_CRATE_KOBOLD]
+[NAME:bag full of elvish loot:bags full of elvish loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:HUMAN_LOOT_CRATE_KOBOLD]
+[NAME:bag full of human loot:bags full of human loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:DWARF_LOOT_CRATE_KOBOLD]
+[NAME:bag full of dwarven loot:bags full of dwarven loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:DROW_LOOT_CRATE_KOBOLD]
+[NAME:bag full of drow loot:bags full of drow loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:GNOME_LOOT_CRATE_KOBOLD]
+[NAME:bag full of gnomish loot:bags full of gnomish loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:KOBOLD_LOOT_CRATE_KOBOLD]
+[NAME:bag full of kobold loot:bags full of kobold loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:GOBLIN_LOOT_CRATE_KOBOLD]
+[NAME:bag full of goblin loot:bags full of goblin loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ORC_LOOT_CRATE_KOBOLD]
+[NAME:bag full of orc loot:bags full of orc loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:FROST_GIANT_LOOT_CRATE_KOBOLD]
+[NAME:bag full of frost giant loot:bags full of frost giant loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:WARLOCK_LOOT_CRATE_KOBOLD]
+[NAME:bag full of warlock loot:bags full of warlock loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:AUTOMATON_LOOT_CRATE_KOBOLD]
+[NAME:bag full of automaton loot:bags full of automaton loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+ 
+[ITEM_TOOL:ELF_LOOT_CRATE_KOBOLD_BIG]
+[NAME:bag full of elvish loot:bags full of elvish loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:HUMAN_LOOT_CRATE_KOBOLD_BIG]
+[NAME:bag full of human loot:bags full of human loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:DWARF_LOOT_CRATE_KOBOLD_BIG]
+[NAME:bag full of dwarven loot:bags full of dwarven loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:DROW_LOOT_CRATE_KOBOLD_BIG]
+[NAME:bag full of drow loot:bags full of drow loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+  
+[ITEM_TOOL:GNOME_LOOT_CRATE_KOBOLD_BIG]
+[NAME:bag full of gnomish loot:bags full of gnomish loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:KOBOLD_LOOT_CRATE_KOBOLD_BIG]
+[NAME:bag full of kobold loot:bags full of kobold loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:GOBLIN_LOOT_CRATE_KOBOLD_BIG]
+[NAME:bag full of goblin loot:bags full of goblin loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ORC_LOOT_CRATE_KOBOLD_BIG]
+[NAME:bag full of orc loot:bags full of orc loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:FROST_GIANT_LOOT_CRATE_KOBOLD_BIG]
+[NAME:bag full of frost giant loot:bags full of frost giant loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:WARLOCK_LOOT_CRATE_KOBOLD_BIG]
+[NAME:bag full of warlock loot:bags full of warlock loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:AUTOMATON_LOOT_CRATE_KOBOLD_BIG]
+[NAME:bag full of automaton loot:bags full of automaton loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ANTMEN_LOOT_CRATE_KOBOLD]
+[NAME:bag full of antmen loot:bags full of antmen loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+  
+[ITEM_TOOL:TROGLODYTE_LOOT_CRATE_KOBOLD]
+[NAME:bag full of cave ogre loot:bags full of cave ogre loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ANTMEN_LOOT_CRATE_KOBOLD_BIG]
+[NAME:bag full of antmen loot:bags full of antmen loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:TROGLODYTE_LOOT_CRATE_KOBOLD_BIG]
+[NAME:bag full of cave ogre loot:bags full of cave ogre loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:RUINS_LOOT_CRATE_KOBOLD]
+[NAME:bag full of loot from ruins:bags full of loot from ruins]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:SHIPPING_LOOT_CRATE_KOBOLD]
+[NAME:bag full of caravan loot:bags full of caravan loot]
+[VALUE:20] 
+[TILE:11] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]

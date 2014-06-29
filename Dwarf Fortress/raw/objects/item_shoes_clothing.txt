@@ -1,0 +1,60 @@
+item_shoes_clothing
+
+[OBJECT:ITEM]
+
+######################################################################################################################
+/// standart shoes, clothing. 
+11
+[ITEM_SHOES:ITEM_SHOES_SHOES]
+[NAME:shoe:shoes]
+[LAYER:UNDER]
+[COVERAGE:100]
+[LAYER_SIZE:10]
+[LAYER_PERMIT:15]
+[MATERIAL_SIZE:1]
+[SOFT]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+######################################################################################################################
+/// standard shoes, just like "shoes", just with different name.
+12
+[ITEM_SHOES:ITEM_SHOES_SANDAL]
+[NAME:sandal:sandals]
+[LAYER:OVER]
+[COVERAGE:100]
+[LAYER_SIZE:25]
+[LAYER_PERMIT:15]
+[MATERIAL_SIZE:1]
+[SOFT]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+######################################################################################################################
+/// Succubus shoe, flavor only.
+13
+[ITEM_SHOES:ITEM_SHOES_STOCKING]
+	[NAME:stocking:stockings]
+	[UPSTEP:3]
+	[LAYER:UNDER]
+	[COVERAGE:100]
+	[LAYER_SIZE:10]
+	[LAYER_PERMIT:15]
+	[MATERIAL_SIZE:1]
+	[SOFT]
+	[LEATHER]
+	[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+######################################################################################################################
+/// Kobold version of shoes, different name only.
+14
+[ITEM_SHOES:ITEM_SHOES_KOBOLD]
+	[NAME:ankle band:ankle bands]
+	[LAYER:UNDER]
+	[COVERAGE:100]
+	[LAYER_SIZE:10]
+	[LAYER_PERMIT:15]
+	[MATERIAL_SIZE:1]
+	[SOFT]	
+	[LEATHER]
+	[STRUCTURAL_ELASTICITY_WOVEN_THREAD]

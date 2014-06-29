@@ -1,0 +1,111 @@
+item_toy
+
+[OBJECT:ITEM]
+
+###################################################################################################################
+/// Toys have been renamed to 'Illumination' ingame. All toy items look like a Candelabra/Candle by default.
+
+[ITEM_TOY:ITEM_TOY_CANDELABRA]
+[NAME:candelabra:candelabras]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_BRAZIER]
+[NAME:brazier:braziers]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_FIREPLACE]
+[NAME:fireplace:fireplaces]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_CANDLE]
+[NAME:candle:candles]
+[HARD_MAT]
+
+###################################################################################################################
+/// hearths, torches and lamps are currently unused, but I leave them as a resource in here.
+
+[ITEM_TOY:ITEM_TOY_HEARTH]
+[NAME:hearth:hearths]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_TORCH]
+[NAME:torch:torches]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_LAMP]
+[NAME:lamp:lamps]
+[HARD_MAT]
+
+###################################################################################################################
+/// these mood-only dolls I left to mess with people. "Why did this moody kid make a necromancer doll?" 
+
+[ITEM_TOY:ITEM_TOY_NECROMANCER_DOLL]
+[NAME:necromancer doll:necromancer dolls]
+[HARD_MAT]
+
+[HARD_MAT][ITEM_TOY:ITEM_TOY_TENTACLE_DEMON_DOLL]
+[NAME:tentacle demon doll:tentacle demon dolls]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_WEREWOLF_DOLL]
+[NAME:werewolf doll:werewolf dolls]
+[HARD_MAT]
+
+###################################################################################################################
+/// These three are used by Orcs, mostly in Dreamwalking.
+
+[ITEM_TOY:ITEM_TOY_WOLF_DOLL]
+[NAME:wolf doll:wolf dolls]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_ORC_DOLL]
+[NAME:orc doll:orc dolls]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_MINOTAUR_DOLL]
+[NAME:minotaur doll:minotaur dolls]
+[HARD_MAT]
+
+###################################################################################################################
+/// Wanderers Friend "Toys", actually ingredients for reactions
+
+[ITEM_TOY:ITEM_TOY_SPEARHEAD]
+[NAME:spearhead:spearheads]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_ARROWHEADS]
+[NAME:arrowhead bundle:arrowhead bundles]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_BOWSTRING]
+[NAME:bowstring:bowstrings]
+
+[ITEM_TOY:ITEM_TOY_TROPHY]
+[NAME:trophy:trophies]
+
+###################################################################################################################
+/// Gnomes "toys" - Maybe delete those. They make sense as toy-toys, but since MDF uses illumination-toys, they dont fit. Players queue up "illumination" in the craftsgnome, and get 1 illumination on every 6 toys they make.
+
+[ITEM_TOY:ITEM_TOY_GNOME_1]
+[NAME:gizmo:gizmos]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_GNOME_2]
+[NAME:gadget:gadgets]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_GNOME_3]
+[NAME:widgit:widgits]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_GNOME_4]
+[NAME:doohickey:doohickeys]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_GNOME_5]
+[NAME:thingamajig:thingamajigs]
+[HARD_MAT]
+
+[ITEM_TOY:ITEM_TOY_GNOME_6]
+[NAME:watchamacallit:watchamacallits]
+[HARD_MAT]

@@ -1,0 +1,173 @@
+item_shoes_armor
+
+[OBJECT:ITEM]
+
+######################################################################################################################
+/// standart boots, armor
+0
+[ITEM_SHOES:ITEM_SHOES_BOOTS_D]
+[NAME:boot:boots]
+[ARMORLEVEL:3]
+[UPSTEP:1]
+[LAYER:ARMOR]
+[COVERAGE:100]
+[LAYER_SIZE:25]
+[LAYER_PERMIT:49]
+[METAL_ARMOR_LEVELS]
+[MATERIAL_SIZE:6]YES
+[METAL]
+[LEATHER]
+[HARD]
+[BARRED]
+[SCALED]
+
+######################################################################################################################
+/// padded boots are extra leather boots that can be worn inside of normal boots
+1
+[ITEM_SHOES:ITEM_SHOES_SHOES_PADDED]
+[NAME:padded boot:padded boots]
+[ARMORLEVEL:2]
+[UPSTEP:1]
+[LAYER:UNDER]
+[COVERAGE:100]
+[LAYER_SIZE:10]
+[LAYER_PERMIT:49]
+[MATERIAL_SIZE:1]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+######################################################################################################################
+/// plateboots are the upgrade to boots
+2
+[ITEM_SHOES:ITEM_SHOES_PLATEBOOTS]
+[NAME:plate boot:plate boots]
+[ARMORLEVEL:2]
+[UPSTEP:MAX]
+[LAYER:ARMOR]
+[COVERAGE:150]
+[LAYER_SIZE:25]
+[LAYER_PERMIT:49]
+[METAL_ARMOR_LEVELS]
+[MATERIAL_SIZE:3]
+[METAL]
+[HARD]
+
+######################################################################################################################
+/// rare drop from temple praying/sacrificing, same stats as plateboots. Dwarf only
+3
+[ITEM_SHOES:ITEM_SHOES_BOOTS_ARMOK]
+[NAME:boot of armok:boots of armok]
+[ARMORLEVEL:2]
+[UPSTEP:MAX]
+[METAL_ARMOR_LEVELS]
+[LAYER:OVER]
+[COVERAGE:150]
+[LAYER_SIZE:25]
+[LAYER_PERMIT:15]
+[MATERIAL_SIZE:3]
+[METAL]
+[HARD]
+
+######################################################################################################################
+/// mail version of shoe mittens. chain and metal, worn over other shoes
+4
+[ITEM_SHOES:ITEM_SHOES_BOOTS_MAIL]
+[NAME:mail boot:mail boots]
+[ARMORLEVEL:3]
+[UPSTEP:1]
+[METAL_ARMOR_LEVELS]
+[LAYER:OVER]
+[COVERAGE:100]
+[LAYER_SIZE:15]
+[LAYER_PERMIT:49]
+[MATERIAL_SIZE:6]YES
+[METAL]
+[HARD]
+[STRUCTURAL_ELASTICITY_CHAIN_ALL]
+
+######################################################################################################################
+/// Kobold version of boots, different name only.
+5
+[ITEM_SHOES:ITEM_SHOES_KOBOLD_SHIN]
+	[NAME:shin guard:shin guards]
+	[ARMORLEVEL:1]
+	[UPSTEP:1]
+	[METAL_ARMOR_LEVELS]
+	[LAYER:ARMOR]
+	[COVERAGE:100]
+	[LAYER_SIZE:25]
+	[LAYER_PERMIT:15]
+	[MATERIAL_SIZE:2]
+	[LEATHER][SHAPED]
+	[BARRED]
+	[HARD]
+	[SCALED]
+	[METAL]
+
+######################################################################################################################
+/// special gnome shoes, using itemsyndrome and interactions.
+6
+[ITEM_SHOES:ITEM_SHOES_CREATURE_GNOME]
+[NAME:adjustable boot:adjustable boots]
+[ARMORLEVEL:3]
+[UPSTEP:1]
+[LAYER:ARMOR]
+[COVERAGE:100]
+[LAYER_SIZE:25]
+[LAYER_PERMIT:49]
+[METAL_ARMOR_LEVELS]
+[MATERIAL_SIZE:6]YES
+[METAL]
+[BARRED]
+[HARD]
+[SCALED]
+[LEATHER]
+[SHAPED]
+7
+[ITEM_SHOES:ITEM_SHOES_BASE_GNOME]
+[NAME:gear boot:gear boots]
+[ARMORLEVEL:3]
+[UPSTEP:1]
+[LAYER:ARMOR]
+[COVERAGE:100]
+[LAYER_SIZE:25]
+[LAYER_PERMIT:49]
+[MATERIAL_SIZE:3]
+[METAL]
+[HARD]
+8
+[ITEM_SHOES:ITEM_SHOES_SPRING_GNOME]
+[NAME:spring heel:spring heels]
+[ARMORLEVEL:3]
+[UPSTEP:1]
+[LAYER:ARMOR]
+[COVERAGE:100]
+[LAYER_SIZE:25]
+[LAYER_PERMIT:49]
+[MATERIAL_SIZE:3]
+[METAL]
+[HARD]
+9
+[ITEM_SHOES:ITEM_SHOES_SKATES_GNOME]
+[NAME:roller skate:roller skates]
+[ARMORLEVEL:3]
+[UPSTEP:1]
+[LAYER:ARMOR]
+[COVERAGE:100]
+[LAYER_SIZE:25]
+[LAYER_PERMIT:49]
+[MATERIAL_SIZE:3]
+[METAL]
+[HARD]
+10
+[ITEM_SHOES:ITEM_SHOES_ROCKET_GNOME]
+[NAME:rocket boot:rocket boots]
+[ARMORLEVEL:3]
+[UPSTEP:1]
+[LAYER:ARMOR]
+[COVERAGE:100]
+[LAYER_SIZE:25]
+[LAYER_PERMIT:49]
+[MATERIAL_SIZE:3]
+[METAL]
+[HARD]

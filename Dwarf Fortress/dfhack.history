@@ -1,0 +1,99 @@
+die
+slab_engrave slab
+slab_engrave
+die
+unreveal
+rendermax disable
+reveal hell
+unreveal
+reveal all
+unreveal
+reveal
+rendermax light
+createitem TOY:ITEM_TOY_CANDLE GOLD 10
+createitem TOY:ITEM_TOY_CANDELABRA GOLD 10
+die
+rendermax light
+die
+createitem COIN GOLD 5000
+createitem BLOCKS GRANITE 10
+die
+createitem GRATE GRANITE 10
+createitem BLOCKS GRANITE 10
+die
+createitem TRAPCOMP:ITEM_TRAPCOMP_LARGESERRATEDDISC GRANITE 10
+createitem TRAPPARTS GRANITE 10
+createitem BLOCKS TRAPPARTS GRANITE 10
+createitem BLOCKS TRAPPARTS 10
+createitem BLOCKS GRANITE 10
+createitem COIN GOLD 5000
+fastdwarf 1
+die
+createitem COIN GOLD 5000
+fastdwarf 1
+die
+createitem COIN GOLD 500
+createitem BAR COPPER 10
+createitem BAR MITHRIL 10
+createitem BAR COAL 10
+createitem BAR CHARCOAL 10
+createitem BAR COKE 10
+createitem BAR IRON 10
+badthoughtcheck
+badthoughtscheck
+fastdwarf 0
+createitem COIN GOLD 500
+fastdwarf 1
+createitem COIN GOLD 500
+fastdwarf 1
+createitem BOULDER GRANITE 100
+createitem ANVIL ADAMANTINE 100
+die
+force caravan PLAINS
+force caravan plains
+createitem ANVIL ADAMANTINE 100
+die
+createitem COIN GOLD 500
+die
+createitem ANVIL ADAMANTINE 500
+createitem COIN GOLD 500
+fastdwarf 1
+die
+createitem BARREL ADAMANTINE 10
+die
+createitem BARREL GRANITE 10
+createitem BLOCKS GRANITE 10
+die
+createitem ROUGH BLOOD_OF_ARMOK 10
+createitem ROUGH TEARS_OF_ARMOK 10
+createitem PLANT SOUL 10
+createitem ROUGH TEARS_OF_ARMOK 10
+createitem TRAPPARTS STEEL 10
+createitem BUCKET STEEL 10
+createitem BLOCKS STEEL 10
+die
+createitem BAR STEEL 10
+createitem BLOCKS STEEL 10
+createitem BUCKET STEEL 10
+createitem TRAPPARTS STEEL 10
+createitem ROUGH TEARS_OF_ARMOK 10
+createitem PLANT SOUL 10
+die
+createitem PLANT SOUL 10
+createitem ROUGH TEARS_OF_ARMOK 10
+createitem TRAPPARTS STEEL 10
+createitem PLANT SOUL 10
+createitem BUCKET STEEL 10
+createitem BLOCKS STEEL 10
+createitem BAR STEEL 10
+die
+slayrace him
+slayrace RHESUS_MAC
+slayrace RHESUS_MACAE
+slayrace RHESUS_MACAUE
+fastdwarf 1
+die
+fastdwarf 1
+die
+createitem BIN STEEL 10
+createitem QUIVER STEEL 10

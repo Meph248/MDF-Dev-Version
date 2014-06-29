@@ -1,0 +1,130 @@
+item_armor_clothing
+
+[OBJECT:ITEM]
+
+##############################################################################################################
+/// vanilla df clothing types. Partly unused, or rarely used.
+
+/// basic upper body garment
+29
+[ITEM_ARMOR:ITEM_ARMOR_SHIRT]
+[NAME:shirt:shirts]
+[UBSTEP:MAX]
+[LBSTEP:0]
+[LAYER:UNDER]
+[COVERAGE:100]
+[LAYER_SIZE:10]
+[LAYER_PERMIT:50]
+[MATERIAL_SIZE:3]
+[SOFT]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+/// used by many civs as over-the-armor extra
+30
+[ITEM_ARMOR:ITEM_ARMOR_CLOAK]
+[NAME:cloak:cloaks]
+[UBSTEP:MAX]
+[LBSTEP:1]
+[LAYER:COVER]
+[COVERAGE:100]
+[LAYER_SIZE:15]
+[LAYER_PERMIT:150]
+[MATERIAL_SIZE:5]
+[SOFT]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+/// Will be used for Roman/Greek humans
+31
+[ITEM_ARMOR:ITEM_ARMOR_TOGA]
+[NAME:toga:togas]
+[UBSTEP:1]
+[LBSTEP:1]
+[LAYER:OVER]
+[COVERAGE:100]
+[LAYER_SIZE:30]
+[LAYER_PERMIT:100]
+[MATERIAL_SIZE:5]
+[SOFT]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+/// Mostly used by Kobolds, but little bit by Succubi/Gnomes
+32
+[ITEM_ARMOR:ITEM_ARMOR_VEST]
+[NAME:vest:vests]
+[UBSTEP:0]
+[LBSTEP:0]
+[LAYER:OVER]
+[COVERAGE:50]
+[LAYER_SIZE:10]
+[LAYER_PERMIT:50]
+[MATERIAL_SIZE:2]
+[SOFT]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+/// Mostly used by SUccubi.
+33
+[ITEM_ARMOR:ITEM_ARMOR_DRESS]
+[NAME:dress:dresses]
+[UBSTEP:MAX]
+[LBSTEP:MAX]
+[LAYER:UNDER]
+[COVERAGE:100]
+[LAYER_SIZE:10]
+[LAYER_PERMIT:50]
+[MATERIAL_SIZE:5]
+[SOFT]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+/// Mostly used by Warlocks. Partly by gnomes/orcs.
+34
+[ITEM_ARMOR:ITEM_ARMOR_ROBE]
+[NAME:robe:robes]
+[UBSTEP:MAX]
+[LBSTEP:MAX]
+[LAYER:OVER]
+[COVERAGE:100]
+[LAYER_SIZE:20]
+[LAYER_PERMIT:100]
+[MATERIAL_SIZE:6]
+[SOFT]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+##############################################################################################################
+/// Succubus "shirt"
+35
+[ITEM_ARMOR:ITEM_ARMOR_CORSET]
+[NAME:corset:corsets]
+[UBSTEP:0]
+[LBSTEP:0]
+[LAYER:UNDER]
+[COVERAGE:80]
+[LAYER_SIZE:15]	[LAYER_PERMIT:50]
+[MATERIAL_SIZE:3]	
+[SOFT]
+[LEATHER]
+[HARD]
+[METAL]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+[METAL_ARMOR_LEVELS]
+
+##############################################################################################################
+/// Kobold "shirt"
+36
+[ITEM_ARMOR:ITEM_NECKLACE_KOBOLD]
+	[NAME:necklace:necklaces]
+	[UBSTEP:0]
+	[LBSTEP:0]
+	[LAYER:UNDER]
+	[COVERAGE:10]
+	[LAYER_SIZE:10]
+	[LAYER_PERMIT:50]
+	[MATERIAL_SIZE:3]
+	[SOFT]
+	[LEATHER]
+	[STRUCTURAL_ELASTICITY_WOVEN_THREAD]

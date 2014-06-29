@@ -1,0 +1,577 @@
+item_tool_megabeast
+
+[OBJECT:ITEM]
+
+##################################################################################################################
+// Megabeast itemcorpses - bring them to the slaughterhouse for rewards
+ 
+[ITEM_TOOL:ITEM_TOOL_DRAGON_CORPSE]
+[NAME:dragon corpse:dragon corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_GIANT_CORPSE]
+[NAME:giant corpse:giant corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_CYCLOPS_CORPSE]
+[NAME:cyclops corpse:cyclops corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_ETTIN_CORPSE]
+[NAME:ettin corpse:ettin corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_MINOTAUR_CORPSE]
+[NAME:minotaur corpse:minotaur corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_HYDRA_CORPSE]
+[NAME:hydra corpse:hydra corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_DEEP_CROW]
+[NAME:deep crow corpse:deep crow corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_BIRD_THUNDERBIRD]
+[NAME:thunderbird corpse:thunderbird corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_DRAGON_ENGINE]
+[NAME:dragon engine wreck:dragon engine wrecks]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_CURSED_BLACKSMITH]
+[NAME:cursed blacksmith corpse:cursed blacksmith corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_NIGHT_MAIDEN]
+[NAME:night maiden corpse:night maiden corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_CHIMERA_CENTAUR]
+[NAME:centaure corpse:centaure corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_BEHEMOTH]
+[NAME:behemoth corpse:behemoth corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_SPIDER_BLADE_GIANT_QUEEN]
+[NAME:giant blade spider queen corpse:giant blade spider queen corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_CYCLOPS_GELV]
+[NAME:gelv cyclops corpse:gelv cyclops corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_GUARDIAN_ROCK]
+[NAME:rock guardian corpse:rock guardian corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_FOREST_GIANT]
+[NAME:forest giant corpse:forest giant corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_GIANT_MOUNTAIN]
+[NAME:mountain giant corpse:mountain giant corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_GIANT_SKY]
+[NAME:sky giant corpse:sky giant corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_WRAITH_VILE_PLAGUE]
+[NAME:plague wraith corpse:plague wraith corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_GARGOYLE_WINGED_BLACK_MARBLE]
+[NAME:black marble gargoyle corpse:black marble gargoyle corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_ARCH_LICH_MDF]
+[NAME:arch lich corpse:arch lich corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_BITER]
+[NAME:queatzocoatl corpse:queatzocoatl corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_VAMPIRE_LORD]
+[NAME:vampire lord corpse:vampire lord corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_FIEND]
+[NAME:fiend corpse:fiend corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_BIRD_ROC_CORPSE]
+[NAME:roc corpse:roc corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_BALROG_CORPSE]
+[NAME:smoldering balrog corpse:smoldering balrog corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_GRIFFON_CORPSE]
+[NAME:griffon corpse:griffon corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_COLOSSUS_CORPSE]
+[NAME:colossus corpse:colossus corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_MANTICORE_CORPSE]
+[NAME:manticore corpse:manticore corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_CHIMERA_CORPSE]
+[NAME:chimera corpse:chimera corpses]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_PHOENIX_CORPSE]
+[NAME:phoenix ash:phoenix ashes]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+
+#########################################################################################################################
+/// thropies - your reward for beating a megabeast
+ 
+[ITEM_TOOL:ITEM_TOOL_DRAGON_TROPHY]
+[NAME:dragon skull:dragon skulls]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_GIANT_TROPHY]
+[NAME:giant skull:giant skulls]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_CYCLOPS_TROPHY]
+[NAME:cyclops skull:cyclops skulls]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_ETTIN_TROPHY]
+[NAME:ettin skulls:ettin skulls]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_MINOTAUR_TROPHY]
+[NAME:minotaur skull:minotaurs skulls]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_HYDRA_TROPHY]
+[NAME:hydra skulls:hydra skulls]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_BIRD_ROC_TROPHY]
+[NAME:roc skull:roc skulls]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_BALROG_TROPHY]
+[NAME:smoldering balrog skull:smoldering balrog skulls]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_GRIFFON_TROPHY]
+[NAME:griffon skull:griffon skulls]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_CURSED_BLACKSMITH_TROPHY]
+[NAME:cursed blacksmith skull:cursed blacksmith skulls]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_NIGHT_MAIDEN_TROPHY]
+[NAME:nightmaidens skull:nightmaidens skulls]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_COLOSSUS_TROPHY]
+[NAME:colossus skull:colossus skulls]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_MANTICORE_TROPHY]
+[NAME:manticore skull:manticore skulls]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_CHIMERA_TROPHY]
+[NAME:chimera skull:chimera skulls]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_PHOENIX_TROPHY]
+[NAME:phoenix skull:phoenix skulls]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_DEEP_CROW]
+[NAME:deep crow skull:deep crow skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_BIRD_THUNDERBIRD]
+[NAME:thunderbird skull:thunderbird skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_DRAGON_ENGINE]
+[NAME:dragon engine skull:dragon engine skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_CURSED_BLACKSMITH]
+[NAME:cursed blacksmith skull:cursed blacksmith skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_NIGHT_MAIDEN]
+[NAME:night maiden skull:night maiden skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_CHIMERA_CENTAUR]
+[NAME:centaure skull:centaure skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_BEHEMOTH]
+[NAME:behemoth skull:behemoth skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_SPIDER_BLADE_GIANT_QUEEN]
+[NAME:giant blade spider queen skull:giant blade spider queen skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_CYCLOPS_GELV]
+[NAME:gelv cyclops skull:gelv cyclops skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_GUARDIAN_ROCK]
+[NAME:rock guardian skull:rock guardian skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_FOREST_GIANT]
+[NAME:forest giant skull:forest giant skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_GIANT_MOUNTAIN]
+[NAME:mountain giant skull:mountain giant skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_GIANT_SKY]
+[NAME:sky giant skull:sky giant skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_WRAITH_VILE_PLAGUE]
+[NAME:plague wraith skull:plague wraith skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_GARGOYLE_WINGED_BLACK_MARBLE]
+[NAME:black marble gargoyle skull:black marble gargoyle skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_ARCH_LICH_MDF]
+[NAME:arch lich skull:arch lich skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_BITER]
+[NAME:queatzocoatl skull:queatzocoatl skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_VAMPIRE_LORD]
+[NAME:vampire lord skull:vampire lord skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_TROPHY_FIEND]
+[NAME:fiend skull:fiend skulls]
+[VALUE:100] 
+[TILE:135] 
+[SIZE:1000] 
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_PHOENIX_SPAWN]
+[NAME:phoenix egg:phoenix eggs]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_CURSED_BLACKSMITH_SPAWN]
+[NAME:dead cursed blacksmith:dead cursed blacksmith]
+[VALUE:100] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_NIGHT_MAIDEN_SPAWN]
+[NAME:dead nightmaiden:dead nightmaidens]
+[VALUE:100] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_CYCLOPS_EYE]
+[NAME:the eye of true sight:the eye of true sight]
+[VALUE:100] 
+[TILE:235] 
+[SIZE:1000]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]
+ 
+[ITEM_TOOL:ITEM_TOOL_ROC_FEATHER]
+[NAME:roc feather:roc feathers]
+[VALUE:1000] 
+[TILE:235] 
+[SIZE:10]
+[MATERIAL_SIZE:1] 
+[UNIMPROVABLE]

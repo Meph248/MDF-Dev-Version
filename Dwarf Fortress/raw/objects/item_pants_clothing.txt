@@ -1,0 +1,58 @@
+item_pants_clothing
+
+[OBJECT:ITEM]
+
+#########################################################################################################
+/// normal vanilla pants
+14
+[ITEM_PANTS:ITEM_PANTS_PANTS]
+[PREPLURAL:pairs of]
+[NAME:trousers:trousers]
+[LBSTEP:MAX]
+[LAYER:OVER]
+[COVERAGE:100]
+[LAYER_SIZE:15]
+[LAYER_PERMIT:30]
+[MATERIAL_SIZE:4]
+[SOFT]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+#########################################################################################################
+/// kobold pants, will be used for northerner humans, eg celtics as well
+15
+[ITEM_PANTS:ITEM_PANTS_KILT]
+[NAME:kilt:kilts]
+[LAYER:UNDER]
+[COVERAGE:50]
+[LAYER_SIZE:10]
+[LAYER_PERMIT:30]
+[MATERIAL_SIZE:1]
+[SOFT]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+#########################################################################################################
+/// used by Succubi.
+16
+[ITEM_PANTS:ITEM_PANTS_THONG]
+[NAME:thong:thongs]
+[LAYER:UNDER]
+[COVERAGE:25]
+[LAYER_SIZE:10]
+[LAYER_PERMIT:30]
+[MATERIAL_SIZE:1]
+[SOFT]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+17
+[ITEM_PANTS:ITEM_PANTS_SKIRT_SHORT]
+[NAME:short skirt:short skirts]
+[LAYER:OVER]
+[COVERAGE:100]
+[LAYER_SIZE:10]
+[LAYER_PERMIT:100]
+[MATERIAL_SIZE:2]
+[SOFT]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]

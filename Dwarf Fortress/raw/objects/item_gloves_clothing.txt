@@ -1,0 +1,21 @@
+item_gloves_clothing
+
+[OBJECT:ITEM]
+
+#####################################################################################################################
+/// gloves are clothing that go under other items
+8
+[ITEM_GLOVES:ITEM_GLOVES_GLOVES]
+[NAME:glove:gloves]
+[MATERIAL_SIZE:1]
+[LAYER:UNDER]
+[COVERAGE:100]
+[LAYER_SIZE:10]
+[LAYER_PERMIT:10]
+[SOFT]
+[HARD]
+[LEATHER]
+[SCALED]
+[BARRED]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]

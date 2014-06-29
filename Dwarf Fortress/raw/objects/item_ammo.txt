@@ -1,0 +1,263 @@
+item_ammo
+
+[OBJECT:ITEM]
+
+###########################################################################################################################
+///vanilla DF ammo for crossbows, bows and blowguns.
+0
+[ITEM_AMMO:ITEM_AMMO_BOLTS]
+[NAME:bolt:bolts]
+[CLASS:BOLT]
+[SIZE:100]
+[ATTACK:EDGE:20:1000:stab:stabs:NO_SUB:1000]
+1
+[ITEM_AMMO:ITEM_AMMO_ARROWS]
+[NAME:arrow:arrows]
+[CLASS:ARROW]
+[SIZE:100]
+[ATTACK:EDGE:20:1000:stab:stabs:NO_SUB:1000]
+2
+[ITEM_AMMO:ITEM_AMMO_BLOWDARTS]
+[NAME:blowdart:blowdarts]
+[CLASS:BLOWDART]
+[SIZE:20]
+[ATTACK:EDGE:10:50:stick:sticks:NO_SUB:1000]
+
+###########################################################################################################################
+/// Cutting, Piercing and Blunt ammo types for arrows and bolts. Used by dwarves. 
+3
+[ITEM_AMMO:ITEM_AMMO_BOLTS_ONE]
+[NAME:broadhead bolt:broadhead bolts]
+[CLASS:BOLT]
+[SIZE:120]
+[ATTACK:EDGE:10000:10000:strike:strikes:NO_SUB:1500]
+4
+[ITEM_AMMO:ITEM_AMMO_BOLTS_TWO]
+[NAME:piercing bolt:piercing bolts]
+[CLASS:BOLT]
+[SIZE:120]
+[ATTACK:EDGE:10:8000:strike:strikes:NO_SUB:1500]
+5
+[ITEM_AMMO:ITEM_AMMO_BOLTS_THREE]
+[NAME:hammerhead bolt:hammerhead bolts]
+[CLASS:BOLT]
+[SIZE:120]
+[ATTACK:BLUNT:10000:2000:smash:smashes:NO_SUB:2000]
+6
+[ITEM_AMMO:ITEM_AMMO_ARROWS_ONE]
+[NAME:broadhead arrow:broadhead arrows]
+[CLASS:ARROW]
+[SIZE:120]
+[ATTACK:EDGE:10000:10000:strike:strikes:NO_SUB:1500]
+7
+[ITEM_AMMO:ITEM_AMMO_ARROWS_TWO]
+[NAME:piercing arrow:piercing arrows]
+[CLASS:ARROW]
+[SIZE:120]
+[ATTACK:EDGE:10:8000:strike:strikes:NO_SUB:1500]
+8
+[ITEM_AMMO:ITEM_AMMO_ARROWS_THREE]
+[NAME:hammerhead arrow:hammerhead arrows]
+[CLASS:ARROW]
+[SIZE:120]
+[ATTACK:BLUNT:10000:2000:smash:smashes:NO_SUB:2000]
+
+###########################################################################################################################
+///kobold ammo.
+9
+[ITEM_AMMO:TOTEM]
+[NAME:totem-bomb:totem-bombs] 
+[CLASS:TOTEM]
+[SIZE:250]
+[ATTACK:EDGE:5:5000:strike:strikes:NO_SUB:7500]
+
+###########################################################################################################################
+///musket, pistol and cannon ammo for dwarves, gnomes and humans.
+10
+[ITEM_AMMO:ITEM_AMMO_BULLET_L]
+[NAME:bullet:bullet] 
+[CLASS:BULLET_L]
+[SIZE:25]
+[ATTACK:EDGE:5:5000:pierce:pierces:NO_SUB:7500]
+11
+[ITEM_AMMO:ITEM_AMMO_CANNON]
+[NAME:cannon ball:cannon balls] 
+[CLASS:CANNON]
+[SIZE:350]
+[ATTACK:EDGE:50:50000:explode upon contact and hit:explodes upon contact and hits:NO_SUB:30000]
+
+###########################################################################################################################
+///bodkin are arrows/bolts that cause more bleeding. Used by goblins and orcs.
+12
+[ITEM_AMMO:ITEM_AMMO_ARROWS_BODKIN]
+[NAME:bodkin arrow:bodkin arrows]
+[CLASS:ARROW]
+[SIZE:120]
+[ATTACK:EDGE:45:1500:stab:stabs:NO_SUB:1000]
+13
+[ITEM_AMMO:ITEM_AMMO_BOLTS_BODKIN]
+[NAME:bodkin bolt:bodkin bolts]
+[CLASS:BOLT]
+[SIZE:120]
+[ATTACK:EDGE:45:2000:stab:stabs:NO_SUB:1000]
+
+###########################################################################################################################
+///singing arrows penetrate deep, like a spear. Used by elves.
+14
+[ITEM_AMMO:ITEM_AMMO_ARROWS_ENCHANTED]
+[NAME:singing arrow:singing arrows]
+[CLASS:ARROW]
+[SIZE:80]
+[ATTACK:EDGE:5:12000:stab:stabs:NO_SUB:3000]
+
+###########################################################################################################################
+/// javelins are a cross of crossbow ammo and siegeammo. come in five types. Used by dwarves and orcs.
+15
+[ITEM_AMMO:ITEM_AMMO_JAVELINS_ONE]
+[NAME:broadhead javelin:broadhead javelins]
+[CLASS:JAVELIN]
+[SIZE:300]
+[ATTACK:EDGE:100000:100000:strike:strikes:NO_SUB:1500]
+16
+[ITEM_AMMO:ITEM_AMMO_JAVELINS_TWO]
+[NAME:piercing javelin:piercing javelins]
+[CLASS:JAVELIN]
+[SIZE:300]
+[ATTACK:EDGE:10:200000:strike:strikes:NO_SUB:1500]
+17
+[ITEM_AMMO:ITEM_AMMO_JAVELINS_THREE]
+[NAME:hammerhead javelin:hammerhead javelins]
+[CLASS:JAVELIN]
+[SIZE:300]
+[ATTACK:BLUNT:100000:2000:smash:smashes:NO_SUB:2000]
+18
+[ITEM_AMMO:ITEM_AMMO_JAVELINS_FOUR]
+[NAME:crude javelin:crude javelins]
+[CLASS:JAVELIN]
+[SIZE:125]
+[ATTACK:EDGE:100:10:strike:strikes:NO_SUB:1000]
+19
+[ITEM_AMMO:ITEM_AMMO_JAVELINS_FIVE]
+[NAME:javelin:javelins]
+[CLASS:JAVELIN]
+[SIZE:125]
+[ATTACK:EDGE:20:1000:strike:strikes:NO_SUB:1000]
+
+###########################################################################################################################
+/// Special Dreamwalker ammo. Used by Orcs. Blade shards also used by Succubi
+	20
+[ITEM_AMMO:ITEM_AMMO_SPELL_IVY]
+	[NAME:ivy tendril:ivy tendrils]
+	[CLASS:SPELLDRUID]
+	[SIZE:50]
+	[ATTACK:EDGE:1:2500:strike:strikes:NO_SUB:1800]
+21
+[ITEM_AMMO:ITEM_AMMO_SPELL_BOLT]
+	[NAME:magic missile:magic missiles]
+	[CLASS:SPELLDRUID]
+	[SIZE:50]
+	[ATTACK:EDGE:1:2500:strike:strikes:NO_SUB:1800]
+	22
+[ITEM_AMMO:ITEM_AMMO_SPELL_SHARD]
+	[NAME:bladeshard:bladeshards]
+	[CLASS:SPELLWRAITH]
+	[SIZE:50]
+	[ATTACK:EDGE:1:2500:strike:strikes:NO_SUB:1800]
+	23
+[ITEM_AMMO:ITEM_AMMO_SPELL_DOOM]
+	[NAME:doomshard:doomshards]
+	[CLASS:SPELLWRAITH]
+	[SIZE:50]
+	[ATTACK:EDGE:1:2500:strike:strikes:NO_SUB:1800]	
+
+###########################################################################################################################
+/// Special ammo used by Warlocks. Only used in AoE traps. 
+24
+[ITEM_AMMO:ACID]
+[NAME:flask:flask] 
+[CLASS:ACID]
+[SIZE:25]
+[ATTACK:EDGE:5:5:strike:strikes:NO_SUB:7500]
+
+###########################################################################################################################
+/// magic ammo used by dwarven mages
+25
+//item ammo
+(make spells of 7 different materials, using projectile expansion. Maybe use magic missile as ammo, weil also make sense)
+[ITEM_AMMO:ITEM_AMMO_MAGIC_SPELL]
+	[NAME:missile:missiles]
+	[CLASS:MAGIC_SPELL]
+	[SIZE:100]
+	[ATTACK:EDGE:10:2500:strike:strikes:NO_SUB:2800]
+
+###########################################################################################################################
+/// used by kobolds
+26
+[ITEM_AMMO:ITEM_AMMO_WHIP]
+[NAME:bolas:bolas]
+[SIZE:100]
+[CLASS:WHIP]
+[ATTACK:EDGE:200:12000:whip:whips:NO_SUB:3000]
+[ATTACK:EDGE:200:12000:cut:cuts:wire:3000]
+[ATTACK:EDGE:200:12000:entangle:entangles:long wire:3000]
+
+###########################################################################################################################
+/// throwing weapons used by dwarves
+27
+[ITEM_AMMO:ITEM_AMMO_AXE]
+[NAME:axe head:axe heads]
+[CLASS:AXE]
+[SIZE:200]
+[ATTACK:EDGE:105:2000:cut:cuts:NO_SUB:1000]
+[ATTACK:EDGE:105:2000:hack:hacks:NO_SUB:1250]
+[ATTACK:EDGE:105:2000:chop:chops:NO_SUB:1250]
+28
+[ITEM_AMMO:ITEM_AMMO_SPEAR]
+[NAME:throwing spears:throwing spears]
+[SIZE:200]
+[CLASS:SPEAR]
+[ATTACK:EDGE:20:15000:stab:stabs:NO_SUB:2000]
+[ATTACK:EDGE:10:10000:mercilessly pierce:mercilessly pierces:savage point:1800]
+[ATTACK:EDGE:50:10000:run through:runs through:NO_SUB:1100]
+
+###########################################################################################################################
+/// throwing weapon used by orcs
+29
+[ITEM_AMMO:ITEM_AMMO_TOMAHAWK]
+	[NAME:throwing tomahawk:throwing tomahawks]
+	[CLASS:AXE]
+	[SIZE:300]
+	[ATTACK:EDGE:3000:2000:strike:strikes:NO_SUB:1500]
+
+###########################################################################################################################
+/// special script ammo of gnomes
+30
+[ITEM_AMMO:ITEM_AMMO_TRAP_GNOME]
+[NAME:bomb:bombs]
+[CLASS:TRAP_GNOME]
+[SIZE:500]
+[ATTACK:BLUNT:100:200:hit:hits:NO_SUB:2000]
+31
+[ITEM_AMMO:ITEM_AMMO_PROJCAGE_GNOME]
+[NAME:cage-o-matic containment device:cage-o-matic containment devices]
+[CLASS:DFHACK_PROJCAGE]
+[SIZE:10]
+[ATTACK:BLUNT:100:200:hit:hits:NO_SUB:2000]
+32
+[ITEM_AMMO:ITEM_AMMO_BOMB_GNOME]
+[NAME:grenade:grenades]
+[CLASS:BOMB_GNOME]
+[SIZE:150]
+[ATTACK:BLUNT:100:200:hit:hits:NO_SUB:2000]
+33
+[ITEM_AMMO:ITEM_AMMO_RAILGUN_GNOME]
+[NAME:magnetic slug:magnetic slugs]
+[CLASS:RAILGUN_GNOME]
+[SIZE:600]
+[ATTACK:BLUNT:100:200:hit:hits:NO_SUB:2000]
+34
+[ITEM_AMMO:ITEM_AMMO_RAILBOW_GNOME]
+[NAME:magnetic bolt:magnetic bolts]
+[CLASS:RAILBOW_GNOME]
+[SIZE:600]
+[ATTACK:EDGE:10:200:hit:hits:NO_SUB:2000]

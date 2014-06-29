@@ -1,0 +1,18 @@
+#Adds pet types to civs on world load
+AddMinionToCiv
+AddMountToCiv
+AddPackToCiv
+AddPullToCiv
+AddWagonToCiv
+AddPetToCiv
+
+#embark points and embark group
+points 1274
+dwarves 7
+
+#patches the armor stands
+enable fix-armory
+
+#putnams awesome items
+itemsyndrome contaminantsOn enable
+itemsyndrome enable

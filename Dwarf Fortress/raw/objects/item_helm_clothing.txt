@@ -1,0 +1,81 @@
+item_helm_clothing
+
+[OBJECT:ITEM]
+
+#############################################################################################################
+/// vanilla hoods, yo.
+31
+[ITEM_HELM:ITEM_HELM_HOOD]
+[NAME:hood:hoods]
+[LAYER:COVER]
+[COVERAGE:100]
+[LAYER_SIZE:10]
+[LAYER_PERMIT:100]
+[MATERIAL_SIZE:2]
+[SOFT]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+#############################################################################################################
+/// will be used for easterner humans
+32
+[ITEM_HELM:ITEM_HELM_TURBAN]
+[NAME:turban:turbans]
+[LAYER:OVER]
+[COVERAGE:50]
+[LAYER_SIZE:20]
+[LAYER_PERMIT:100]
+[MATERIAL_SIZE:2]
+[SOFT]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+#############################################################################################################
+/// will be used for easterner humans 
+33
+[ITEM_HELM:ITEM_HELM_VEIL_HEAD]
+[NAME:head veil:head veils]
+[LAYER:OVER]
+[COVERAGE:50]
+[LAYER_SIZE:10]
+[LAYER_PERMIT:100]
+[MATERIAL_SIZE:2]
+[SOFT]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+#############################################################################################################
+/// Mood/artefact-only. Chef hats, sombreros and top hats. Left these in as easter eggs. Done by Narhiril.
+34
+[ITEM_HELM:ITEM_HELM_CHEF_HAT]
+[NAME:chef hat:chef hats]
+[LAYER:COVER]
+[COVERAGE:100]
+[LAYER_SIZE:10]
+[LAYER_PERMIT:100]
+[MATERIAL_SIZE:2]
+[HARD]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+35
+[ITEM_HELM:ITEM_HELM_SOMBRERO]
+[NAME:sombrero:sombreros]
+[LAYER:COVER]
+[COVERAGE:100]
+[LAYER_SIZE:10]
+[LAYER_PERMIT:100]
+[MATERIAL_SIZE:2]
+[HARD]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+36
+[ITEM_HELM:ITEM_HELM_TOP_HAT]
+[NAME:top hat:top hats]
+[LAYER:COVER]
+[COVERAGE:100]
+[LAYER_SIZE:10]
+[LAYER_PERMIT:100]
+[MATERIAL_SIZE:2]
+[HARD]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]

@@ -1,0 +1,170 @@
+item_shield
+
+[OBJECT:ITEM]
+
+########################################################################################################
+///vanilla df buckler, bad
+0
+[ITEM_SHIELD:ITEM_SHIELD_BUCKLER]
+[NAME:buckler:bucklers]
+[ARMORLEVEL:1]
+[BLOCKCHANCE:10]
+[UPSTEP:1]
+[MATERIAL_SIZE:3]
+
+########################################################################################################
+///upgrade to buckler, 10% higher blockchance
+1
+[ITEM_SHIELD:ITEM_SHIELD_SHIELD]
+[NAME:round shield:round shields]
+[ARMORLEVEL:2]
+[BLOCKCHANCE:20]
+[UPSTEP:2]
+[MATERIAL_SIZE:6]YES
+
+########################################################################################################
+///upgrade to round shield, 10% higher blockchance
+2
+[ITEM_SHIELD:ITEM_SHIELD_KITE]
+[NAME:kite shield:kite shields]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:30]
+[UPSTEP:3]
+[MATERIAL_SIZE:9]YES
+
+########################################################################################################
+///upgrade to kite shield, 10% higher blockchance
+3
+[ITEM_SHIELD:ITEM_SHIELD_TOWER]
+[NAME:tower shield:tower shields]
+[ARMORLEVEL:4]
+[BLOCKCHANCE:40]
+[UPSTEP:4]
+[MATERIAL_SIZE:12]
+
+########################################################################################################
+///upgrade to tower shield, 10% higher block chance. Rare drop from praying/sacrificing at dwarven temple
+4
+[ITEM_SHIELD:ITEM_SHIELD_ARMOK]
+[NAME:shield of armok:shields of armok]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:50]
+[UPSTEP:3]
+[MATERIAL_SIZE:5]
+
+########################################################################################################
+/// special dwarven mage shield, uses itemsyndrome to add extra spell.
+5
+//magic aura, adds another spell, AoE, close range.
+[ITEM_SHIELD:ITEM_SHIELD_AURA]
+[NAME:aura:auras]
+[ARMORLEVEL:1]
+[BLOCKCHANCE:25]
+[UPSTEP:3]
+[MATERIAL_SIZE:3]
+
+########################################################################################################
+/// custom shield for Elves. They have root item sets. Currently no effects, just flavor.
+6
+[ITEM_SHIELD:ITEM_SHIELD_ELF]
+[NAME:root shield:root shields]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:20]
+[UPSTEP:3]
+[MATERIAL_SIZE:1]
+	
+########################################################################################################
+/// custom shield for Drow. They arrive with blade shield (weapon) and blade shield (shield)
+7
+[ITEM_SHIELD:ITEM_SHIELD_BLADED]
+[NAME:blade shield:blade shields]
+[ARMORLEVEL:2]
+[BLOCKCHANCE:25]
+[UPSTEP:2]
+[MATERIAL_SIZE:6]
+
+########################################################################################################
+/// special gnome shields, most of them use itemsyndrome to some degree
+8
+[ITEM_SHIELD:ITEM_SHIELD_BRACER_BASE_GNOME]
+[NAME:arm-guard:arm-guard]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:20]
+[UPSTEP:2]
+[MATERIAL_SIZE:2]
+9
+[ITEM_SHIELD:ITEM_SHIELD_BRACER_FIRE_GNOME]
+[NAME:flame caster:flame casters]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:20]
+[UPSTEP:2]
+[MATERIAL_SIZE:4]
+10
+[ITEM_SHIELD:ITEM_SHIELD_BRACER_ION_GNOME]
+[NAME:ion caster:ion casters]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:20]
+[UPSTEP:2]
+[MATERIAL_SIZE:4]
+11
+[ITEM_SHIELD:ITEM_SHIELD_BRACER_ICE_GNOME]
+[NAME:frost caster:frost casters]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:20]
+[UPSTEP:2]
+[MATERIAL_SIZE:4]
+12
+[ITEM_SHIELD:ITEM_SHIELD_BRACER_LIGHTNING_GNOME]
+[NAME:thunder caster:thunder casters]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:20]
+[UPSTEP:2]
+[MATERIAL_SIZE:4]
+13
+[ITEM_SHIELD:ITEM_SHIELD_BRACER_SLADE_GNOME]
+[NAME:dark matter caster:dark matter casters]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:20]
+[UPSTEP:2]
+[MATERIAL_SIZE:4]
+14
+[ITEM_SHIELD:ITEM_SHIELD_BRACER_WARPSTONE_GNOME]
+[NAME:warpstone caster:warpstone casters]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:20]
+[UPSTEP:2]
+[MATERIAL_SIZE:4]
+15
+[ITEM_SHIELD:ITEM_SHIELD_AUTO_GNOME]
+[NAME:smart guard:smart guard]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:90]
+[UPSTEP:3]
+[MATERIAL_SIZE:4]
+
+########################################################################################################
+/// special orc shields. Use itemsyndrome for explosions and AoE effects
+16
+[ITEM_SHIELD:ITEM_SHIELD_SAPPER_SATCHEL]
+# To be made of itemsyndrome, and impart spellcasting skill
+[NAME:sapper satchel:sapper satchels]
+[ARMORLEVEL:1]
+[BLOCKCHANCE:10]
+[UPSTEP:1]
+[MATERIAL_SIZE:1]
+17
+[ITEM_SHIELD:ITEM_SHIELD_DREAMCATCHER]
+# To be made of itemsyndrome, and impart spellcasting skill
+[NAME:dreamcatcher:dreamcatcher]
+[ARMORLEVEL:1]
+[BLOCKCHANCE:10]
+[UPSTEP:1]
+[MATERIAL_SIZE:1]	
+18
+[ITEM_SHIELD:ITEM_SHIELD_SAPPER_STICKBOMBS]
+# To be made of itemsyndrome, and impart spellcasting skill
+[NAME:stickbomb satchel:stickbomb satchels]
+[ARMORLEVEL:1]
+[BLOCKCHANCE:10]
+[UPSTEP:1]
+[MATERIAL_SIZE:1]

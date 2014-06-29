@@ -1,0 +1,150 @@
+item_gloves_armor
+
+[OBJECT:ITEM]
+
+#####################################################################################################################
+/// mittens are clothing that go over other items
+0
+[ITEM_GLOVES:ITEM_GLOVES_MITTENS]
+[NAME:mitten:mittens]
+[ARMORLEVEL:1]
+[LAYER:ARMOR]
+[COVERAGE:150]
+[LAYER_SIZE:2]
+[LAYER_PERMIT:20]
+[MATERIAL_SIZE:1]
+[HARD]
+[LEATHER]
+[SCALED]
+[BARRED]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+#####################################################################################################################
+/// gauntlets are armored gloves
+1
+[ITEM_GLOVES:ITEM_GLOVES_GAUNTLETS_D]
+[NAME:gauntlet:gauntlets]
+[ARMORLEVEL:3]
+[UPSTEP:1]
+[SHAPED]
+[LAYER:ARMOR]
+[COVERAGE:100]
+[LAYER_SIZE:25]
+[LAYER_PERMIT:49]
+[METAL_ARMOR_LEVELS]
+[MATERIAL_SIZE:6]YES
+[SCALED]
+[BARRED]
+[METAL]
+[HARD]
+[LEATHER]
+
+#####################################################################################################################
+/// kobold glove, with more tribal name
+2
+[ITEM_GLOVES:ITEM_GLOVES_GAUNTLETS_K]
+[NAME:wrist guard:wrist guard]
+[ARMORLEVEL:3]
+[UPSTEP:1]
+[SHAPED]
+[LAYER:ARMOR]
+[COVERAGE:100]
+[LAYER_SIZE:20]
+[LAYER_PERMIT:2]
+[MATERIAL_SIZE:6]YES
+[SCALED]
+[BARRED]
+[METAL]
+[HARD][LEATHER]
+
+#####################################################################################################################
+/// mail gauntlets are supposed to be metal chain and worn over normal armor
+3
+[ITEM_GLOVES:ITEM_GLOVES_GAUNTLETS_MAIL]
+[NAME:mail gauntlet:mail gauntlets]
+[ARMORLEVEL:3]
+[METAL_ARMOR_LEVELS]
+[UPSTEP:1]
+[LAYER:OVER]
+[COVERAGE:100]
+[LAYER_SIZE:15]
+[LAYER_PERMIT:49]
+[MATERIAL_SIZE:6]YES
+[METAL]
+[HARD]
+[STRUCTURAL_ELASTICITY_CHAIN_ALL]
+
+#####################################################################################################################
+/// plate gauntlets are an upgrade to normal gauntlets
+4
+[ITEM_GLOVES:ITEM_GLOVES_PLATE_GAUNTLETS]
+[NAME:plate gauntlet:plate gauntlets]
+[ARMORLEVEL:3]
+[UPSTEP:MAX]
+[SHAPED]
+[LAYER:ARMOR]
+[COVERAGE:150]
+[LAYER_SIZE:25]
+[LAYER_PERMIT:49]
+[METAL_ARMOR_LEVELS]
+[MATERIAL_SIZE:2]
+[SCALED]
+[BARRED]
+[METAL]
+[HARD]
+
+#####################################################################################################################
+/// gauntlets of armok are rare drops for dwarves, same values as plate gauntlets
+5
+[ITEM_GLOVES:ITEM_GLOVES_GAUNTLETS_ARMOK]
+[NAME:gauntlet of armok:gauntlets of armok]
+[ARMORLEVEL:3]
+[UPSTEP:MAX]
+[SHAPED]
+[LAYER:ARMOR]
+[COVERAGE:100]
+[LAYER_SIZE:25]
+[LAYER_PERMIT:49]
+[METAL_ARMOR_LEVELS]
+[MATERIAL_SIZE:2]
+[SCALED]
+[BARRED]
+[METAL]
+[HARD]
+
+#####################################################################################################################
+/// padded items are supposed to be leather and worn under normal armor
+6
+[ITEM_GLOVES:ITEM_GLOVES_PADDED_MITTENS]
+[NAME:padded glove:padded gloves]
+[ARMORLEVEL:2]
+[LAYER:UNDER]
+[UPSTEP:1]
+[COVERAGE:150]
+[LAYER_SIZE:10]
+[LAYER_PERMIT:49]
+[MATERIAL_SIZE:2]
+[LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+
+#####################################################################################################################
+/// special gnome gauntlet with interaction
+7
+[ITEM_GLOVES:ITEM_GLOVES_CREATURE_GNOME]
+[NAME:adjustable gauntlet:adjustable gauntlets]
+[ARMORLEVEL:3]
+[UPSTEP:1]
+[SHAPED]
+[LAYER:ARMOR]
+[COVERAGE:100]
+[LAYER_SIZE:25]
+[LAYER_PERMIT:49]
+[METAL_ARMOR_LEVELS]
+[MATERIAL_SIZE:6]YES
+[METAL]
+[BARRED]
+[HARD]
+[SCALED]
+[LEATHER]
+[SHAPED]
+
