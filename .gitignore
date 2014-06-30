@@ -41,12 +41,16 @@ Icon
 # Spaces must be escaped with a "\"
 Dwarf\ Fortress/data/save/*
 -Dwarf\ Fortress/data/save/current
+Dwarf\ Fortress/data/save/current/*
+Dwarf Fortress/data/save/*
+-Dwarf Fortress/data/save/current
+Dwarf Fortress/data/save/current/*
 
 # Game logs
 Dwarf\ Fortress/gamelog.txt
 Dwarf\ Fortress/errorlog.txt
-Dwarf\ Fortress/stderr.txt
-Dwarf\ Fortress/stdout.txt
-Dwarf\ Fortress/Stonesense.txt
+Dwarf\ Fortress/stderr.log
+Dwarf\ Fortress/stdout.log
+Dwarf\ Fortress/Stonesense.log
 Dwarf\ Fortress/liquids.history
 Dwarf\ Fortress/dfhack.history
