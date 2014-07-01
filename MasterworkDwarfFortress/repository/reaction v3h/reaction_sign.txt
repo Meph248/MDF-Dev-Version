@@ -1,8 +1,0 @@
-reaction_sign
-
-[REACTION]
-
-[REACTION:DECO_SIGN]
-[NAME:*Read the sign*]
-[BUILDING:SIGN:CUSTOM_A]
-
