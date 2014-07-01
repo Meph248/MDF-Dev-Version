@@ -130,7 +130,7 @@ descriptor_color_fooccubus
 	[NAME:chunky]
 	[RGB:255:0:0]
 
-[COLOR:BUTT_CALIPYGIAN]
+[COLOR:BUTT_CALLIPYGIAN]
 	[NAME:callipygian]
 	[RGB:255:0:0]
 
