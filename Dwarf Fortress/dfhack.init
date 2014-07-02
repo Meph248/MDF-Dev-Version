@@ -6,6 +6,7 @@ orc/reaction-hook
 emigration 0
 AddPetToCiv
 base_upgradebuilding
+base_improveitem
 
 fixbutchery
 fixbutchery enable
@@ -711,7 +712,7 @@ keybinding add Alt-A@dwarfmode/QueryBuilding/Some/Workshop/Job gui/workshop-job
 keybinding add Alt-W@dwarfmode/QueryBuilding/Some/Workshop/Job gui/workflow
 keybinding add Alt-W@overallstatus "gui/workflow status"
 
-# unit info 
+# unit info
 keybinding add Ctrl-U unit-info-viewer
 
 keybinding add Ctrl-W@dwarfmode/QueryBuilding/Some "gui/workflow"
