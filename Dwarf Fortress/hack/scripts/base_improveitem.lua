@@ -8,7 +8,7 @@ base_improveitem - used to improve item quality
 		Reagents without the [PRESERVE_REAGENT] tag will be consumed
 		The first product must be the inorganic with the syndrome attached to it
 		Subsequent products will be created as normal
-		
+
 	EXAMPLE REACTION:
 		[REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_1] <- LUA_HOOK_UPGRADE_ITEM is required
 			[NAME:improve armor]
@@ -16,7 +16,7 @@ base_improveitem - used to improve item quality
 			[REAGENT:A:1:ARMOR:NONE:INORGANIC:NONE][PRESERVE_REAGENT]
 			[REAGENT:C:1500:COIN:NONE:INORGANIC:SILVER]
 			[PRODUCT:100:0:BOULDER:NONE:INORGANIC:IMPROVE_ITEM]
-	
+
 	INORGANIC OPTIONS:
 		Inorganics must have a syndrome with at least two [SYN_CLASS:] tags
 		Valid arguments for the first SYN_CLASS;
@@ -25,10 +25,11 @@ base_improveitem - used to improve item quality
 			ITEM_TOKEN - this will change a randomly selected item of the given token (e.g. ITEM_ARMOR_TEST_1)
 		Valid arguments for the second SYN_CLASS;
 			upgrade - this will upgrade the item to one higher quality
+			upgrade-skill - this will upgrade the item to one or several higher quality depending of the worker's skill
 			downgrade - this will downgrade the item to one lower quality
 			# - this will change the items quality to the given number
 		(OPTIONAL) A third SYN_CLASS can be added to specify duration of the change. Defaults to permanent. Duration is in in-game ticks
-			
+
 	EXAMPLE INORGANIC:
 		[INORGANIC:UPGRADE_ITEM]
 			[USE_MATERIAL_TEMPLATE:STONE_VAPOR_TEMPLATE]
@@ -81,14 +82,14 @@ function itemSubtypes(item) -- Taken from Putnam's itemSyndrome
     INSTRUMENT = df.item_instrumentst,
     TOY = df.item_toyst}
     for x,v in pairs(subtypedItemTypes) do
-        if v:is_instance(item) then 
+        if v:is_instance(item) then
 			return df.item_type[x]
 		end
     end
     return false
 end
 
-function improveitem(reaction,unit,input_items,input_reagents,output_items,call_native)	
+function improveitem(reaction,unit,input_items,input_reagents,output_items,call_native)
 	local ptype = reaction.products[0].mat_type
 	local pindx = reaction.products[0].mat_index
 	local product = dfhack.matinfo.decode(ptype,pindx)
@@ -96,10 +97,10 @@ function improveitem(reaction,unit,input_items,input_reagents,output_items,call_
 	for i,x in ipairs(product.material.syndrome[0].syn_class) do
 		args[i] = x.value
 	end
-	
+
 	local dur = 0
 	if #args == 3 then dur = tonumber(args[2]) end
-	
+
 	local sitems = {}
 	if args[0] == 'this' then
 -- Upgrade only the input items with preserve reagent
@@ -114,13 +115,13 @@ function improveitem(reaction,unit,input_items,input_reagents,output_items,call_
 			if y.flags.PRESERVE_REAGENT then
 				for i,x in ipairs(itemList) do
 					if itemSubtypes(x) then
-						if x.subtype.id == y.subtype.id then 
-							sitems[k] = itemList[i] 
+						if x.subtype.id == y.subtype.id then
+							sitems[k] = itemList[i]
 							k = k + 1
 						end
 					end
 				end
-			end	
+			end
 		end
 	else
 -- Randomly upgrade one specific item
@@ -130,13 +131,13 @@ function improveitem(reaction,unit,input_items,input_reagents,output_items,call_
 			if y.flags.PRESERVE_REAGENT then
 				for i,x in ipairs(itemList) do
 					if itemSubtypes(x) then
-						if x.subtype.id == y.subtype.id then 
-							sitems[k] = itemList[i] 
+						if x.subtype.id == y.subtype.id then
+							sitems[k] = itemList[i]
 							k = k + 1
 						end
 					end
 				end
-			end	
+			end
 		end
 		local rando = dfhack.random.new()
 		sitems = {sitems[rando:random(#sitems)]}
@@ -144,21 +145,31 @@ function improveitem(reaction,unit,input_items,input_reagents,output_items,call_
 
 	if args[1] == 'upgrade' then
 -- Increase items quality by one
-		for _,x in ipairs(sitems) do
-			sid = x.quality
-			x:setQuality(sid+1)
+		for _,x in pairs(sitems) do
+			sid = math.min(6, x.quality+1)
+			x:setQuality(sid)
+			if dur > 0 then dfhack.timeout(dur,'ticks',createcallback(x,sid)) end
+		end
+-- Increase items quality by x depending of the worker's skill
+	elseif args[1] == 'upgrade-skill' then
+		increase = math.ceil(dfhack.units.getEffectiveSkill(unit, reaction.skill) / 3)
+		increase = math.max(1, increase)
+
+		for _,x in pairs(sitems) do
+			sid = math.min(5, x.quality+increase)
+			x:setQuality(sid)
 			if dur > 0 then dfhack.timeout(dur,'ticks',createcallback(x,sid)) end
 		end
 	elseif args[1] == 'downgrade' then
 -- Decrease items quality by one
-		for _,x in ipairs(sitems) do
-			sid = x.quality
-			x:setQuality(sid-1)
+		for _,x in pairs(sitems) do
+			sid = math.min(0, x.quality-1)
+			x:setQuality(sid)
 			if dur > 0 then dfhack.timeout(dur,'ticks',createcallback(x,sid)) end
 		end
 	else
 -- Change item to new quality
-		for _,x in ipairs(sitems) do
+		for _,x in pairs(sitems) do
 			sid = x.quality
 			x:setQuality(tonumber(args[1]))
 			if dur > 0 then dfhack.timeout(dur,'ticks',createcallback(x,sid)) end
