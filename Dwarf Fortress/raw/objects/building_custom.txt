@@ -54,7 +54,7 @@ building_custom
 	[BUILD_ITEM:1:NONE:NONE:NONE:NONE][BUILDMAT][WORTHLESS_STONE_ONLY][CAN_USE_ARTIFACT][MAGMA_BUILD_SAFE]
 
 ###################################################################################
-/// all civs the illumination 
+/// all civs the illumination
 
 [BUILDING_FURNACE:LIGHTING]
 [NAME:==========ILLUMINATION===========]
@@ -174,7 +174,7 @@ soul lantern - blue cyan
 [NAME:Soul Lantern (blue)]
 [NAME_COLOR:7:0:1]
 [BUILD_LABOR:ARCHITECT]:MASON]
-[BUILD_KEY:CUSTOM_I]
+[BUILD_KEY:CUSTOM_L]
 [DIM:1:1]
 [WORK_LOCATION:1:1]
 [BLOCK:1:0]
@@ -368,7 +368,7 @@ alchemical fire - green
 
 
 [BUILDING_WORKSHOP:SINK]
-	[NAME:Scullion's Sink]		
+	[NAME:Scullion's Sink]
 	[NAME_COLOR:7:0:1]
 	[BUILD_LABOR:ARCHITECT]
 	[BUILD_KEY:CUSTOM_SHIFT_S]
