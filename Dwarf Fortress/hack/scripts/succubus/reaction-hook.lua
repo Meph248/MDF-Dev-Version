@@ -101,29 +101,25 @@ local function addSkill(set, unit)
 	dfhack.run_script('succubus/influence', 'lust', unit.id)
 end
 
--- Raises
-local function raiseQuality(reaction, unit, input_reagents)
+-- Resize the preserved reagents to make those succubus sized
+local function resizeReagents(input_items, input_reagents)
+	local sitems = {}
 
-	print('--- reaction')
-	printall(reaction)
+	for i,x in ipairs(input_reagents) do
+		if x.flags.PRESERVE_REAGENT then sitems[i] = input_items[i] end
+	end
 
-	print('--- input_reagents')
-	printall(input_reagents)
-
-	-- Get the skill used
-
-	-- Get the quality increase
-
-	-- Raise that quality
-
+	for _,x in pairs(sitems) do
+		x.maker_race = df.global.ui.race_id
+	end
 end
 
 -- Reaction hook
 eventful.onReactionComplete.fooccubusReaction = function(reaction, unit, input_items, input_reagents, output_items, call_native)
 
 	-- upgrades
-	if reaction.code:find('LUA_HOOK_DEFILE_') then
-		raiseQuality(reaction, unit, input_reagents)
+	if reaction.code:find('LUA_HOOK_IMPROVE_ITEM_DEFILE') then
+		resizeReagents(input_items, input_reagents)
 
 	-- fire
 	elseif reaction.code == 'LUA_HOOK_FOOCCUBUS_RAIN_FIRE' then
@@ -156,9 +152,6 @@ eventful.onReactionComplete.fooccubusReaction = function(reaction, unit, input_i
 		dfhack.run_script('succubus/influence', 'pride', unit.id)
 
 	-- greed
-	elseif reaction.code == 'LUA_HOOK_WEATHER_RAIN' then
-		dfhack.run_script('weather', 'rain')
-		dfhack.run_script('succubus/influence', unit.id, 'greed')
 
 	-- sloth
 	elseif reaction.code == 'LUA_HOOK_PROTECTIVE_TENTACLES' then
