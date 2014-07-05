@@ -152,9 +152,6 @@ eventful.onReactionComplete.fooccubusReaction = function(reaction, unit, input_i
 		dfhack.run_script('succubus/influence', 'pride', unit.id)
 
 	-- greed
-	elseif reaction.code == 'LUA_HOOK_WEATHER_RAIN' then
-		dfhack.run_script('weather', 'rain')
-		dfhack.run_script('succubus/influence', unit.id, 'greed')
 
 	-- sloth
 	elseif reaction.code == 'LUA_HOOK_PROTECTIVE_TENTACLES' then
