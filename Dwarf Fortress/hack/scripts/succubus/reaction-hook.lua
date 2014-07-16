@@ -171,7 +171,7 @@ eventful.onReactionComplete.fooccubusReaction = function(reaction, unit, input_i
 		dfhack.run_script('succubus/influence', 'envy',unit.id)
 	elseif reaction.code == 'LUA_HOOK_CALL_SIEGE' then
 		dfhack.run_script('succubus/callsiege', 100)
-		dfhack.run_script('succubus/influence', unit.id, 'envy')
+		dfhack.run_script('succubus/influence', 'envy', unit.id)
 	end
 end
 

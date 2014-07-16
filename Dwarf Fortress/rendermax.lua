@@ -191,12 +191,11 @@ special.dayColors={ {0,0,0}, --dark at 0 hours
 special.daySpeed=0.1 -- 1->1200 cur_year_ticks per day. 2->600 ticks
 --TODO dragonfire
 --materials
-
---		glasses
+--glasses
 addMaterial("GLASS_GREEN",{0.1,0.9,0.5})
 addMaterial("GLASS_CLEAR",{0.5,0.95,0.9})
 addMaterial("GLASS_CRYSTAL",{0.75,0.95,0.95})
---		Plants
+--Plants
 addMaterial("PLANT:MUSHROOM_CUP_DIMPLE",nil,{0.03,0.03,0.5},3)
 addMaterial("PLANT:CAVE MOSS",nil,{0.1,0.1,0.4},2)
 addMaterial("PLANT:MUSHROOM_HELMET_PLUMP",nil,{0.2,0.1,0.6},2)
@@ -212,8 +211,7 @@ addMaterial("PLANT:SKULL_FRONDS_R",nil,{0.03,0.83,0.5},2)
 addMaterial("PLANT:NETHER_VINE",nil,{0.03,0.83,0.5},20)
 addMaterial("PLANT:NETHER_CREEPER",nil,{0.83,0.03,0.5},20)
 addMaterial("PLANT:LICHFINGER_R",nil,{0.03,0.03,0.5},2)
-
---		inorganics
+--inorganics
 addMaterial("INORGANIC:RAW_ADAMANTINE",{0.1,0.3,0.3},{0.3,0.9,0.9},6)
 addMaterial("INORGANIC:ADAMANTINE",{0.1,0.3,0.3},{0.3,0.9,0.9},6)
 addMaterial("INORGANIC:NATIVE_GOLD",{0.5,0.5,0},{0.5,0.5,0},4)
@@ -222,68 +220,65 @@ addMaterial("INORGANIC:GALENA",{0.5,0.5,0.5},{0.5,0.5,0.5},2)
 addMaterial("INORGANIC:WARPSTONE_UNSTABLE",{0.1,0.6,0.1},{0.1,0.6,0.1},14)
 addMaterial("INORGANIC:WARPSTONE_STABLE",{0.1,0.6,0.1},{0.1,0.6,0.1},12)
 addMaterial("INORGANIC:WARPSTONE_SOLID",{0.1,0.6,0.1},{0.1,0.6,0.1},12)
-
---		creature stuff
+--creature stuff
 addMaterial("CREATURE:DRAGON:BLOOD",nil,{0.6,0.1,0.1},4)
 addMaterial("CREATURE:CAVE_DRAGON:SKIN",nil,{0.6,0.1,0.1},4)
-addGems()
+
 --buildings
 addBuilding("Statue",{1,1,1},{0.9,0.75,0.3},2)
-addBuilding("Workshop:Custom:CHANDLER",{1,1,1},{0.9,0.75,0.3},8)
-addBuilding("Furnace:Custom:BRAZIER",{1,1,1},{0.9,0.75,0.3},12)
-addBuilding("Furnace:Custom:TORCHBEARER_STATUE",{1,1,1},{0.8,0.1,0.1},20)
-addBuilding("Furnace:Custom:CHANDELIER",{1,1,1},{0.9,0.65,0.2},35)
-addBuilding("Furnace:Custom:FIREPLACE",{1,1,1},{0.7,0.45,0.3},5)
-addBuilding("Furnace:Custom:GLOWING_ORB",{1,1,1},{1,1,1},50)
-addBuilding("Furnace:Custom:PENTAGRAM",{1,1,1},{1,1,1},10)
-addBuilding("Furnace:Custom:WARLOCK_LANTERN",{1,1,1},{0.2,0.8,0.8},50)
-addBuilding("Furnace:Custom:WARLOCK_PENTAGRAM",{1,1,1},{1,0,1},50)
-addBuilding("Furnace:Custom:WARLOCK_BRAZIER",{1,1,1},{0,1,0},50)
-addBuilding("Furnace:Custom:WARLOCK_CANDELABRA",{1,1,1},{1,0,0},50)
-addBuilding("Furnace:Custom:WARLOCK_FIREPLACE",{1,1,1},{1,0.5,0.5},50)
-addBuilding("Bed",{1,1,1},{0.3,0.2,0.0},2)
+addBuilding("Workshop:Custom:CHANDLER",{1,1,1},{1.5,1.25,0.3},8)
+addBuilding("Furnace:Custom:BRAZIER",{1,1,1},{2,1,0.7},12)
+addBuilding("Furnace:Custom:TORCHBEARER_STATUE",{1,1,1},{1.5,0.3,0.3},20)
+addBuilding("Furnace:Custom:CHANDELIER",{1,1,1},{1.5,1,0.3},20)
+addBuilding("Furnace:Custom:FIREPLACE",{1,1,1},{2,1,0.5},15)
+addBuilding("Furnace:Custom:GLOWING_ORB",{1,1,1},{1.5,1.5,1.5},20)
+addBuilding("Furnace:Custom:PENTAGRAM",{1,1,1},{1.5,1.5,1.5},10)
+addBuilding("Furnace:Custom:WARLOCK_LANTERN",{1,1,1},{0.5,1.5,1.5},20)
+addBuilding("Furnace:Custom:WARLOCK_PENTAGRAM",{1,1,1},{2,0,1.5},20)
+addBuilding("Furnace:Custom:WARLOCK_BRAZIER",{1,1,1},{0.5,2,0.5},20)
+addBuilding("Furnace:Custom:WARLOCK_CANDELABRA",{1,1,1},{2,0.4,0.4},20)
+addBuilding("Furnace:Custom:WARLOCK_FIREPLACE",{1,1,1},{2,1,1},20)
+addBuilding("Bed",{1,1,1},{1,0.5,0.0},5)
 addBuilding("WindowGlass",nil,nil,0,{"useMaterial"})
 addBuilding("WindowGem",nil,nil,0,{"useMaterial"})
 addBuilding("Door",nil,nil,0,{"useMaterial"}) -- special case, only closed door obstruct/emit light
 addBuilding("Floodgate",nil,nil,0,{"useMaterial"}) -- special case, only closed door obstruct/emit light
---creatures
-addCreature("ELEMENTMAN_MAGMA",{0.8,0.2,0.2},{0.8,0.2,0.2},5)
---items
-addItem("GEM",nil,nil,0,{"useMaterial","onGround"})
-addItem("ROUGH",nil,nil,0,{"useMaterial","onGround"})
-addItem("SMALLGEM",nil,nil,0,{"useMaterial","onGround"})
+
+--Vanilla buildings
+addBuilding("Workshop:Still",{1,1,1},{0.4,1.2,0.4},10)
+addBuilding("Workshop:Kitchen",{1,1,1},{1.2,0.8,0.8},10)
 
 --succubus civ
-addMaterial("INORGANIC:EERIE_SMOKE",nil,{0.6,0.6,0.3},4)
+addMaterial("INORGANIC:EERIE_SMOKE",nil,{1,1,0.3},4)
 addBuilding("Workshop:Custom:SUMMONING_CIRCLE",{1,1,1},{1.8,0.5,0.9},10)
 addBuilding("Workshop:Custom:DEN_OF_INIQUITY",{1,1,1},{1,1,0.8},10)
 addBuilding("Workshop:Custom:FOOCCUBUS_SIN",{1,1,1},{1.5,0.5,0.5},15)
-addBuilding("Workshop:Custom:FOOCCUBUS_FIRE",{1,1,1},{0.9,0.75,0.3},10)
-addBuilding("Workshop:Custom:FOOCCUBUS_ESOTERIC",{1,1,1},{1,1,0.8},10)
-addBuilding("Workshop:Custom:FOOCCUBUS_NIGHTMARES",{1,1,1},{1,1,0.8},10)
-addBuilding("Workshop:Custom:FOOCCUBUS_ABYSS",{1,1,1},{0.2,0.2,1},15)
-addBuilding("Workshop:Custom:FOOCCUBUS_SOUL_FORGE",{1,1,1},{1,0.5,0.8},10)
-addBuilding("Furnace:Custom:FOOCCUBUS_SOUL_WELL",{1,1,1},{1,0,1},10)
---addBuilding("Furnace:Custom:WELL_MAGMA_FOOCCUBUS",{1,1,1},{1.2,0,0},10)
+addBuilding("Workshop:Custom:FOOCCUBUS_FIRE",{1,1,1},{1.3,1,0.3},15)
+addBuilding("Workshop:Custom:FOOCCUBUS_ESOTERIC",{1,1,1},{1.2,1.2,0.8},10)
+addBuilding("Workshop:Custom:FOOCCUBUS_NIGHTMARES",{1,1,1},{1.2,1.2,0.8},10)
+addBuilding("Workshop:Custom:FOOCCUBUS_ABYSS",{1,1,1},{0.2,0.2,1.4},10)
+addBuilding("Workshop:Custom:FOOCCUBUS_SOUL_FORGE",{1,1,1},{1.2,0.5,0.8},10)
+addBuilding("Furnace:Custom:FOOCCUBUS_SOUL_WELL",{1,1,1},{1.5,0,1.5},10)
 
--- 		furnaces (are not working)
+--furnaces
 addBuilding("Furnace:WoodFurnace",{1,1,1},{1.2,0.5,0.5},10)
-addBuilding("Furnace:Smelter",{1,1,1},{1.4,0.7,0.7},20)
-addBuilding("Furnace:Kiln",{1,1,1},{1.4,0.7,0.7},20)
-addBuilding("Furnace:Glassfurnace",{1,1,1},{1.4,1.4,0.7},20)
-addBuilding("Furnace:MagmaSmelter",{1,1,1},{1.4,0.7,0.7},20)
-addBuilding("Furnace:MagmaKiln",{1,1,1},{1.4,0.7,0.7},20)
-addBuilding("Furnace:MagmaGlassFurnace",{1,1,1},{1.4,1.4,0.7},20)
-addBuilding("Furnace:Custom:GLASS_FLOAT",{1,1,1},{1.4,1.4,0.7},20)
+addBuilding("Furnace:Smelter",{1,1,1},{1.4,0.7,0.7},10)
+addBuilding("Furnace:Kiln",{1,1,1},{1.4,0.7,0.7},10)
+addBuilding("Furnace:Glassfurnace",{1,1,1},{1.4,1.4,0.7},10)
+addBuilding("Furnace:MagmaSmelter",{1,1,1},{1.4,0.7,0.7},10)
+addBuilding("Furnace:MagmaKiln",{1,1,1},{1.4,0.7,0.7},10)
+addBuilding("Furnace:MagmaGlassFurnace",{1,1,1},{1.4,1.4,0.7},10)
+addBuilding("Furnace:Custom:GLASS_FLOAT",{1,1,1},{1.4,1.4,0.7},10)
 
 -- todo : powered only stuff, flicker for furnaces
 
 --creatures
-addCreature("ELEMENTMAN_MAGMA",{0.8,0.2,0.2},{0.8,0.2,0.2},5)
-addCreature("SOUL_WISP",{0.8,0.8,0.8},{0.8,0.8,0.8},5)
-addCreature("PAIN_ELEMENTAL",{1.4,0.8,0.8},{0.8,0.8,0.8},5)
+addCreature("ELEMENTMAN_MAGMA",{0.8,0.2,0.2},{1.5,0.2,0.2},5)
+addCreature("SOUL_WISP",{0.8,0.8,0.8},{1.3,1.3,1.3},5)
+addCreature("PAIN_ELEMENTAL",{1.4,0.8,0.8},{1.5,0.8,0.8},5)
 
 --items
 addItem("GEM",nil,nil,{"useMaterial","onGround"})
 addItem("ROUGH",nil,nil,{"useMaterial","onGround"})
 addItem("SMALLGEM",nil,nil,{"useMaterial","onGround"})
+addGems()

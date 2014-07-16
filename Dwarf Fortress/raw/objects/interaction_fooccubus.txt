@@ -503,15 +503,6 @@ interaction_fooccubus
 			[CE_ADD_TAG:NO_SLEEP:START:0]
 			[CE_FLASH_TILE:TILE:'&':4:0:1:FREQUENCY:800:300:START:0]
 
-[INTERACTION:FOOCCUBUS_EMPTY] // Fake interaction to add battle report flavor
-	[I_SOURCE:CREATURE_ACTION]
-	[I_TARGET:A:CREATURE]
-	[I_EFFECT:ADD_SYNDROME]
-		[IE_TARGET:A]
-		[IE_IMMEDIATE]
-		[SYNDROME]
-			[CE_ADD_TAG:NO_SLEEP:START:0:END:10]
-
 // Wrath
 [INTERACTION:FOOCCUBUS_BERSERK_TRIGGER] // Ping part of berserk rage
 	[I_SOURCE:CREATURE_ACTION]
@@ -586,7 +577,7 @@ interaction_fooccubus
 			[CE_DISPLAY_NAME:NAME:courtesan:courtesans:courtesan:START:0]
 				[CE:PERIODIC:MOON_PHASE:4:27]
 			[CE_ADD_TAG:NO_AGING:NOPAIN:NOEXERT:START:0]
-			// Heat
+			// Periodic effect
 			[CE_FLASH_TILE:TILE:'?':5:0:1:FREQUENCY:800:300:START:0]
 				[CE:PERIODIC:MOON_PHASE:0:3]
 			[CE_DISPLAY_NAME:NAME:lusty courtesan:lusty courtesans:lusty courtesan:START:0]
@@ -600,16 +591,6 @@ interaction_fooccubus
 				[CDI:TARGET:A:SELF_ONLY]
 				[CDI:FREE_ACTION]
 				[CDI:WAIT_PERIOD:200]
-			[CE_CAN_DO_INTERACTION:START:0]
-				[CE:PERIODIC:MOON_PHASE:0:3]
-				[CDI:ADV_NAME:Caress]
-				[CDI:USAGE_HINT:GREETING]
-				[CDI:INTERACTION:FOOCCUBUS_CARESS]
-				[CDI:BP_REQUIRED:BY_CATEGORY:HAND]
-				[CDI:TARGET:A:TOUCHABLE]
-				[CDI:TARGET_RANGE:A:1]
-				[CDI:MAX_TARGET_NUMBER:A:1]
-				[CDI:WAIT_PERIOD:100]
 			// Actions
 			[CE_CAN_DO_INTERACTION:START:0]
 				[CDI:ADV_NAME:Release pheromones]
@@ -621,7 +602,7 @@ interaction_fooccubus
 				[CDI:TARGET_RANGE:A:15]
 				[CDI:MAX_TARGET_NUMBER:A:2]
 				[CDI:WAIT_PERIOD:300]
-				[CDI:VERB:release a sweet scent:releases a sweet scent:NA]
+				[CDI:VERB:release pheromones:releases pheromones:NA]
 			[CE_CAN_DO_INTERACTION:START:0]
 				[CDI:ADV_NAME:Entice]
 				[CDI:USAGE_HINT:ATTACK]
@@ -630,25 +611,8 @@ interaction_fooccubus
 				[CDI:TARGET_RANGE:A:10]
 				[CDI:MAX_TARGET_NUMBER:A:10]
 				[CDI:WAIT_PERIOD:400]
-				[CDI:VERB:strike a suggestive pose:strikes a suggestive pose:NA]
+				[CDI:VERB:strike a graceful pose:strikes a graceful pose:NA]
 				[CDI:TARGET_VERB:is mesmerized:is mesmerized:NA]
-
-[INTERACTION:FOOCCUBUS_CARESS] // Buff friendly
-	[I_SOURCE:CREATURE_ACTION]
-	[I_TARGET:A:CREATURE]
-		[IT_LOCATION:CONTEXT_CREATURE]
-		[IT_MANUAL_INPUT:friendly creature]
-	[I_EFFECT:CONTACT]
-		[IE_TARGET:A]
-		[IE_IMMEDIATE]
-	[I_EFFECT:ADD_SYNDROME]
-		[IE_TARGET:A]
-		[IE_IMMEDIATE]
-		[SYNDROME]
-			[CE_PHYS_ATT_CHANGE:STRENGTH:150:0:START:0:END:300]
-			[CE_PHYS_ATT_CHANGE:AGILITY:175:0:START:0:END:300]
-			[CE_SKILL_ROLL_ADJUST:PERC:150:PERC_ON:75:START:0:END:300]
-			[CE_FLASH_TILE:TILE:'?':5:0:1:FREQUENCY:800:300:START:0:END:300]
 
 [INTERACTION:FOOCCUBUS_ENTICE] // Debuff enemy
 	[I_SOURCE:CREATURE_ACTION]

@@ -67,7 +67,7 @@ if hasSyndrome(unit) then
 		else
 			gender = 'her'
 		end
-		dfhack.gui.showAnnouncement(getName(unit)..' has reached '..gender..' zenith!', COLOR_BLUE)
+		dfhack.gui.showAnnouncement(getName(unit)..' has lost '..gender..' mind in battle!', COLOR_BLUE)
 		syndrome = 'FOOCCUBUS_EXCITATION_3'
 	end
 
