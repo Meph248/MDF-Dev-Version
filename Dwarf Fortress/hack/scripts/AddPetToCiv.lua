@@ -32,7 +32,7 @@ local function insertPet(entity,creature,caste)
 				local castenum=-1
 				for kk,vv in pairs(df.global.world.raws.creatures.all) do
 					--print(vv.creature_id)
-					if vv.creature_id==creature then 
+					if vv.creature_id==creature then
 						racenum=kk
 						--print(kk)
 						--printall(vv.caste)
@@ -166,7 +166,6 @@ insertPet("PLAINS","COW","FEMALE")
 
 --succubi
 insertPet("DECADENCE","TENTACLE_MONSTER","MALE")
-insertPet("DECADENCE","TENTACLE_MONSTER","FEMALE")
 insertPet("DECADENCE","BASILISK_LESSER","MALE")
 insertPet("DECADENCE","BASILISK_LESSER","FEMALE")
 insertPet("DECADENCE","SHOTHOTH_SPAWN","MALE")
