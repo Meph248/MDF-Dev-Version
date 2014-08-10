@@ -948,7 +948,7 @@ interaction_dwarfchocolate
 		[IE_IMMEDIATE]
 		[IE_ARENA_NAME:Pyromancer]
 		[SYNDROME]
-			[SYN_NAME:Pyromancer (fireballs, ash, firejet)]
+			[SYN_NAME:Pyromancer (fireballs, directed ash, firejet)]
 			[SYN_CLASS:PYROMANCER]
 			[CE_DISPLAY_TILE:TILE:64:4:0:1:START:0]
 			[CE_DISPLAY_NAME:NAME:pyromancer:pyromancers:pyromantic:START:0]

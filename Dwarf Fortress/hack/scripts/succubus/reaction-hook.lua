@@ -117,6 +117,11 @@ end
 -- Reaction hook
 eventful.onReactionComplete.fooccubusReaction = function(reaction, unit, input_items, input_reagents, output_items, call_native)
 
+	-- GUI
+	if reaction.code == 'LUA_HOOK_CHECK_POWERS' then
+		dfhack.run_script('show-powers', unit.id)
+	end
+
 	-- upgrades
 	if reaction.code:find('LUA_HOOK_IMPROVE_ITEM_DEFILE') then
 		resizeReagents(input_items, input_reagents)
@@ -172,6 +177,15 @@ eventful.onReactionComplete.fooccubusReaction = function(reaction, unit, input_i
 	elseif reaction.code == 'LUA_HOOK_CALL_SIEGE' then
 		dfhack.run_script('succubus/callsiege', 100)
 		dfhack.run_script('succubus/influence', 'envy', unit.id)
+
+	-- Special summon
+	elseif reaction.code == 'LUA_HOOK_SUMMON_OBSIDIAN_COLOSSUS' or
+		reaction.code == 'LUA_HOOK_SUMMON_SPIRIT_OF_FIRE' or
+		reaction.code == 'LUA_HOOK_SUMMON_NIGHTMARE' or
+		reaction.code == 'LUA_HOOK_SUMMON_FROST_WRAITH' then
+		creatureId = string.sub(reaction.code, 17)
+		print(creatureId)
+		dfhack.timeout(2, 'ticks', function() dfhack.run_script('succubus/fovunsentient', unit.id, creatureId) end)
 	end
 end
 

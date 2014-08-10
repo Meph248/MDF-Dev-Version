@@ -209,6 +209,7 @@ inorganic_spellstones_CD
 	[STATE_NAME_ADJ:LIQUID:molten failure stone]
 	[STATE_NAME_ADJ:GAS:blinding light]
 	[SYNDROME]
+	[SYN_NAME:Burn]
 	[SYN_AFFECTED_CLASS:WARLOCK_M][SYN_AFFECTED_CLASS:WARLOCK_F][SYN_CLASS:\AUTO_SYNDROME]  autosyndrome.
 	
 	
@@ -240,6 +241,7 @@ inorganic_spellstones_CD
 	[STATE_NAME_ADJ:LIQUID:molten failure stone]
 	[STATE_NAME_ADJ:GAS:blinding light]
 	[SYNDROME]
+	[SYN_NAME:Firejet]
 	[SYN_AFFECTED_CLASS:WARLOCK_M][SYN_AFFECTED_CLASS:WARLOCK_F][SYN_CLASS:\AUTO_SYNDROME]  autosyndrome.
 	
 	
@@ -364,6 +366,7 @@ inorganic_spellstones_CD
 	[STATE_NAME_ADJ:LIQUID:molten failure stone]
 	[STATE_NAME_ADJ:GAS:blinding light]
 	[SYNDROME]
+	[SYN_NAME:Ice freeze]
 	[SYN_AFFECTED_CLASS:WARLOCK_M][SYN_AFFECTED_CLASS:WARLOCK_F][SYN_CLASS:\AUTO_SYNDROME]  autosyndrome.
 	
 	
@@ -431,7 +434,7 @@ inorganic_spellstones_CD
 	
 	
 	
-	[SYN_NAME:learnt Arctic WInd]
+	[SYN_NAME:learnt Arctic Wind]
 	
 	
 	[CE_CAN_DO_INTERACTION:PROB:100:START:0]
