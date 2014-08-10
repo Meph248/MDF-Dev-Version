@@ -42,9 +42,8 @@ end
 -- @todo Support for last name maybe ?
 function getName(unitTarget)
 	local name = dfhack.units.getVisibleName(unit)
-	printall(name.words)
 
-	if not name.has_name then return '???' end
+	if not name.has_name then return 'A creature' end
 	if string.len(name.nickname) > 0 then return "'"..name.nickname.."'" end
 
 	return string.gsub(name.first_name, '^(.)', string.upper)

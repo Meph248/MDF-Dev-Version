@@ -1520,7 +1520,7 @@ YESFEARTHENIGHT[OBJECT:CREATURE]
 
 -------------------------------------------------------
 //Various Demon creature types
-[CREATURE:DEMON_DOG]
+[CREATURE:DOG_DEMON]
 	[NAME:demon dog:demon dogs:demon dog]
 	[CASTE_NAME:demon dog:demon dogs:demon dog]
 	[CREATURE_TILE:'d'][COLOR:4:0:0]
