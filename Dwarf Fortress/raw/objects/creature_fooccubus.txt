@@ -15,6 +15,7 @@ creature_fooccubus
 	[DIURNAL]
 	[CREPUSCULAR]
 	[MILKABLE]
+	[MAGMA_VISION]
 
 	[NATURAL_SKILL:AXE:0]YESHARDERINVADER_SUCCUBUS
 	[NATURAL_SKILL:SWORD:0]YESHARDERINVADER_SUCCUBUS
@@ -483,8 +484,7 @@ creature_fooccubus
 		[POP_RATIO:1]
 		[CASTE_NAME:fireborn succubus:fireborn succubi:fireborn succubus]
 		[DESCRIPTION:A female lust demon of hedonistic interests. This succubus is unaffected by fire and lava and can manipulate both with her bare hands. The fireborn are dangerous as they are often able to hurl fireballs. The ability to cause mayhem without suffering the consequences earned her respect among her kin.]
-		[FIREIMMUNE][MAGMA_VISION]
-		[HOMEOTHERM:10070]
+		[FIREIMMUNE]
 		[FIXED_TEMP:10070]
 	[SELECT_CASTE:FIREIMMUNE_MALE]
 		[POP_RATIO:1]
