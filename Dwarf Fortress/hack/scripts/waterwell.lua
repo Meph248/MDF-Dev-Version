@@ -49,7 +49,7 @@ function usemagma(reaction,unit,job,input_items,input_reagents,output_items,call
 			end
 		end
 	end
-	dfhack.gui.showAnnouncement( dfhack.TranslateName(unit.name).." cancels "..reaction.name..": Needs water." , COLOR_RED, true)
+	dfhack.gui.showAnnouncement( dfhack.TranslateName(unit.name).." cancels "..reaction.name..": Needs magma." , COLOR_RED, true)
 	for i=0,#input_items-1,1 do
 		input_items[i].flags.PRESERVE_REAGENT = true
 	end
