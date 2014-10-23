@@ -19,6 +19,7 @@
     <material value="Inorganic">
       <subtype value="SHALE" />
     </material>
+  </color>
   <color red="171" green="155" blue="178">
     <material value="Inorganic">
       <subtype value="RUBBLE" />

@@ -261,3 +261,13 @@ item_ammo
 [CLASS:RAILBOW_GNOME]
 [SIZE:600]
 [ATTACK:EDGE:10:200:hit:hits:NO_SUB:2000]
+
+----------------
+new, no special graphics
+
+35
+[ITEM_AMMO:ITEM_AMMO_PROJCAGE_GOBLIN]
+[NAME:net:nets]
+[CLASS:DFHACK_PROJCAGE]
+[SIZE:10]
+[ATTACK:BLUNT:100:200:hit:hits:NO_SUB:2000]

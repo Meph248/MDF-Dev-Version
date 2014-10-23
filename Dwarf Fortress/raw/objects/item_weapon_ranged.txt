@@ -28,7 +28,7 @@ item_weapon_ranged
 [SHOOT_FORCE:2400]
 [SHOOT_MAXVEL:1350]
 [TWO_HANDED:47500]
-[MINIMUM_SIZE:5000]
+[MINIMUM_SIZE:5000] 
 [MATERIAL_SIZE:3]
 [ATTACK:EDGE:20:10000:stab:stabs:NO_SUB:1000]
 [ATTACK:EDGE:25:10000:pierce:pierces:savage point:1300]
@@ -89,7 +89,7 @@ item_weapon_ranged
 [SKILL:SWORD]
 [RANGED:BLOWGUN:BLOWDART]
 [SHOOT_FORCE:100]
-[SHOOT_MAXVEL:1000]
+[SHOOT_MAXVEL:1000] 
 [TWO_HANDED:0]
 [MINIMUM_SIZE:5000]
 [MATERIAL_SIZE:3]
@@ -339,12 +339,12 @@ item_weapon_ranged
 /// muskets and pistols and cannons: all new blackpowder guns. high shot force and velocity.
 142
 [ITEM_WEAPON:ITEM_WEAPON_MUSKET]
-[NAME:musket:muskets]
+[NAME:musket:muskets] 
 [SIZE:450]
 [SKILL:HAMMER]
 [RANGED:BLOWGUN:BULLET_L]
-[SHOOT_FORCE:50000]
-[SHOOT_MAXVEL:50000]
+[SHOOT_FORCE:50000] 
+[SHOOT_MAXVEL:50000] 
 [TWO_HANDED:77500]
 [MINIMUM_SIZE:1500]
 [MATERIAL_SIZE:2]
@@ -359,7 +359,7 @@ item_weapon_ranged
 [SIZE:450]
 [SKILL:SPEAR]
 [RANGED:BLOWGUN:BULLET_L]
-[SHOOT_FORCE:50000]
+[SHOOT_FORCE:50000] 
 [SHOOT_MAXVEL:50000]
 [TWO_HANDED:77500]
 [MINIMUM_SIZE:52500]
@@ -369,8 +369,8 @@ item_weapon_ranged
 [ATTACK:EDGE:5:1000:perforate:perforates:bayonet:1100]
 [ATTACK:EDGE:5:2000:run through:runs through:bayonet:1100]
 144
-[ITEM_WEAPON:ITEM_WEAPON_AIRGUN]
-[NAME:flint lock pistol:flint lock pistol]
+[ITEM_WEAPON:ITEM_WEAPON_AIRGUN] 
+[NAME:flint lock pistol:flint lock pistol] 
 [SIZE:450]
 [SKILL:HAMMER]
 [RANGED:BLOWGUN:BULLET_L]
@@ -384,7 +384,7 @@ item_weapon_ranged
 [ATTACK:BLUNT:10000:5000:bludgeon:bludgeons:stock:1300]
 [ATTACK:BLUNT:10000:2000:slap:slaps:shaft:1250]
 145
-[ITEM_WEAPON:ITEM_WEAPON_AIRGUN_BAY]
+[ITEM_WEAPON:ITEM_WEAPON_AIRGUN_BAY] 
 [NAME:flint lock pistol:flint lock pistol]
 [ADJECTIVE:bayonetted]
 [SIZE:450]
@@ -538,7 +538,7 @@ item_weapon_ranged
 [ATTACK:BLUNT:20000:40000:bash:bashes:NO_SUB:1250]
 155
 [ITEM_WEAPON:ITEM_WEAPON_PROJCAGE_GNOME]
-[NAME:cage-o-matic launcher:cage-o-matic launchers]
+[NAME:cage-o-matic launcher:cage-o-matic launchers] 
 [SIZE:150]
 [SKILL:GRASP_STRIKE]
 [RANGED:THROW:DFHACK_PROJCAGE]
@@ -651,7 +651,6 @@ item_weapon_ranged
 162
 [ITEM_WEAPON:ITEM_WEAPON_ORACLE_KRIS]
 [NAME:sacred kris:sacred kris]
-[ADJECTIVE:ceremonial]
 [SIZE:700]
 [SKILL:DAGGER]
 [RANGED:MAGIC_NATURE:SPELLWRAITH]
@@ -697,34 +696,34 @@ item_weapon_ranged
 /// orc guns
 	164
 [ITEM_WEAPON:ITEM_WEAPON_FLACHETTE_GUN]
-[NAME:flachette gun:flachette guns]
+[NAME:flachette gun:flachette guns] 
 [SIZE:450]
 [SKILL:HAMMER]
 [RANGED:BLOWGUN:BLOWDART]
-[SHOOT_FORCE:3000]
-[SHOOT_MAXVEL:15000]
+[SHOOT_FORCE:3000] 
+[SHOOT_MAXVEL:15000] 
 [TWO_HANDED:57500]
 [MINIMUM_SIZE:52500]
 [MATERIAL_SIZE:2]
 [ATTACK:BLUNT:10000:4000:club:clubs:stock:1250]
 [ATTACK:BLUNT:10000:3000:poke:pokes:end:1250]
 [ATTACK:BLUNT:10000:5000:bludgeon:bludgeons:stock:1300]
-[ATTACK:BLUNT:10000:2000:slap:slaps:shaft:1250]
+[ATTACK:BLUNT:10000:2000:slap:slaps:shaft:1250]	
 165
 [ITEM_WEAPON:ITEM_WEAPON_DAKKADAKKA_GUN]
-[NAME:dakkadakka gun:dakkadakka guns]
+[NAME:dakkadakka gun:dakkadakka guns] 
 [SIZE:450]
 [SKILL:HAMMER]
 [RANGED:BLOWGUN:BLOWDART]
-[SHOOT_FORCE:5000]
-[SHOOT_MAXVEL:35000]
+[SHOOT_FORCE:5000] 
+[SHOOT_MAXVEL:35000] 
 [TWO_HANDED:67500]
 [MINIMUM_SIZE:52500]
 [MATERIAL_SIZE:4]
 [ATTACK:BLUNT:10000:4000:club:clubs:stock:1250]
 [ATTACK:BLUNT:10000:3000:poke:pokes:end:1250]
 [ATTACK:BLUNT:10000:5000:bludgeon:bludgeons:stock:1300]
-[ATTACK:BLUNT:10000:2000:slap:slaps:shaft:1250]
+[ATTACK:BLUNT:10000:2000:slap:slaps:shaft:1250]	
 
 /// mixed weaponry
 166
@@ -805,9 +804,9 @@ item_weapon_ranged
 [MINIMUM_SIZE:32500]
 [ATTACK:EDGE:20000:4000:slash:slashes:bladed spear edge:2250]
 [ATTACK:EDGE:30000:2000:rake:rakes:toothed spear edge:1250]
-[ATTACK:EDGE:20:5000:stab:stabs:spear point:1000]
-[ATTACK:EDGE:20:10000:impale:impales:spear point:2000]
-[ATTACK:EDGE:10:10000:entangle and lance:entangles and lances:bola and spear:4000]
+[ATTACK:EDGE:20:5000:stab:stabs:spear point:1000] 
+[ATTACK:EDGE:20:10000:impale:impales:spear point:2000] 
+[ATTACK:EDGE:10:10000:entangle and lance:entangles and lances:bola and spear:4000] 
 [ATTACK:BLUNT:10000:6000:strike:strikes:spear shaft:1000]
 170
 [ITEM_WEAPON:ITEM_WEAPON_LIFEGUARD_ARMS]
@@ -868,7 +867,7 @@ item_weapon_ranged
 173
 [ITEM_WEAPON:ITEM_WEAPON_AUXILLA_KIT]
 [NAME:spear auxilla kit:spear auxilla kits]
-# represents a dwarven spear and xbow dual wielded
+# represents a dwarven spear and xbow dual wielded 
 [SIZE:500]
 [SKILL:SPEAR]
 [RANGED:CROSSBOW:BOLT]
@@ -884,7 +883,7 @@ item_weapon_ranged
 174
 [ITEM_WEAPON:ITEM_WEAPON_LEGION_KIT]
 [NAME:hammer legion kit:hammer legion kits]
-# represents a dwarven hammer and javelin dual wielded
+# represents a dwarven hammer and javelin dual wielded 
 [SIZE:2000]
 [SKILL:HAMMER]
 [RANGED:CROSSBOW:JAVELIN]

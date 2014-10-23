@@ -19,7 +19,7 @@ Change this to skip the wonderful intro movies.
 
 This lets you set the starting windowed/fullscreen setting.  Can be YES, NO or PROMPT.
 
-[WINDOWED:YES]
+[WINDOWED:NO]
 
 This is the size and font for windowed mode.  Changing to the 800x600 font might make you happier.
 If set below 256x256 it specifies the grid size instead, with a minimum of 80x25.

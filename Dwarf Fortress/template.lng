@@ -3260,8 +3260,8 @@ Dwarf Fortress Lng
 |** Starting New Arena **|** Starting New Arena **|
 |Preparing Arena...|Preparing Arena...|
 |Importing world...|Importing world...|
-|Continue Playing|Continue Playing (V.5.10)|
-|Start Playing|Play Masterwork DF (V.5.10)|
+|Continue Playing|Continue Playing (V.6.0)|
+|Start Playing|Play Masterwork DF (V.6.0)|
 |Create New World!|Create new world (standard)|
 |Design New World with Advanced Parameters|Create new world (recommended)|
 |Object Testing Arena|Object Testing Arena|
@@ -5164,7 +5164,7 @@ Dwarf Fortress Lng
 |masterfully |masterfully |
 |minced |minced |
 |cooked |cooked |
-|It is |It is |
+|It is |[B]It is |
 |encrusted with|encrusted with|
 |studded with|studded with|
 |decorated with|decorated with|
@@ -5180,12 +5180,12 @@ Dwarf Fortress Lng
 |masterfully worked |masterfully worked |
 | by an unknown artist| by an unknown artist|
 |encircled with bands of |encircled with bands of |
-|The handle is made from |The handle is made from |
-|This object |This object |
+|The handle is made from |[B]The handle is made from |
+|This object |[B]This object |
 |is adorned with hanging rings of |is adorned with hanging rings of |
 |menaces with spikes of |menaces with spikes of |
-|It is made from |It is made from |
-|The thread is |The thread is |
+|It is made from |[B]It is made from |
+|The thread is |[B]The thread is |
 |gray|gray|
 |superbly |superbly |
 |colored|colored|
@@ -10924,23 +10924,23 @@ Dwarf Fortress Lng
 |Autumn has arrived on the calendar.|Autumn has arrived on the calendar.|
 |Winter is upon you.|Winter is coming!|
 |Winter has arrived on the calendar.|Winter has arrived on the calendar.|
-|This artwork appears on |This artwork appears on |
-|This work of art is a |This work of art is a |
-|This artwork appears on a |This artwork appears on a |
+|This artwork appears on |[B]This artwork appears on |
+|This work of art is a |[B]This work of art is a |
+|This artwork appears on a |[B]This artwork appears on a |
 | and was crafted in | and was crafted in |
-|This artwork appears |This artwork appears |
+|This artwork appears |[B]This artwork appears |
 |on the front of |on the front of |
 |on the back of |on the back of |
 |This engraving appears on a floor |This engraving appears on a floor |
 |This engraving appears on a wall |This engraving appears on a wall |
 | somewhere| somewhere|
-|This artwork is a|This artwork is a|
-|It is a|It is a|
-|The item |The item |
-|On the item |On the item |
-|On the front of the coin |On the front of the coin |
-|On the coin's back |On the coin's back |
-|Engraved |Engraved |
+|This artwork is a|[B]This artwork is a|
+|It is a|[B]It is a|
+|The item |[B]The item |
+|On the item |[B]On the item |
+|On the front of the coin |[B]On the front of the coin |
+|On the coin's back |[B]On the coin's back |
+|Engraved |[B]Engraved |
 |on the floor |on the floor |
 |on the wall |on the wall |
 |is a|is a|
@@ -10955,9 +10955,9 @@ Dwarf Fortress Lng
 | masterfully designed | masterfully designed |
 |n |n |
 | image| image|
-|The artwork relates to |The artwork relates to |
+|The artwork relates to |[B]The artwork relates to |
 | during | during |
-|The image is |The image is |
+|The image is |[B]The image is |
 |the symbol of|the symbol of|
 |migrating |migrating |
 |nomadic |nomadic |
@@ -11497,7 +11497,7 @@ Dwarf Fortress Lng
 |father and husband|father and husband|
 |mother and wife|mother and wife|
 |parent and spouse|parent and spouse|
-|The written portion consists of |The written portion consists of |
+|The written portion consists of |[B]The written portion consists of |
 | page | page |
 |untitled |untitled |
 |manual|manual|
@@ -11514,8 +11514,8 @@ Dwarf Fortress Lng
 |dialog|dialog|
 | entitled | entitled |
 |, authored by |, authored by |
-|It concerns |It concerns |
-|The writing |The writing |
+|It concerns |[B]It concerns |
+|The writing |[B]The writing |
 |hopelessly meanders|hopelessly meanders|
 |meanders somewhat|meanders somewhat|
 |gets off track from time to time|gets off track from time to time|

@@ -4,42 +4,45 @@ YES_CIV_ACTIVE_SUCCUBUS[OBJECT:ENTITY]
 
 [ENTITY:DECADENCE]
 	[CREATURE:FOOCCUBUS]
-
+	
 	!NO_FORT_MODE_SUCCUBUS!CIV_CONTROLLABLE]
-
+	
 	YES_ADV_MODE_SUCCUBUS[INDIV_CONTROLLABLE]
-
+	
 	[PERMITTED_REACTION:MATERIALS_DEFAULT]SUCCUBUS_MATERIALS
-
+	
 	/// These two are toggled in one option, the Team. Can be "none, babysnatcher, itemthief, both". Option names are "civilized, savage, slaver, evil"
 	YES_BABYSNATCHER_SUCCUBUS[BABYSNATCHER]
 	!NO_ITEMTHIEF_SUCCUBUS!ITEM_THIEF]
-
+[COMMON_DOMESTIC_PACK]
+	
 	[PROGRESS_TRIGGER_POPULATION:1]SUCCUBUS_TRADE
 	[PROGRESS_TRIGGER_PRODUCTION:1]SUCCUBUS_TRADE
 	[PROGRESS_TRIGGER_TRADE:1]SUCCUBUS_TRADE
 	[PROGRESS_TRIGGER_POP_SIEGE:4]SUCCUBUS_SIEGE
 	[PROGRESS_TRIGGER_PROD_SIEGE:4]SUCCUBUS_SIEGE
 	[PROGRESS_TRIGGER_TRADE_SIEGE:4]SUCCUBUS_SIEGE
-
+	
 	/// Guards for caravans. Diplomat bodyguards dont work atm, but we might as well toggle them, maybe Toady fixes them, or dfhack does.
 	YES_BODYGUARDS_SUCCUBUS[DIPLOMAT_BODYGUARDS]
 	YES_BODYGUARDS_SUCCUBUS[MERCHANT_BODYGUARDS]
-
-	/// Seasons. Can be "none; spring; summer; autumn; winter; spring+summer; spring+autumn; spring+winter; summer+autumn; summer+winter; autumn+winter;  spring+summer+autumn; spring+summer+winter; spring+autumn+winter; summer+autumn+winter; spring+summer+autumn+winter. (Wow, 16 options.)
+	
+	/// Seasons. Can be "none; spring; summer; autumn; winter; spring+summer; spring+autumn; spring+winter; summer+autumn; summer+winter; autumn+winter;  spring+summer+autumn; spring+summer+winter; spring+autumn+winter; summer+autumn+winter; spring+summer+autumn+winter. (Wow, 16 options.) 
 	!NO_ACTIVE_SPRING_SUCCUBUS!ACTIVE_SEASON:SPRING]
 	!NO_ACTIVE_SUMMER_SUCCUBUS!ACTIVE_SEASON:SUMMER]
 	YES_ACTIVE_AUTUMN_SUCCUBUS[ACTIVE_SEASON:AUTUMN]
 	!NO_ACTIVE_WINTER_SUCCUBUS!ACTIVE_SEASON:WINTER]
-
+	
 	/// AI-stuff. Can be "none; ambusher; sieger; both"
 	!NO_AMBUSHER_SUCCUBUS!AMBUSHER]
 	!NO_SIEGER_SUCCUBUS!SIEGER]
-
+	
 	!NO_SKULKING_SUCCUBUS!SKULKING]
 	##########################################################
 	///end of GUI tags
+	Added by Meph: Craftsman can now add custom text to slabs: [PERMITTED_REACTION:LUA_HOOK_ENGRAVE_SLAB]
 	[TOOL:ITEM_TOOL_MERCHANT_SUCCUBUS]
+	
 	[TRANSLATION:FOOCCUBUS]
 	[ADVENTURE_TIER:4]
 	// Religion
@@ -1166,7 +1169,7 @@ YES_CIV_ACTIVE_SUCCUBUS[OBJECT:ENTITY]
 	YESCHANDLER[PERMITTED_REACTION:MAKE_CANDLE_WICK_SILK]
 
 	// Magma well
-	YES_WATERWELL[PERMITTED_BUILDING:MAGMA_WELL]
+	[PERMITTED_BUILDING:MAGMA_WELL]
 	[PERMITTED_REACTION:WARLOCK_MAGMA_S]
 	[PERMITTED_REACTION:WARLOCK_MAGMA_M]
 	[PERMITTED_REACTION:WARLOCK_MAGMA_L]
@@ -1175,7 +1178,7 @@ YES_CIV_ACTIVE_SUCCUBUS[OBJECT:ENTITY]
 	[PERMITTED_REACTION:WARLOCK_MAGMA_L1]
 
 	// Water well
-	YES_WATERWELL[PERMITTED_BUILDING:WATER_WELL]
+	[PERMITTED_BUILDING:WATER_WELL]
 	[PERMITTED_REACTION:WARLOCK_WATER_S]
 	[PERMITTED_REACTION:WARLOCK_WATER_M]
 	[PERMITTED_REACTION:WARLOCK_WATER_L]

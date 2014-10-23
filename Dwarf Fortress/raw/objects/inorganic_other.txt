@@ -632,6 +632,18 @@ gnome ammo
        [STATE_ADJ:LIQUID:]
 	[SOLID_DENSITY:1000]
 	[IS_STONE]
+
+
+[INORGANIC:BLANK_HUMAN]
+-USE_MATERIAL_TEMPLATE:STONE_TEMPLATE- <= reverted to "stone" as name with it.
+[STATE_NAME_ADJ:ALL_SOLID:(guild)][DISPLAY_COLOR:7:7:1][TILE:176]
+[MATERIAL_VALUE:1]
+[STATE_NAME:ALL_SOLID:(guild)]
+       [STATE_ADJ:ALL_SOLID:(guild)]
+       [STATE_NAME:LIQUID:(guild)]
+       [STATE_ADJ:LIQUID:(guild)]
+	[SOLID_DENSITY:1000]
+	[IS_STONE]
 #############################################################################################################################
 /// Stone other - help items for industry
 

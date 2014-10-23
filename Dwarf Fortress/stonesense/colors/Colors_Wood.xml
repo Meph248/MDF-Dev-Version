@@ -30,7 +30,7 @@
       <!subtype value="MAHOGANY" />
     <!/material>
   <!/color>
-  <c!olor red="191" green="108" blue="58">
+  <!color red="191" green="108" blue="58">
     <!material value="Wood">
       <!subtype value="ACACIA" />
     <!/material>

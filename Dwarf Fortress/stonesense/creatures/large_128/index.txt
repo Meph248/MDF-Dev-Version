@@ -1,8 +1,15 @@
 jabber.xml
 crundle.xml
-
 wild.xml
 domestic.xml
+koboldmwk.xml
+gnollmwk.xml
+#werewolfmwk.xml
+dwarfmwk.xml
+humanmwk.xml
+succubimwk.xml
+gnomemwk.xml
+orcmwk.xml
+warlockmwk.xml
 
-dwarf.xml
-human.xml
+

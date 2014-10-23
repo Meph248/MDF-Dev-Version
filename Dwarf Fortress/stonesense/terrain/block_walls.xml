@@ -1,9 +1,7 @@
 <?xml version="1.0"?>
 <walls file="block_walls.png">
   <!-- construct -->
-  <walls sheetIndex="0" color="material" halftile="no">
-    <form value="block" />
-    <material value="Inorganic" />
+  <wall sheetIndex="0" color="material" halftile="no">
     <!-- pillar -->
     <terrain value="495" />
     <!-- wall -->
@@ -26,38 +24,20 @@
     <terrain value="512" />
     <terrain value="513" />
     <terrain value="514" />
-	<subsprite 
-		sheetIndex="1" 
-		color="material" 
-		halftile="no" 
-		tileborder="left"
-		/>
-	<subsprite 
-		sheetIndex="2" 
-		color="material" 
-		halftile="no" 
-		tileborder="right"
-		/>
-	<subsprite sheetIndex="4" color="material" halftile="yes"/>
-	<subsprite 
-		sheetIndex="5" 
-		color="material" 
-		halftile="yes" 
-		tileborder="left"
-		/>
-	<subsprite 
-		sheetIndex="6" 
-		color="material" 
-		halftile="yes" 
-		tileborder="right"
-		/>
+	<subsprite sheetIndex="1" color="material" halftile="no" tileborder="left"/>
+	<subsprite sheetIndex="2" color="material" halftile="no" tileborder="right"/>
+	<subsprite sheetIndex="4" color="material" halftile="yes" />
+	<subsprite sheetIndex="5" color="material" halftile="yes" tileborder="left"/>
+	<subsprite sheetIndex="6" color="material" halftile="yes" tileborder="right"/>
+
+ <form value="block" />
+ <material value="Inorganic" />
   </wall>
 </walls>
+
 <floors file="block_floors.png">
   <!-- construct -->
   <floor sheetIndex="0" color="material" halftile="no">
-    <form value="block" />
-    <material value="Inorganic" />
     <!-- floor -->
     <terrain value="493" />
     <!-- stair -->
@@ -67,7 +47,7 @@
     <!-- fort -->
     <terrain value="494" />
     <!-- pillar -->
-    <terrain value="495" />
+    <terrain value="495" >
     <!-- wall -->
     <terrain value="496" />
     <terrain value="497" />
@@ -88,20 +68,11 @@
     <terrain value="512" />
     <terrain value="513" />
     <terrain value="514" />
-	<subsprite 
-		sheetIndex="1" 
-		color="material" 
-		tileborder="left"
-		/>
-	<subsprite 
-		sheetIndex="2" 
-		color="material" 
-		tileborder="right"
-		/>
-	<subsprite 
-		sheetIndex="3" 
-		color="material" 
-		tileborder="bottom"
-		/>
+	<subsprite sheetIndex="1" color="material" tileborder="left" />
+	<subsprite sheetIndex="2" color="material" tileborder="right" />
+	<subsprite sheetIndex="3" color="material" tileborder="bottom" />
+
+ <form value="block" />
+ <material value="Inorganic" />
   </floor>
 </floors>

@@ -367,19 +367,19 @@
       <!subtype value="OPAL_HARLEQUIN" />
       <!subtype value="OPAL_PINFIRE" />
       <!subtype value="OPAL_BANDFIRE" />
-      <subtype value="DIAMOND_LY" />
-      <subtype value="DIAMOND_FY" />
+      <!subtype value="DIAMOND_LY" />
+      <!subtype value="DIAMOND_FY" />
       <subtype value="EMERALD" />
       <subtype value="RUBY" />
       <subtype value="SAPPHIRE" />
       <subtype value="DIAMOND_CLEAR" />
-      <subtype value="DIAMOND_RED" />
-      <subtype value="DIAMOND_GREEN" />
-      <subtype value="DIAMOND_BLUE" />
-      <subtype value="DIAMOND_YELLOW" />
-      <subtype value="DIAMOND_BLACK" />
-      <subtype value="SAPPHIRE_STAR" />
-      <subtype value="RUBY_STAR" />
+      <!subtype value="DIAMOND_RED" />
+      <!subtype value="DIAMOND_GREEN" />
+      <!subtype value="DIAMOND_BLUE" />
+      <!subtype value="DIAMOND_YELLOW" />
+      <!subtype value="DIAMOND_BLACK" />
+      <!subtype value="SAPPHIRE_STAR" />
+      <!subtype value="RUBY_STAR" />
       <subtype value="RAW_ADAMANTINE" />
     </material>
   </wall>
