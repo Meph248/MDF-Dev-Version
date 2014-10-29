@@ -1,0 +1,57 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# DF specific files
+
+# Saves, we ignore everything inside data/save, except current
+# Spaces must be escaped with a "\"
+Dwarf\ Fortress/data/save/*
+-Dwarf\ Fortress/data/save/current
+Dwarf\ Fortress/data/save/current/*
+Dwarf Fortress/data/save/*
+-Dwarf Fortress/data/save/current
+Dwarf Fortress/data/save/current/*
+
+# Game logs
+Dwarf\ Fortress/gamelog.txt
+Dwarf\ Fortress/errorlog.txt
+Dwarf\ Fortress/stderr.log
+Dwarf\ Fortress/stdout.log
+Dwarf\ Fortress/Stonesense.log
+Dwarf\ Fortress/liquids.history
+Dwarf\ Fortress/dfhack.history
+Dwarf\ Fortress/tiletypes.history
