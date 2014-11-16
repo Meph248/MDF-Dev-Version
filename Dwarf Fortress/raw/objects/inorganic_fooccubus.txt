@@ -263,6 +263,24 @@ inorganic_fooccubus
 			[CDI:FREE_ACTION]
 			[CDI:WAIT_PERIOD:1000]
 
+[INORGANIC:FOOCCUBUS_UPGRADE_TELEPORT]
+	[SPECIAL]
+	[NO_STONE_STOCKPILE]
+	[MATERIAL_VALUE:0]
+	[STATE_NAME_ADJ:ALL_SOLID:Causes enemies to teleport nearby succubi to them.]
+	[SYNDROME]
+		[SYN_CLASS:\AUTO_SYNDROME]
+		[SYN_NAME:Group phasing]
+		[CE_CAN_DO_INTERACTION:START:0]
+			[CDI:ADV_NAME:Teleport to a nearby creature]
+			[CDI:INTERACTION:FOOCCUBUS_TELEPORT]
+			[CDI:USAGE_HINT:ATTACK]
+			[CDI:TARGET:A:LINE_OF_SIGHT]
+			[CDI:TARGET_RANGE:A:10]
+			[CDI:MAX_TARGET_NUMBER:A:1]
+			[CDI:WAIT_PERIOD:300]
+			[CDI:VERB:disappear in flash of purple light:disappears in a flash of purple light:NA]
+
 // Sloth
 [INORGANIC:PROTECTIVE_TENTACLES] // Defense buff
 	[SPECIAL]

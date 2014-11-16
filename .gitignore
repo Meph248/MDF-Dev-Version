@@ -37,14 +37,14 @@ Icon
 
 # DF specific files
 
-# Saves, we ignore everything inside data/save, except current
+# Saves, we ignore everything inside data/save, except current that must remain empty
 # Spaces must be escaped with a "\"
 Dwarf\ Fortress/data/save/*
 -Dwarf\ Fortress/data/save/current
 Dwarf\ Fortress/data/save/current/*
-Dwarf Fortress/data/save/*
--Dwarf Fortress/data/save/current
-Dwarf Fortress/data/save/current/*
+Dwarf\ Fortress/data/save/*
+-Dwarf\ Fortress/data/save/current
+Dwarf\ Fortress/data/save/current/*
 
 # Game logs
 Dwarf\ Fortress/gamelog.txt
@@ -55,3 +55,4 @@ Dwarf\ Fortress/Stonesense.log
 Dwarf\ Fortress/liquids.history
 Dwarf\ Fortress/dfhack.history
 Dwarf\ Fortress/tiletypes.history
+Dwarf\ Fortress/forumdwarves.txt

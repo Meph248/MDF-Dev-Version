@@ -116,6 +116,7 @@ creature_fooccubus
 	[COLOR:7:0:1]
 	[GLOWTILE:82][GLOWCOLOR:0:14:0]
 	[CASTE:FEMALE]
+		[CREATURE_CLASS:FOOCCUBUS_FEMALE]
 		[DESCRIPTION:A female lust demon of hedonistic interests. She belongs to a former slave caste of demons who escaped the underworld and found the surface to be a wonderful place to settle. The succubi are feared for their affinity with fire and their ability to influence other races in their sleep, whispering obscene ideas to their mind. Their libertine culture has led them to antagonize most of the other civilizations, eager to prevent their influence on their population.]
 		[FEMALE]
 		[POP_RATIO:90000]
@@ -148,6 +149,7 @@ creature_fooccubus
 		[CASTE_PROFESSION_NAME:MASTER_LASHER:Whip Mistress:Whip Mistresses]
 		[CASTE_PROFESSION_NAME:MASTER_BLOWGUNMAN:Blowgun Mistress:Blowgun Mistresses]
 	[CASTE:MALE]
+		[CREATURE_CLASS:FOOCCUBUS_MALE]
 		[DESCRIPTION:A male lust demon of hedonistic interests. He belongs to a former slave caste of demons who escaped the underworld and found the surface to be a wonderful place to settle. The succubi are feared for their affinity with fire and their ability to influence other races in their sleep, whispering obscene ideas to their mind. Their libertine culture has led them to antagonize most of the other civilizations, eager to prevent their influence on their population.]
 		[MALE]
 		[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
@@ -313,9 +315,14 @@ creature_fooccubus
 			[APP_MOD_IMPORTANCE:1000]
 			[APP_MOD_NOUN:teeth:PLURAL]
 			[APP_MOD_DESC_RANGE:30:60:90:110:150:190]
-	[HOMEOTHERM:10070]
+	[HOMEOTHERM:10075]
 	[SWIMS_LEARNED]
 	[SWIM_SPEED:1000]
+
+	// Fire immunity (and cold, and dragonfire)
+	[FIREIMMUNE]
+	[MAGMA_VISION]
+	[FIXED_TEMP:10075]
 
 	// Description stuff
 	[MANNERISM_FINGERS:finger:fingers]
@@ -476,21 +483,6 @@ creature_fooccubus
 			[ATTACK_PRIORITY:second]
 
 	// Extra castes for upgrades and corruption
-	[USE_CASTE:FIREIMMUNE_FEMALE:FEMALE]
-	[USE_CASTE:FIREIMMUNE_MALE:MALE]
-
-	[SELECT_CASTE:FIREIMMUNE_FEMALE]
-	[SELECT_ADDITIONAL_CASTE:FIREIMMUNE_MALE]
-		[POP_RATIO:1]
-		[CASTE_NAME:fireborn succubus:fireborn succubi:fireborn succubus]
-		[DESCRIPTION:A female lust demon of hedonistic interests. This succubus is unaffected by fire and lava and can manipulate both with her bare hands. The fireborn are dangerous as they are often able to hurl fireballs. The ability to cause mayhem without suffering the consequences earned her respect among her kin.]
-		[FIREIMMUNE]
-		[FIXED_TEMP:10070]
-	[SELECT_CASTE:FIREIMMUNE_MALE]
-		[POP_RATIO:1]
-		[CASTE_NAME:fireborn incubus:fireborn incubi:fireborn incubus]
-		[DESCRIPTION:A male lust demon of hedonistic interests. This incubus is unaffected by fire and lava and can manipulate both with his bare hands. The fireborn are dangerous as they are often able to hurl fireballs. The ability to cause mayhem without suffering the consequences earned him respect among his kin.]
-
 	[USE_CASTE:CAMBION_FEMALE:FEMALE] // elf + drow
 	[USE_CASTE:CAMBION_MALE:MALE]
 	[USE_CASTE:DEVIL_FEMALE:FEMALE] // human + warlock
@@ -532,7 +524,7 @@ creature_fooccubus
 	[SELECT_ADDITIONAL_CASTE:DEVIL_MALE]
 		[POP_RATIO:1]
 		[DESCRIPTION:A medium sized creature whose fierce ambitions led her to sell her soul. Many tales are whispered in the dark about those who approach mens of power and bind them with intricate contracts. The succubi admire their charisma and enjoy their company. Dealing with a devil is a dangerous task, and they always win their negotiations.]
-		[CASTE_NAME:devil:devil:devil]
+		[CASTE_NAME:devil:devils:devil]
 		[BABYNAME:devil baby:devil babies]
 		[CHILDNAME:devil girl:devil girls]
 		[PHYS_ATT_RANGE:ENDURANCE:700:1200:1400:1500:1600:1800:2500]

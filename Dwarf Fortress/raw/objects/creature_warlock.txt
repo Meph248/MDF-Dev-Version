@@ -739,10 +739,12 @@ creature_warlock_civ
 	---------------------------------------------------------------------------------------------------------------
 	
 	[CASTE:WARLOCK_OVERLORD]
+	[CREATURE_CLASS:WARLOCK_MALE]
 	[DESCRIPTION:The ruler of the dungeon. He reigns supreme from the throne room and oversees the construction of the tower, the building of an army and the terrorization of the good people of the world. Evil always finds a way.]
 	[MALE]
 	
 	[CASTE:WARLOCK_OVERLORDF]
+	[CREATURE_CLASS:WARLOCK_FEMALE]
 	[DESCRIPTION:The ruler of the dungeon. She reigns supreme from the throne room and oversees the construction of the tower, the building of an army and the terrorization of the good people of the world. Evil always finds a way.]
 	[FEMALE]
 	
@@ -814,6 +816,7 @@ creature_warlock_civ
 	---------------------------------------------------------------------------------------------------------------
 	
 	[CASTE:WARLOCK_M][CREATURE_CLASS:WARLOCK_M]
+	[CREATURE_CLASS:WARLOCK_MALE]
 		[DESCRIPTION:A dark sorcerer that bends matter to their will and use their fallen enemies to their advantage. They fight with magic powers that bypass any armor.]
 	[MALE][NOT_LIVING][NOFEAR]
 	[CASTE_NAME:warlock:warlocks:warlock]
@@ -835,6 +838,7 @@ creature_warlock_civ
 	---------------------------------------------------------------------------------------------------------------
 		
 	[CASTE:WARLOCK_F][CREATURE_CLASS:WARLOCK_F]
+	[CREATURE_CLASS:WARLOCK_FEMALE]
 		[DESCRIPTION:A dark sorcerer that bends matter to their will and use their fallen enemies to their advantage. They fight with magic powers that bypass any armor.]
 	[FEMALE][NOT_LIVING][NOFEAR]
 	[CASTE_NAME:witch:witches:witch]
@@ -858,6 +862,7 @@ creature_warlock_civ
 	---------------------------------------------------------------------------------------------------------------
 		
 		[CASTE:WARLOCK_V_M][CREATURE_CLASS:WARLOCK_M]
+		[CREATURE_CLASS:WARLOCK_MALE]
 		[DESCRIPTION:A vampire that has joined your ranks. Being distrusted and hunted by regular society, vampires are more than welcome in warlock dungeons. The easy access to extracted blood and blood wine make the need for draining live prey unnecessary. At least as long as their hunger is satisfied that way.]
 	[MALE][NOT_LIVING][NOFEAR]
 	[CASTE_NAME:vampire:vampires:vampiric]
@@ -879,6 +884,7 @@ creature_warlock_civ
 	---------------------------------------------------------------------------------------------------------------
 	
 		[CASTE:WARLOCK_V_F][CREATURE_CLASS:WARLOCK_F]
+		[CREATURE_CLASS:WARLOCK_FEMALE]
 		[DESCRIPTION:A vampire that has joined your ranks. Being distrusted and hunted by regular society, vampires are more than welcome in warlock dungeons. The easy access to extracted blood and blood wine make the need for draining live prey unnecessary. At least as long as their hunger is satisfied that way.]
 	[FEMALE][NOT_LIVING][NOFEAR]
 	[CASTE_NAME:vampire:vampires:vampiric]

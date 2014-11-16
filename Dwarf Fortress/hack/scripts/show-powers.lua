@@ -43,6 +43,7 @@ local interactionWhiteList = Set {
 	'Necrosis chant',
 	'Abyssal gaze',
 	'Soul harvester',
+	'Group phasing',
 	-- Orc
 	'Hibernate',
 	'Fairyfire',

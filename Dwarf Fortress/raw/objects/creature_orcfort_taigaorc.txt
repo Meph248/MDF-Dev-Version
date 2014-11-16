@@ -303,6 +303,7 @@ creature_orcfort_taigaorc
 
 	[CASTE:FEMALE]
 		[CASTE_NAME:orc:orcs:orcish]
+		[CREATURE_CLASS:ORC_FEMALE]
 		[FEMALE]
 		[MULTIPLE_LITTER_RARE]
 		[BODY_SIZE:0:0:6050] 
@@ -314,6 +315,7 @@ creature_orcfort_taigaorc
 
 	[CASTE:MALE]
 		[CASTE_NAME:orc:orcs:orcish]
+		[CREATURE_CLASS:ORC_MALE]
 		[MALE]
 		[BODY_SIZE:0:0:6050] 
 		[BODY_SIZE:1:0:21000] 
@@ -324,6 +326,7 @@ creature_orcfort_taigaorc
 
 	[CASTE:URUK_MALE]
 		[CASTE_NAME:uruk:uruks:uruk]
+		[CREATURE_CLASS:ORC_MALE]
 		[MALE]
 		[TRANCES]
 		[BODY_SIZE:0:0:7050] 
@@ -338,6 +341,7 @@ creature_orcfort_taigaorc
 	
 	[CASTE:URUK_FEMALE]
 		[CASTE_NAME:uruk:uruks:uruk]
+		[CREATURE_CLASS:ORC_FEMALE]
 		[FEMALE]
 		[TRANCES]
 		[MULTIPLE_LITTER_RARE]
@@ -354,6 +358,7 @@ creature_orcfort_taigaorc
  
 	[CASTE:SNAGA_MALE]
 		[CASTE_NAME:snaga:snagas:snaga]
+		[CREATURE_CLASS:ORC_MALE]
 		[MALE]
 		[BODY_SIZE:0:0:3000] -- stats like a Goblin in masterwork
 		[BODY_SIZE:1:168:15000]
@@ -366,6 +371,7 @@ creature_orcfort_taigaorc
 		
 	[CASTE:SNAGA_FEMALE]
 		[CASTE_NAME:snaga:snagas:snaga]
+		[CREATURE_CLASS:ORC_FEMALE]
 		[FEMALE]
 		[MULTIPLE_LITTER_RARE]
 		[BODY_SIZE:0:0:3000] -- stats like a Goblin in masterwork
@@ -379,6 +385,7 @@ creature_orcfort_taigaorc
 	
 	[CASTE:DREAMWALKER_MALE]
 		[CASTE_NAME:dreamwalker:dreamwalkers:dreamwalker]
+		[CREATURE_CLASS:ORC_MALE]
 		[MALE]
 		[BODY_SIZE:0:0:3000] -- body size like a Goblin in masterwork
 		[BODY_SIZE:1:168:15000]
@@ -410,6 +417,7 @@ creature_orcfort_taigaorc
 	
 	[CASTE:DREAMWALKER_FEMALE]
 		[CASTE_NAME:dreamwalker:dreamwalkers:dreamwalker]
+		[CREATURE_CLASS:ORC_FEMALE]
 		[FEMALE]		
 		-MULTIPLE_LITTER_RARE-
 		[BODY_SIZE:0:0:3000] -- body size like a Goblin in masterwork
@@ -443,6 +451,7 @@ creature_orcfort_taigaorc
 
 	[CASTE:DRUID_MALE]
 		[CASTE_NAME:druid:druids:druidic]
+		[CREATURE_CLASS:ORC_MALE]
 		[MALE]
 		[BODY_SIZE:0:0:3000] -- body size like a Goblin in masterwork
 		[BODY_SIZE:1:168:15000]
@@ -497,6 +506,7 @@ creature_orcfort_taigaorc
 	
 	[CASTE:DRUID_FEMALE]
 		[CASTE_NAME:druid:druids:druidic]
+		[CREATURE_CLASS:ORC_FEMALE]
 		[FEMALE]
 		-MULTIPLE_LITTER_RARE-
 		[BODY_SIZE:0:0:3000] -- body size like a Goblin in masterwork
@@ -558,6 +568,7 @@ creature_orcfort_taigaorc
 
 	[CASTE:SORCERER_MALE]
 		[CASTE_NAME:sorcerer:sorcerers:sorcerer]
+		[CREATURE_CLASS:ORC_MALE]
 		[MALE]
 		[BODY_SIZE:0:0:3000] -- body size like a Goblin in masterwork
 		[BODY_SIZE:1:168:15000]
@@ -616,6 +627,7 @@ creature_orcfort_taigaorc
 	
 	[CASTE:SORCERER_FEMALE]
 		[CASTE_NAME:sorcerer:sorcerers:sorcerer]
+		[CREATURE_CLASS:ORC_FEMALE]
 		[FEMALE]
 		-MULTIPLE_LITTER_RARE-
 		[BODY_SIZE:0:0:3000] -- body size like a Goblin in masterwork
@@ -676,6 +688,7 @@ creature_orcfort_taigaorc
 
 	[CASTE:FROSTSKALD_MALE]
 		[CASTE_NAME:frostskald:frostskalds:frostskald]
+		[CREATURE_CLASS:ORC_MALE]
 		[MALE]
 		[BODY_SIZE:0:0:3000] -- body size like a Goblin in masterwork
 		[BODY_SIZE:1:168:15000]
@@ -746,6 +759,7 @@ creature_orcfort_taigaorc
 
 	[CASTE:FROSTSKALD_FEMALE]
 		[CASTE_NAME:frostskald:frostskalds:frostskald]
+		[CREATURE_CLASS:ORC_FEMALE]
 		[FEMALE]
 		-MULTIPLE_LITTER_RARE-
 		[BODY_SIZE:0:0:3000] -- body size like a Goblin in masterwork
@@ -816,6 +830,7 @@ creature_orcfort_taigaorc
 
 	[CASTE:ORACLE_MALE]
 		[CASTE_NAME:oracle:oracles:oracle]
+		[CREATURE_CLASS:ORC_MALE]
 		[MALE]
 		[BODY_SIZE:0:0:3000] -- body size like a Goblin in masterwork
 		[BODY_SIZE:1:168:15000]
@@ -877,6 +892,7 @@ creature_orcfort_taigaorc
 
 	[CASTE:ORACLE_FEMALE]
 		[CASTE_NAME:oracle:oracles:oracle]
+		[CREATURE_CLASS:ORC_FEMALE]
 		[FEMALE]
 		-MULTIPLE_LITTER_RARE-
 		
@@ -941,6 +957,7 @@ creature_orcfort_taigaorc
 	
 	[CASTE:ARTISAN_FEMALE]
 		[CASTE_NAME:artisan orc:artisan orcs:orcish]
+		[CREATURE_CLASS:ORC_FEMALE]
 		[FEMALE]
 		[MULTIPLE_LITTER_RARE]
 		[BODY_SIZE:0:0:6050] 
@@ -965,6 +982,7 @@ creature_orcfort_taigaorc
 
 	[CASTE:ARTISAN_MALE]
 		[CASTE_NAME:artisan orc:artisan orcs:orcish]
+		[CREATURE_CLASS:ORC_MALE]
 		[MALE]
 		[BODY_SIZE:0:0:6050] 
 		[BODY_SIZE:1:0:21000] 
@@ -988,6 +1006,7 @@ creature_orcfort_taigaorc
 	
 	[CASTE:CORSAIR_FEMALE]
 		[CASTE_NAME:corsair:corsairs:orcish]
+		[CREATURE_CLASS:ORC_FEMALE]
 		[FEMALE]
 		[MULTIPLE_LITTER_RARE]
 		[BODY_SIZE:0:0:6050] 
@@ -1009,6 +1028,7 @@ creature_orcfort_taigaorc
 	
 	[CASTE:CORSAIR_MALE]
 		[CASTE_NAME:corsair:corsairs:orcish]
+		[CREATURE_CLASS:ORC_MALE]
 		[MALE]
 		[BODY_SIZE:0:0:6050] 
 		[BODY_SIZE:1:0:21000] 
@@ -1032,6 +1052,7 @@ creature_orcfort_taigaorc
 	
 	[CASTE:RONIN_MALE]
 		[CASTE_NAME:uruk ronin:uruk ronin:orcish]
+		[CREATURE_CLASS:ORC_MALE]
 		[MALE]	
 		[TRANCES]
 		[BODY_SIZE:0:0:7050] 
@@ -1054,6 +1075,7 @@ creature_orcfort_taigaorc
 	
 	[CASTE:RONIN_FEMALE]
 		[CASTE_NAME:uruk ronin:uruk ronin:orcish]
+		[CREATURE_CLASS:ORC_FEMALE]
 		[FEMALE]
 		[TRANCES]
 		[MULTIPLE_LITTER_RARE]		
@@ -1077,6 +1099,7 @@ creature_orcfort_taigaorc
 	
 	[CASTE:OLOG_MALE]
 		[CASTE_NAME:olog:ologs:orcish]
+		[CREATURE_CLASS:ORC_MALE]
 		[MALE]	
 		[PRONE_TO_RAGE:10]
 		[SELECT_TISSUE:BONE][PAIN_RECEPTORS:1]
@@ -1119,6 +1142,7 @@ creature_orcfort_taigaorc
 	
 	[CASTE:OLOG_FEMALE]
 		[CASTE_NAME:olog:ologs:orcish]
+		[CREATURE_CLASS:ORC_FEMALE]
 		[FEMALE]
 		[PRONE_TO_RAGE:10]
 		[SELECT_TISSUE:BONE][PAIN_RECEPTORS:1]
