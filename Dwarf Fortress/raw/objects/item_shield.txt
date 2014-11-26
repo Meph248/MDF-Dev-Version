@@ -168,3 +168,15 @@ item_shield
 [BLOCKCHANCE:10]
 [UPSTEP:1]
 [MATERIAL_SIZE:1]
+
+
+########################################################################################################
+///human torch to stop cave adaption
+19
+
+[ITEM_SHIELD:ITEM_SHIELD_TORCH]
+[NAME:torch:torches]
+[ARMORLEVEL:1]
+[BLOCKCHANCE:10]
+[UPSTEP:1]
+[MATERIAL_SIZE:1]

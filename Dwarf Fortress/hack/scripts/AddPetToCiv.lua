@@ -32,7 +32,7 @@ local function insertPet(entity,creature,caste)
 				local castenum=-1
 				for kk,vv in pairs(df.global.world.raws.creatures.all) do
 					--print(vv.creature_id)
-					if vv.creature_id==creature then
+					if vv.creature_id==creature then 
 						racenum=kk
 						--print(kk)
 						--printall(vv.caste)
@@ -160,32 +160,53 @@ insertPet("PLAINS","BIRD_GOOSE","MALE")
 insertPet("PLAINS","BIRD_GOOSE","FEMALE")
 insertPet("PLAINS","COW","MALE")
 insertPet("PLAINS","COW","FEMALE")
+insertPet("PLAINS","CANNON","NORMAL")
 
 --gnomes
 --- indigos decision. So far its all pet-exotic, as before.
+insertPet("GNOMES","CLOCKWORK_BEETLE_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_MOUSE_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_SCORPION_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_CUCKOO_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_CANARY_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_CHICKEN_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_CAT_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_RACCOON_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_TORTOISE_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_MONKEY_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_FALCON_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_BADGER_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_DOG_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_CARP_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_SHEEP_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_PANTHER_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_GORILLA_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_SHARK_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_SPIDERTANK_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_HORSE_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_BEAR_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_CROCODILE_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_BULL_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_ELEPHANT_GNOME","61")
+insertPet("GNOMES","CLOCKWORK_DRAGON_GNOME","61")
 
 --succubi
 insertPet("DECADENCE","TENTACLE_MONSTER","MALE")
 insertPet("DECADENCE","BASILISK_LESSER","MALE")
 insertPet("DECADENCE","BASILISK_LESSER","FEMALE")
-insertPet("DECADENCE","SHOTHOTH_SPAWN","MALE")
-insertPet("DECADENCE","SHOTHOTH_SPAWN","FEMALE")
-insertPet("DECADENCE","SOUL_WISP","MALE")
-insertPet("DECADENCE","SOUL_WISP","FEMALE")
+insertPet("DECADENCE","BRUTE_DECAY","DEFAULT")
+insertPet("DECADENCE","SOUL_WISP","DEFAULT")
 insertPet("DECADENCE","NAHASH","MALE")
 insertPet("DECADENCE","NAHASH","FEMALE")
 insertPet("DECADENCE","ORTHUS","MALE")
 insertPet("DECADENCE","ORTHUS","FEMALE")
 insertPet("DECADENCE","CAUCHEMAR","MALE")
 insertPet("DECADENCE","CAUCHEMAR","FEMALE")
-insertPet("DECADENCE","PAIN_ELEMENTAL","MALE")
-insertPet("DECADENCE","PAIN_ELEMENTAL","FEMALE")
+insertPet("DECADENCE","PAIN_ELEMENTAL","DEFAULT")
 insertPet("DECADENCE","BASILISK_LESSER","MALE")
 insertPet("DECADENCE","BASILISK_LESSER","FEMALE")
-insertPet("DECADENCE","SHOTHOTH_SPAWN","MALE")
-insertPet("DECADENCE","SHOTHOTH_SPAWN","FEMALE")
-insertPet("DECADENCE","RAT_THING","MALE")
-insertPet("DECADENCE","RAT_THING","FEMALE")
+insertPet("DECADENCE","IMP_FIRE","DEFAULT")
+insertPet("DECADENCE","DEVILKIN","DEFAULT")
 
 --warlocks
 insertPet("WARLOCK","MONOLITH","GENERIC")
@@ -229,6 +250,11 @@ insertPet("TAIGA","ARCTIC_CONDOR","MALE")
 insertPet("TAIGA","ARCTIC_CONDOR","FEMALE")
 insertPet("TAIGA","TAIGA_SABRECAT","MALE")
 insertPet("TAIGA","TAIGA_SABRECAT","FEMALE")
+insertPet("TAIGA","SQUIG","MALE")
+insertPet("TAIGA","SQUIG","FEMALE")
+insertPet("TAIGA","SQUIG","WOOLY")
+insertPet("TAIGA","SQUIG","GROWLER")
+insertPet("TAIGA","SQUIG","TERRIER")
 
 --kobolds
 insertPet("KOBOLD_CAMP","SPIRIT_BEAR_KOBOLD","MALE")
@@ -286,3 +312,11 @@ insertPet("DROW","RHENAYAS_DROW_ROTHE","FEMALE")
 
 --automatons
 --- dont need pets, as they dont trade, nor be playable
+
+--hermit
+insertPet("HERMIT","DOG","MALE")
+insertPet("HERMIT","CAT","MALE")
+insertPet("HERMIT","HAWK","MALE")
+insertPet("HERMIT","COW","FEMALE")
+insertPet("HERMIT","SHEEP","FEMALE")
+insertPet("HERMIT","CHICKEN","FEMALE")

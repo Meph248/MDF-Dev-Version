@@ -47,9 +47,9 @@
 	<!subsprite file="grasses_gray.png" color="xml" red="150" green="150" blue="52" grass_state="dry" grass_min="36" grass_max="242" sheetIndex="182" variations="2" />
     <!subsprite file="grasses_gray.png" color="xml" red="150" green="150" blue="52" grass_state="dry" grass_min="1" grass_max="240" sheetIndex="180" variations="2" />
 	<!subsprite grass_state="dead" grass_min="66" sheetIndex="296" variations="2" />
-	<subsprite grass_state="dead" grass_min="36" grass_max="65" sheetIndex="294" variations="2" />
-    <subs!prite grass_state="dead" grass_min="1" grass_max="35" sheetIndex="292" variations="2" />
-  </plant>
+	<!subsprite grass_state="dead" grass_min="36" grass_max="65" sheetIndex="294" variations="2" />
+    <!subssprite grass_state="dead" grass_min="1" grass_max="35" sheetIndex="292" variations="2" />
+  <!/plant>
   <!plant gameID="REEDGRASS" grass_state="green"  grass_min="66" sheetIndex="190" variations="2">
     <!subsprite grass_min="36" grass_state="green" grass_max="65" sheetIndex="188" variations="2" />
     <!subsprite grass_min="1" grass_state="green" grass_max="35" sheetIndex="186" variations="2" />
@@ -423,7 +423,7 @@
     <subsprite file="grasses_gray.png" color="xml" red="80" green="175" blue="41" grass_state="dead" grass_min="66" sheetIndex="44" variations="2" />
 	<subsprite file="grasses_gray.png" color="xml" red="80" green="175" blue="37" grass_state="dead" grass_min="36" grass_max="65" sheetIndex="42" variations="2" />
     <subsprite file="grasses_gray.png" color="xml" red="80" green="175" blue="41" grass_state="dead" grass_min="1" grass_max="35" sheetIndex="40" variations="2" />
-  <!plant>
+  </plant>
   
   <!plant gameID="BAMBOO, HEDGE" grass_state="all" grass_min="66" sheetIndex="304" variations="2">
   <!subsprite  grass_min="36" grass_state="all" grass_max="65" sheetIndex="302" variations="2" />

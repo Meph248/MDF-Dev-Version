@@ -67,8 +67,6 @@ insertPet("MOUNTAIN","TUSKOX_MOUNTAIN_DDD","FEMALE")
 
 --humans
 insertPet("PLAINS","HORSE","MALE")
-insertPet("PLAINS","ARMORED_HORSE","MALE")
-insertPet("PLAINS","ARMORED_HORSE_IRON","MALE")
 
 --gnomes
 

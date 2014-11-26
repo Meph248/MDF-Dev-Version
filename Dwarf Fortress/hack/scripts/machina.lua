@@ -1228,6 +1228,25 @@ end
 
 function ejectItem(building,item,pos)
 	if item then
+		-- remove from previous block
+		if item.flags.on_ground then
+			block = dfhack.maps.ensureTileBlock(item.pos.x,item.pos.y,item.pos.z)
+			other_items = false
+			for i = #block.items - 1, 0, -1 do
+				if block.items[i] == item.id then
+					--print("found item in block, removing it, index = " .. i .. "/" .. #block.items)
+					block.items:erase(i)
+				elseif not other_items then
+					other_item = df.item.find(block.items[i])
+					if other_item and other_item.pos.x == item.pos.x and other_item.pos.y == item.pos.y and other_item.pos.z == item.pos.z then
+						other_items = true
+					end
+				end
+			end
+			if not other_items then
+				block.occupancy[item.pos.x%16][item.pos.y%16].item=false
+			end
+		end
 		itemid = item.id
 		item.pos.x=pos.x
 		item.pos.y=pos.y
@@ -2244,17 +2263,17 @@ function destroyItemInBuilding(item,building)
 	for r = #item.general_refs - 1, 0, -1 do
 		if getmetatable(item.general_refs[r]) == 'general_ref_contains_itemst' then
 			contained_item = df.item.find(item.general_refs[r].item_id)
-			contained_item:moveToGround(item.pos.x,item.pos.y,item.pos.z)
 			for r2 = #contained_item.general_refs-1, 0, -1 do
 				if getmetatable(contained_item.general_refs[r2]) == 'general_ref_contained_in_itemst' then
 					contained_item.general_refs:erase(r2)
 					contained_item.flags.in_inventory = false
 				end
 			end
+			contained_item:moveToGround(item.pos.x,item.pos.y,item.pos.z)
 			item.general_refs:erase(r)
 			dfhack.items.moveToBuilding(contained_item,building,0)
-		end
-		if getmetatable(item.general_refs[r]) == 'general_ref_contains_unitst' then
+		elseif
+			getmetatable(item.general_refs[r]) == 'general_ref_contains_unitst' then
 			contained_unit = df.unit.find(item.general_refs[r].unit_id)
 			for r2 = #contained_unit.general_refs-1, 0, -1 do
 				if getmetatable(contained_unit.general_refs[r2]) == 'general_ref_contained_in_itemst' then

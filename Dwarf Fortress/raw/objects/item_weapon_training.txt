@@ -161,3 +161,62 @@ Missing skills: GRASP_STRIKE MILITARY_TACTICS SIEGEOPERATE THROW WRESTLING
 [MATERIAL_SIZE:1]
 [ATTACK:BLUNT:10:200:bash:bashes:NO_SUB:3000]
 [TRAINING]
+
+
+
+
+--------------
+end of the line - add new items here, till they get a graphic
+
+
+#####
+// Basic weaponry for beginning dreamwalkers
+
+[ITEM_WEAPON:ITEM_WEAPON_DREAM_STAFF]
+[NAME:tribal staff:tribal staves]
+[SIZE:700]
+[SKILL:HAMMER]
+[RANGED:MAGIC_NATURE:SPELLDRUID]
+[SHOOT_FORCE:2000]
+[SHOOT_MAXVEL:2000]
+[TWO_HANDED:57500]
+[MINIMUM_SIZE:33000]
+[MATERIAL_SIZE:9]
+[ATTACK:BLUNT:100:4000:strike:strikes:NO_SUB:2000]
+[ATTACK:BLUNT:40:1000:jab:jabs:tip:1800]
+[ATTACK:BLUNT:100:4000:takes a balanced stance and strike:takes a balanced stance and strikes:NO_SUB:3000]
+[ATTACK:BLUNT:100:4000:fend off:fends off:NO_SUB:1000]
+[ATTACK:BLUNT:40:1000:poke:pokes:NO_SUB:1200]
+[ATTACK:BLUNT:10:500:rend:rends:rudimentary focus crystal:4000]
+[ATTACK:BLUNT:100:500:blast:blasts:imperfectly directly stream of elemental power:4000]
+
+[ITEM_WEAPON:ITEM_WEAPON_DREAM_KRIS]
+[NAME:tribal crisknife:tribal crisknives]
+[SIZE:700]
+[SKILL:DAGGER]
+[RANGED:MAGIC_NATURE:SPELLWRAITH]
+[SHOOT_FORCE:2000]
+[SHOOT_MAXVEL:2000]
+[TWO_HANDED:35000]
+[MINIMUM_SIZE:12500]
+[MATERIAL_SIZE:3]
+[ATTACK:EDGE:20:6000:stab:stabs:NO_SUB:1000]
+[ATTACK:BLUNT:4000:4000:slap:slaps:flat:1250]
+[ATTACK:BLUNT:100:1000:strike:strikes:pommel:1000]
+[ATTACK:EDGE:3000:4000:slash:slashes:toothed blade:2500]
+[ATTACK:EDGE:3000:4000:slash:slashes:reverse edge:2500]
+[ATTACK:EDGE:3000:4000:sidestep and slash:sidesteps and slashes:toothed blade:2500]
+[ATTACK:EDGE:3000:4000:sidestep and slash:sidesteps and slashes:reverse edge:2500]
+
+
+[ITEM_WEAPON:ITEM_WEAPON_PROJCAGE_GOBLIN]
+[NAME:net thrower:net throwers] 
+[SIZE:150]
+[SKILL:HAMMER]
+[RANGED:BOW:DFHACK_PROJCAGE]
+[SHOOT_FORCE:1000]
+[SHOOT_MAXVEL:1000]
+[TWO_HANDED:10000]
+[MINIMUM_SIZE:5000]
+[MATERIAL_SIZE:6]
+[ATTACK:BLUNT:10000:4000:bash:bashes:NO_SUB:1250]

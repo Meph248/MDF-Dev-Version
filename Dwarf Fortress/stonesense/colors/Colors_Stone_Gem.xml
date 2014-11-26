@@ -6,7 +6,7 @@
       <!subtype value="INDIGO TOURMALINE" />
       <!subtype value="BLUE GARNET" />
       <subtype value="SAPPHIRE" />
-      <subtype value="DIAMOND_BLUE" />
+      <!subtype value="DIAMOND_BLUE" />
     </material>
   </color>
   <!-- [DISPLAY_COLOR:2:7:0] -->
@@ -23,7 +23,7 @@
       <!subtype value="DEMANTOID" />
       <!subtype value="GREEN ZIRCON" />
       <subtype value="EMERALD" />
-      <subtype value="DIAMOND_GREEN" />
+      <!subtype value="DIAMOND_GREEN" />
     </material>
   </color>
   <!-- [DISPLAY_COLOR:4:7:0] -->
@@ -42,7 +42,7 @@
       <!subtype value="RED GROSSULAR" />
       <!subtype value="SPINEL_RED" />
       <subtype value="RUBY" />
-      <subtype value="DIAMOND_RED" />
+      <!subtype value="DIAMOND_RED" />
     </material>
   </color>
   <!-- [DISPLAY_COLOR:5:7:0] -->
@@ -54,8 +54,8 @@
     <!/material>
   <!/color>
   <!-- [DISPLAY_COLOR:6:7:0] -->
-  <color red="120" green="94" blue="47">
-    <material value="Inorganic">
+  <!color red="120" green="94" blue="47">
+    <!material value="Inorganic">
       <!subtype value="TUBE AGATE" />
       <!subtype value="FIRE AGATE" />
       <!subtype value="PLUME AGATE" />
@@ -69,9 +69,9 @@
       <!subtype value="HONEY YELLOW BERYL" />
       <!subtype value="JELLY OPAL" />
       <!subtype value="BROWN ZIRCON" />
-      <subtype value="DIAMOND_FY" />
-    </material>
-  </color>
+      <!subtype value="DIAMOND_FY" />
+    <!/material>
+  <!/color>
   <!-- [DISPLAY_COLOR:0:7:1] -->
   <color red="120" green="120" blue="120">
     <material value="Inorganic">
@@ -82,7 +82,7 @@
       <!subtype value="BLACK PYROPE" />
       <!subtype value="MELANITE" />
       <subtype value="OPAL_BLACK" />
-      <subtype value="DIAMOND_BLACK" />
+      <!subtype value="DIAMOND_BLACK" />
     </material>
   </color>
   <!-- [DISPLAY_COLOR:1:7:1] -->
@@ -92,7 +92,7 @@
       <!subtype value="BLUE JADE" />
       <subtype value="LAPIS LAZULI" />
       <!subtype value="OPAL_CLARO" />
-      <subtype value="SAPPHIRE_STAR" />
+      <!subtype value="SAPPHIRE_STAR" />
     </material>
   </color>
   <!-- [DISPLAY_COLOR:2:7:1] -->
@@ -122,7 +122,7 @@
       <subtype value="FIRE OPAL" />
       <!subtype value="OPAL_PFIRE" />
       <!subtype value="OPAL_REDFLASH" />
-      <subtype value="RUBY_STAR" />
+      <!subtype value="RUBY_STAR" />
     </material>
   </color>
   <!-- [DISPLAY_COLOR:5:7:1] -->
@@ -157,7 +157,7 @@
       <!subtype value="YELLOW GROSSULAR" />
       <!subtype value="RUBICELLE" />
       <!subtype value="OPAL_LEVIN" />
-      <subtype value="DIAMOND_YELLOW" />
+      <!subtype value="DIAMOND_YELLOW" />
     </material>
   </color>
   <!-- [DISPLAY_COLOR:7:7:1] -->
@@ -188,7 +188,7 @@
       <!subtype value="OPAL_HARLEQUIN" />
       <!subtype value="OPAL_PINFIRE" />
       <!subtype value="OPAL_BANDFIRE" />
-      <subtype value="DIAMOND_LY" />
+      <!subtype value="DIAMOND_LY" />
       <subtype value="DIAMOND_CLEAR" />
     </material>
   </color>

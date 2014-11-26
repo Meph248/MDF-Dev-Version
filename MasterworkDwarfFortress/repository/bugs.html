@@ -27,4 +27,360 @@ a:visited {
 <body>
 <em>
 </em>
+<em>
+<div align="center">
+  <div align="center">
+    <table width="771" border="0">
+      <tr>
+        <td width="765"><h1><em>Known Bugs</em></h1>
+          <script type="text/javascript">
+function toggle(element) {
+if (document.getElementById(element).style.display == "none") {
+document.getElementById(element).style.display = "";
+} else {
+document.getElementById(element).style.display = "none";
+}
+}
+  </script>
+          <p><em>Some things cant be fixed or avoided in modding a game with a closed source code. If you experience wonky gameplay and general oddities have a look here, maybe its a known and already reported problem. There are usually workarounds available for you to fix it.</em></p>
+          <p><em>If you cant find the source of your problems on the list, please come by bay12 and share. In almost all cases it is a typo or simple error in the raws that can be fixed in a future release.</em></p>
+          <hr align="center" />
+          <div align="center">
+            <div align="center">
+              <table width="556" border="0">
+                <tr>
+                  <td width="550"><table width="700" border="1">
+                    <tr>
+                      <td><div align="center"></div></td>
+                      <td><div align="center"><strong class="Rot">Transformations like Guilds, Groups or Mages dont work, or animals are not trained in skills.</strong><br />
+                      </div></td>
+                    </tr>
+                    <tr>
+                      <td><div align="center">Bug:</div></td>
+                      <td><div align="center">A reaction is run, the items used up, but a creature does not transform or does not get the wanted effect.</div></td>
+                    </tr>
+                    <tr>
+                      <td><div align="center">Solution: </div></td>
+                      <td><div align="center">
+                        <p>Dont run it on repeat 'R'. Autosyndrome, the script behind it, does not run when the reaction is set to repeat, so just queue them up normally.</p>
+                        <p>A workaround using dfhack:</p>
+                        <p align="left">1. Type &quot;v&quot; and move your cursor to the unit you want to change.<br />
+                          2. Switch to dfhack and type &quot;lua&quot;. That will take you to the lua interpreter.<br />
+                          3. type &quot;c = dfhack.gui.getSelectedUnit()&quot; (case sensitive)<br />
+                          3. now &quot;c.enemy.normal_caste = number&quot; where number is one the caste how they appear in creature_standard from top to bottom.<br />
+                          4. unpause the game, the dwarf should transform.</p>
+                      </div></td>
+                    </tr>
+                  </table>
+                    <p>&nbsp;</p>
+                    <table width="700" border="1">
+                      <tr>
+                        <td><div align="center"></div></td>
+                        <td><div align="center"><strong class="Rot">Boneyard uses up bones way too fast.</strong><br />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Bug:</div></td>
+                        <td><div align="center">Each reaction uses up one full stack, but only produces one item. One single bone makes one item, but a stack of 20 bones will also just make one item. </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Solution: </div></td>
+                        <td><div align="center">No solution, this is hardcoded. The more cut-off bodyparts you have, the easier it is to get small stacks or single bones. Butchering big animals will produce big stacks, these are better used in the craftsdwarf.</div></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <table width="700" border="1">
+                      <tr>
+                        <td><div align="center"></div></td>
+                        <td><div align="center"><strong class="Rot">Letters are missing, lines are black, no text.</strong><br />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Bug:</div></td>
+                        <td><div align="center">Parts of words are missing, letters flicker in and out of existence, long names disappear. A known Vanilla DF TrueTypeFont Bug.</div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Solution: </div></td>
+                        <td><div align="center">No solution, this is hardcoded. You can press F11x2 to fix it temporarily, OR press F12 to turn of TrueType. TrueType is required for the custom Font to work.</div></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <table width="700" border="1">
+                      <tr>
+                        <td><div align="center"></div></td>
+                        <td><div align="center"><strong class="Rot">Workshop reactions are red, even with all the materials available.</strong><br />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Bug:</div></td>
+                        <td><div align="center">If a workshop is in a burrow, even if the burrow is inactive, then it accepts only materials within the same burrow. </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Solution: </div></td>
+                        <td><div align="center">Make a bigger burrow including the materials, or keep the material stockpiles within the same burrow. Or delete the burrow.</div></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <table width="700" border="1">
+                      <tr>
+                        <td><div align="center"></div></td>
+                        <td><div align="center"><strong class="Rot">I have many weird boulders lying around, named sparks, bacteria or smoke...</strong><br />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Bug:</div></td>
+                        <td><div align="center">Many things in the mod depend on temperature. Things that should melt or boil away don't without it.</div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Solution: </div></td>
+                        <td><div align="center">Open the GUI or Init.txt and set Temperature to ON. This can be done in a running fortress, you only have to restart DF. You do not need to gen a new world. You can also turn off &quot;smoke effects&quot; in the misc features section. This will decrease the amount of these boulders significantly.</div></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <table width="700" border="1">
+                      <tr>
+                        <td><div align="center"></div></td>
+                        <td><div align="center"><strong class="Rot">Kitchen cant make candy or bake bread.</strong><br />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Bug:</div></td>
+                        <td><div align="center">Df cant find the sugar/flour inside a bag that is stored inside a barrel.</div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Solution: </div></td>
+                        <td><div align="center">Use the sugar/flour directly after you created it, or store it in a stockpile that is set to accept no barrels.</div></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <table width="700" border="1">
+                      <tr>
+                        <td><div align="center"></div></td>
+                        <td><div align="center"><strong class="Rot">Worldgen crashes.</strong><br />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Bug:</div></td>
+                        <td><div align="center">Dwarf Fortress crashes to desktop while creating a world.</div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Solution: </div></td>
+                        <td><div align="center">I have never been able to replicate this. It appears to be at random, with major differences in the PC system people use. Try shorter histories, &lt;100 years. If the problem persists, please leave a detailed report in the forum. Please mention the mod version, tileset used, if settings have been changed, and how much virtual memory/ram you have.</div></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <table width="700" border="1">
+                      <tr>
+                        <td><div align="center"></div></td>
+                        <td><div align="center"><strong class="Rot">I have an error log.</strong><br />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Bug:</div></td>
+                        <td><div align="center">
+                          <p>The Dwarf Fortress main folder shows a errorlog.txt. This is created when certain entry in the raws are missing. In 90% of the cases this is completely harmless. It is caused by enabling some settings, and disabling other. </p>
+                          <p>For example you remove warpstone. The error log will tell you that warpstone is missing in the reactions for warpstone landmines and turrets.</p>
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Solution: </div></td>
+                        <td><div align="center">The default setting has no error log. If your setting has a very big error log, please leave me a message in the forum. Otherwise just ignore it, it will do no harm.</div></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <table width="700" border="1">
+                      <tr>
+                        <td><div align="center"></div></td>
+                        <td><div align="center"><strong class="Rot">Something else is wrong.</strong><br />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Bug:</div></td>
+                        <td><div align="center">
+                          <p>???</p>
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Solution: </div></td>
+                        <td><div align="center">
+                          <p>Please report at the forum thread, or write me a PM. Please mention the mod version, tileset used, if settings have been changed, and what exactly is it that is wrong.</p>
+                          <p>Please keep in mind that some issues are Vanilla DF or dfhack related. If you think this is the case, give me a quick heads up, but post the report in the fitting thread. Do mention that you play Masterwork DF though, otherwise people will get confused. Thank you.</p>
+                        </div></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table>
+              <h1>War<em>lock-specific</em></h1>
+              <table width="700" border="1">
+                <tr>
+                  <td><div align="center"></div></td>
+                  <td><div align="center"><strong class="Rot">Infighting between civ-members, pets and undeads</strong><br />
+                  </div></td>
+                </tr>
+                <tr>
+                  <td><div align="center">Bug:</div></td>
+                  <td><div align="center">Undeads are attacking something.</div></td>
+                </tr>
+                <tr>
+                  <td><div align="center">Solution: </div></td>
+                  <td><div align="center">
+                    <p>Units have a self-targetted interaction that makes them friendly to undeads. This takes a few seconds. There is no other way to do this, so rare colleteral damage can happen, if a unit just spawned or just migrated to your fort.</p>
+                    <p>Pets, caravans and wildlife is attacked by undeads as well, so take care.</p>
+                  </div></td>
+                </tr>
+              </table>
+              <h1>Gnome<em>-specific</em></h1>
+              <table width="556" border="0">
+                <tr>
+                  <td width="550"><p>&nbsp;</p>
+                    <p>IMPORTANT: Gnomes REQUIRE the following dfhack scripts for many of their unique behaviors: construct-creature.lua, druidism.lua, geology.lua, and machina.lua.  These scripts must also be active in the dfhack.init file.  Make sure these files are included and dfhack is running.</p>
+                    <p>&nbsp;</p>
+                    <table width="700" border="1">
+                      <tr>
+                        <td><div align="center"></div></td>
+                        <td><div align="center"><strong class="Rot">Automatic machines aren't working.</strong><br />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Bug:</div></td>
+                        <td><div align="center">The first constructed automatic machine (Aerial Transportation Device, Autocrafters, etc.) doesn't work when starting a new game or after all automatic machines are deconstructed.</div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Solution: </div></td>
+                        <td><div align="center">Simply designate a new workshop to be built (you can cancel it afterwards).  This resets the automatic machine system, which should fix most bugs.</div></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <table width="700" border="1">
+                      <tr>
+                        <td><div align="center"></div></td>
+                        <td><div align="center"><strong class="Rot">Logic gate feedback spiral (Severe machine-related slow-down).</strong><br />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Bug:</div></td>
+                        <td><div align="center">The framerate suddenly slows to a crawl when working with machines.</div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Solution: </div></td>
+                        <td><div align="center">Most machines are pretty easy on the framerate, but the entire system must recheck its connections and power levels every time a gear assembly is engaged or disengaged, and power levels must be recalculated if a power source starts or stops.  Because of this, if a logic gate is connected to a gear assembly that is connected to one of the logic gate's own input machines, a feedback loop may result that causes the gear assembly to switch on and off every frame, which can kill your framerate.  So, avoid this. <br />
+                          Slowdown can also occur if a power source (generally a water wheel whose artificial water source is starting to dry up) is switching on and off rapidly, especially if you have many machines operating.  Using natural rivers or steam engines/clockwork keys as your main power source is the best option.</div></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <table width="700" border="1">
+                      <tr>
+                        <td><div align="center"></div></td>
+                        <td><div align="center"><strong class="Rot">Game hangs for several minutes while training animals in bulk</strong><br />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Bug:</div></td>
+                        <td><div align="center">The game will freeze, sometimes for as long as several minutes, before resuming as if nothing had happened.  This seems to be associated with getting animals to follow each other and pasturing them together in large groups for training.</div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Solution: </div></td>
+                        <td><div align="center">I'm not really sure what causes this.  If the game seems to freeze but isn't actually crashing, press the space button so that it pauses the moment it unfreezes.  If you have a bunch of animals together in a pasture, remove them from the pasture and then unpause (if you do not, it will probably happen again in a few seconds).  This seems to be a DF pathing bug, rather than a direct effect of the script, so it is unlikely that I can fix it without simply removing the option of getting animals to cluster together altogether.  In general, try and avoid stuffing too many animals into one small area, or make sure to 'dismiss' them from following each other before you do.</div></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <table width="700" border="1">
+                      <tr>
+                        <td><div align="center"></div></td>
+                        <td><div align="center"><strong class="Rot">Items or creatures launched into the air don't come down.</strong><br />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Bug:</div></td>
+                        <td><div align="center">Items or creatures launched at high angles with the Aerial Transport Device sometimes get stuck on invisible platforms in the sky.  Not actually an effect of the mod, this is just a quirk of DF topography.</div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Solution: </div></td>
+                        <td><div align="center">Avoid launching items at high angles on maps where this happens.  If something's already stuck up there, you'll have to build a stairway to get it down.</div></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <table width="700" border="1">
+                      <tr>
+                        <td><div align="center"></div></td>
+                        <td><div align="center"><strong class="Rot">Tamed birds don't come down.</strong><br />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Bug:</div></td>
+                        <td><div align="center">If you tame a bird in mid-flight, it won't path to the ground.</div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Solution: </div></td>
+                        <td><div align="center">Build a stairway up to it to help it find its way.</div></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <table width="700" border="1">
+                      <tr>
+                        <td><div align="center"></div></td>
+                        <td><div align="center"><strong class="Rot">Crash when using autocrafters.</strong><br />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Bug:</div></td>
+                        <td><div align="center">The game crashes while autocrafters are running.</div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Solution: </div></td>
+                        <td><div align="center">This can happen if an item is made out of an invalid material, or if an invalid item is used in a reaction.  Try and figure out what kind of item is causing the problem, and report it in the main forum thread so that it can be made impossible to produce.</div></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <table width="700" border="1">
+                      <tr>
+                        <td><div align="center"></div></td>
+                        <td><div align="center"><strong class="Rot">Autocrafted items are not being stored in stockpiles.</strong><br />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Bug:</div></td>
+                        <td><div align="center">Items created by autocrafters are not being stored in stockpiles.  A milder version of the above bug, this is caused by certain item/material combinations.</div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Solution: </div></td>
+                        <td><div align="center">If you spot this, report it in the main forum thread.</div></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <table width="700" border="1">
+                      <tr>
+                        <td><div align="center"></div></td>
+                        <td><div align="center"><strong class="Rot">Tamed animals reverting to their wild state just hang around.</strong><br />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Bug:</div></td>
+                        <td><div align="center">Creatures tamed by the Nature Shrine and reverting to their wild state just follow their tamer around and pick fights with pets, refusing to leave.</div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center">Solution: </div></td>
+                        <td><div align="center">If you don't want to kill them, try to lure them into a cage trap so they can be re-tamed the normal way.  This may require webs or knocking them unconscious.  Make sure to designate a (regular) animal training area and set an animal trainer for your pets so this doesn't happen in the first place.</div></td>
+                      </tr>
+                    </table>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p></td>
+                </tr>
+              </table>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+<div id="hidden7" style="display:none;">
+            <h1 align="center"><a name="DWARF" id="DWARF">Human Issues</a></h1>
+            </p>
+            None reported yet, as this race is brand new.
+            </p>
+          </div></td>
+      </tr>
+    </table>
+  </div>
+</div>
+</em>
 </html>

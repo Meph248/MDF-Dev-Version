@@ -101,7 +101,7 @@ eventful.onReactionComplete.orcReaction = function(reaction, unit, input_items, 
 			elseif reaction.code:find('_CHILL') 		then syndromeReaction(unit, 'CHILL_STONE_ORC', reaction, input_items, input_reagents)
 			elseif reaction.code:find('_VORTEX') 		then syndromeReaction(unit, 'VORTEX_STONE_ORC', reaction, input_items, input_reagents)
 			elseif reaction.code:find('_TAROT') 		then syndromeReaction(unit, 'TAROT_STONE_ORC', reaction, input_items, input_reagents)
-			elseif reaction.code:find('_WARMYRAY') 		then syndromeReaction(unit, 'WARMRAY_STONE_ORC', reaction, input_items, input_reagents)
+			elseif reaction.code:find('_WARMRAY') 		then syndromeReaction(unit, 'WARMRAY_STONE_ORC', reaction, input_items, input_reagents)
 			
 			end
 			

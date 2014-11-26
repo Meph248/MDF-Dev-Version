@@ -290,6 +290,7 @@ creature_kobold_camp
    
    [CASTE:TURTLE_FEMALE]
       [FEMALE]
+      [CREATURE_CLASS:KOBOLD_FEMALE]
  [LITTERSIZE:1:5]
    [CREATURE_CLASS:ALL_CREATURES]
    [DESCRIPTION:*TURTLE* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Turtle are tough, and tend to  favor shell and bone crafts.  When they must fight they favor a shield.  Like all Water Sign kobolds, they are natural swimmers.]
@@ -304,6 +305,7 @@ creature_kobold_camp
    
    [CASTE:EEL_FEMALE]
       [FEMALE]
+      [CREATURE_CLASS:KOBOLD_FEMALE]
  [LITTERSIZE:1:5]
    [CREATURE_CLASS:ALL_CREATURES]
    [DESCRIPTION:*EEL* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Eel are agile, and tend to be fine fishers.  Like all Water Sign kobolds they are natural swimmers.]
@@ -318,6 +320,7 @@ creature_kobold_camp
 
    [CASTE:DARTFROG_FEMALE]
       [FEMALE]
+      [CREATURE_CLASS:KOBOLD_FEMALE]
  [LITTERSIZE:1:5]
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:* DARTFROG* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Dartfrog are intrigued by poisons, toxins, and all other forms of brewing.  Like all Water Sign kobolds they are natural swimmers.]
    [SKILL_LEARN_RATE:COOK:150]
@@ -336,6 +339,7 @@ creature_kobold_camp
 
    [CASTE:RAT_FEMALE]
       [FEMALE]
+      [CREATURE_CLASS:KOBOLD_FEMALE]
  [LITTERSIZE:1:5]
    [CREATURE_CLASS:ALL_CREATURES]
    [DESCRIPTION:*RAT* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Rat are resitant to disease, and tend to favor working with animals.  Like all Fire Sign Kobolds they move a bit more quickly than others.]
@@ -349,6 +353,7 @@ creature_kobold_camp
 
    [CASTE:SALAMANDER_FEMALE]
       [FEMALE]
+      [CREATURE_CLASS:KOBOLD_FEMALE]
  [LITTERSIZE:1:5]
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*SALAMANDER* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Salamander are resitant to fire, and are entranced by the heat of a forge.  Like all Fire Sign Kobolds they move a bit more quickly than others.]
    [SKILL_LEARN_RATE:FORGE_WEAPON:100] # I assume default for Kobolds will be very low, so 100 is high
@@ -368,6 +373,7 @@ creature_kobold_camp
    
    [CASTE:COYOTE_FEMALE]
       [FEMALE]
+      [CREATURE_CLASS:KOBOLD_FEMALE]
  [LITTERSIZE:1:5]
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*COYOTE* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Coyote are creative free spirits and tend to excel at craftswork.  Like all Fire Sign Kobolds they move a bit more quickly than others.]
    [PERSONALITY:INTELLECTUAL_CURIOSITY:50:75:100]
@@ -389,6 +395,7 @@ creature_kobold_camp
 
    [CASTE:KESTREL_FEMALE]
       [FEMALE]
+      [CREATURE_CLASS:KOBOLD_FEMALE]
  [LITTERSIZE:1:5]
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*KESTREL* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Kestrel are natural hunters and bowyers.  Like all Air Sign kobolds, they are adept at stealth and cannot be ensnared in webs.]
    [SKILL_LEARN_RATE:BLOWGUN:150]
@@ -411,6 +418,7 @@ creature_kobold_camp
 
    [CASTE:OWL_FEMALE]
       [FEMALE]
+      [CREATURE_CLASS:KOBOLD_FEMALE]
  [LITTERSIZE:1:5]
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*OWL* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Owl are wise and tend to make good students and teachers alike.  Like all Air Sign kobolds, they are adept at stealth and cannot be ensnared in webs.]
    [MENT_ATT_RANGE:FOCUS:2000:2500:3000:3250:3500:3750:4000]           
@@ -431,6 +439,7 @@ creature_kobold_camp
    
    [CASTE:BLUEBIRD_FEMALE]
       [FEMALE]
+      [CREATURE_CLASS:KOBOLD_FEMALE]
  [LITTERSIZE:1:5]
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*BLUEBIRD* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Bluebird are at peace with wild creatures and tend to find work in medicine.  Like all Air Sign kobolds, they are adept at stealth and cannot be ensnared in webs.]
    [AT_PEACE_WITH_WILDLIFE]
@@ -458,6 +467,7 @@ creature_kobold_camp
    
    [CASTE:VIPER_FEMALE]
       [FEMALE]
+      [CREATURE_CLASS:KOBOLD_FEMALE]
  [LITTERSIZE:1:5]
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*VIPER* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Viper are not shy about close combat with knife nor fang.  Like all Earth Sign kobolds, they begin to thrive upon combat once they get a taste of it.][CASTE_PROFESSION_NAME:STANDARD:Viper-sign Kobold:Viper-sign Kobolds] 
 
@@ -503,6 +513,7 @@ creature_kobold_camp
 
    [CASTE:LIZARD_FEMALE]
       [FEMALE]
+      [CREATURE_CLASS:KOBOLD_FEMALE]
  [LITTERSIZE:1:5]
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*LIZARD* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Lizard have great powers of recuperation.  Like all Earth Sign kobolds, they begin to thrive upon combat once they get a taste of it.]
    [PHYS_ATT_RANGE:RECUPERATION:2000:2500:3000:3250:3500:3750:4000]  +++
@@ -525,6 +536,7 @@ creature_kobold_camp
    
    [CASTE:BADGER_FEMALE]
       [FEMALE]
+      [CREATURE_CLASS:KOBOLD_FEMALE]
  [LITTERSIZE:1:5]
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*BADGER* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Badger are strong and ferocious, and tend to find work as butchers.  Like all Earth Sign kobolds, they begin to thrive upon combat once they get a taste of it.]
    [PHYS_ATT_RANGE:STRENGTH:750:1200:1500:1800:2000:2250:2550]  + 50% bonus wrt other kobolds
@@ -544,6 +556,7 @@ creature_kobold_camp
    
    [CASTE:TURTLE_MALE]
       [MALE]
+      [CREATURE_CLASS:KOBOLD_MALE]
 
    [CREATURE_CLASS:ALL_CREATURES]
    [DESCRIPTION:*TURTLE* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Turtle are tough, and tend to  favor shell and bone crafts.  When they must fight they favor a shield.  Like all Water Sign kobolds, they are natural swimmers.]
@@ -558,6 +571,7 @@ creature_kobold_camp
    
    [CASTE:EEL_MALE]
       [MALE]
+      [CREATURE_CLASS:KOBOLD_MALE]
 
    [CREATURE_CLASS:ALL_CREATURES]
    [DESCRIPTION:*EEL* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Eel are agile, and tend to be fine fishers.  Like all Water Sign kobolds they are natural swimmers.]
@@ -572,6 +586,7 @@ creature_kobold_camp
 
    [CASTE:DARTFROG_MALE]
       [MALE][CASTE_PROFESSION_NAME:STANDARD:Dartfrog-sign Kobold:Dartfrog-sign Kobolds] 
+      [CREATURE_CLASS:KOBOLD_MALE]
 
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*DARTFROG* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Dartfrog are intrigued by poisons, toxins, and all other forms of brewing.  Like all Water Sign kobolds they are natural swimmers.]
    [SKILL_LEARN_RATE:COOK:150]
@@ -590,6 +605,7 @@ creature_kobold_camp
 
    [CASTE:RAT_MALE]
       [MALE]
+      [CREATURE_CLASS:KOBOLD_MALE]
 
    [CREATURE_CLASS:ALL_CREATURES]
    [DESCRIPTION:*RAT* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Rat are resitant to disease, and tend to favor working with animals.  Like all Fire Sign Kobolds they move a bit more quickly than others.]
@@ -603,6 +619,7 @@ creature_kobold_camp
 
    [CASTE:SALAMANDER_MALE]
       [MALE][CASTE_PROFESSION_NAME:STANDARD:Salamander-sign Kobold:Salamander-sign Kobolds] 
+      [CREATURE_CLASS:KOBOLD_MALE]
 
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*SALAMANDER* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Salamander are resitant to fire, and are entranced by the heat of a forge.  Like all Fire Sign Kobolds they move a bit more quickly than others.]
    [SKILL_LEARN_RATE:FORGE_WEAPON:100] # I assume default for Kobolds will be very low, so 100 is high
@@ -622,6 +639,7 @@ creature_kobold_camp
    
    [CASTE:COYOTE_MALE]
       [MALE]
+      [CREATURE_CLASS:KOBOLD_MALE]
 
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*COYOTE* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Coyote are creative free spirits and tend to excel at craftswork.  Like all Fire Sign Kobolds they move a bit more quickly than others.]
    [PERSONALITY:INTELLECTUAL_CURIOSITY:50:75:100]
@@ -643,6 +661,7 @@ creature_kobold_camp
 
    [CASTE:KESTREL_MALE]
       [MALE]
+      [CREATURE_CLASS:KOBOLD_MALE]
 
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*KESTREL* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Kestrel are natural hunters and bowyers.  Like all Air Sign kobolds, they are adept at stealth and cannot be ensnared in webs.]
    [SKILL_LEARN_RATE:BLOWGUN:150]
@@ -665,6 +684,7 @@ creature_kobold_camp
 
    [CASTE:OWL_MALE]
       [MALE][CASTE_PROFESSION_NAME:STANDARD:Owl-sign Kobold:Owl-sign Kobolds] 
+      [CREATURE_CLASS:KOBOLD_MALE]
 
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*OWL* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Owl are wise and tend to make good students and teachers alike.  Like all Air Sign kobolds, they are adept at stealth and cannot be ensnared in webs.]
    [MENT_ATT_RANGE:FOCUS:2000:2500:3000:3250:3500:3750:4000]           
@@ -685,6 +705,7 @@ creature_kobold_camp
    
    [CASTE:BLUEBIRD_MALE]
       [MALE][CASTE_PROFESSION_NAME:STANDARD:Bluebird-sign Kobold:Bluebird-sign Kobolds] 
+      [CREATURE_CLASS:KOBOLD_MALE]
 
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*BLUEBIRD* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Bluebird are at peace with wild creatures and tend to find work in medicine.  Like all Air Sign kobolds, they are adept at stealth and cannot be ensnared in webs.]
    [AT_PEACE_WITH_WILDLIFE]
@@ -712,6 +733,7 @@ creature_kobold_camp
    
    [CASTE:VIPER_MALE]
       [MALE][CASTE_PROFESSION_NAME:STANDARD:Viper-sign Kobold:Viper-sign Kobolds] 
+      [CREATURE_CLASS:KOBOLD_MALE]
 
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*VIPER* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Viper are not shy about close combat with knife nor fang.  Like all Earth Sign kobolds, they begin to thrive upon combat once they get a taste of it.]
 
@@ -757,6 +779,7 @@ creature_kobold_camp
 
    [CASTE:LIZARD_MALE]
       [MALE][CASTE_PROFESSION_NAME:STANDARD:Lizard-sign Kobold:Lizard-sign Kobolds] 
+      [CREATURE_CLASS:KOBOLD_MALE]
 
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*LIZARD* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Lizard have great powers of recuperation.  Like all Earth Sign kobolds, they begin to thrive upon combat once they get a taste of it.]
    [PHYS_ATT_RANGE:RECUPERATION:2000:2500:3000:3250:3500:3750:4000]  +++
@@ -779,6 +802,7 @@ creature_kobold_camp
    
    [CASTE:BADGER_MALE]
       [MALE][CASTE_PROFESSION_NAME:STANDARD:Badger-sign Kobold:Badger-sign Kobolds] 
+      [CREATURE_CLASS:KOBOLD_MALE]
 
    [CREATURE_CLASS:ALL_CREATURES][DESCRIPTION:*BADGER* A small, dog-like humanoid with long drooping ears.  Kobolds born under the Sign of the Badger are strong and ferocious, and tend to find work as butchers.  Like all Earth Sign kobolds, they begin to thrive upon combat once they get a taste of it.]
    [PHYS_ATT_RANGE:STRENGTH:750:1200:1500:1800:2000:2250:2550]  + 50% bonus wrt other kobolds
@@ -800,6 +824,7 @@ creature_kobold_camp
  [CASTE:WITCH]
 	[CASTE_NAME:kobold witch:kobold witches:kobold]
       [FEMALE]
+      [CREATURE_CLASS:KOBOLD_FEMALE]
    [CREATURE_CLASS:ALL_CREATURES]
    [DESCRIPTION:*WITCH* A small, dog-like humanoid with long drooping ears.  Kobolds that are born under unknown stars draw power from the earth around them and can speak mighty spells and curses. By learning from different mojos they can become very powerful indeed. Witches can throw webs of shadow or entangle enemies with roots.]
    [SKILL_LEARN_RATE:ALCHEMY:150][CASTE_PROFESSION_NAME:STANDARD:Witch:Witches] 
@@ -830,6 +855,7 @@ creature_kobold_camp
  [CASTE:WITCHER]
 	[CASTE_NAME:kobold witcher:kobold witchers:kobold]
       [MALE]
+      [CREATURE_CLASS:KOBOLD_MALE]
    [CREATURE_CLASS:ALL_CREATURES]
    [DESCRIPTION:*WITCHER* A small, dog-like humanoid with long drooping ears.  Kobolds that are born under unknown stars draw power from the earth around them and can speak mighty spells and curses. By learning from different mojos they can become very powerful indeed. Witchers can slow enemies down and cause sickness.]
    [SKILL_LEARN_RATE:ALCHEMY:150][CASTE_PROFESSION_NAME:STANDARD:Witcher:Witchers] 
@@ -886,6 +912,7 @@ druids
 [CASTE:DRUID_MALE]
 	[CASTE_NAME:kobold druid:kobold druids:kobold]
       [MALE][CREATURE_CLASS:ALL_CREATURES]
+      [CREATURE_CLASS:KOBOLD_MALE]
    [DESCRIPTION:*DRUID* A small, dog-like humanoid with long drooping ears.  Kobold Druids have forsaken the star signs they were born under and stand in contact with nature. They transform into mighty spirit bears in combat, but in their rage they abandon their equipment and let go of weapon and shield. After a week their wrath has succumbed and they appear a bit confused and helpless, before they gather their wits again.]
    [NATURAL_SKILL:MAGIC_NATURE:15]
    [POP_RATIO:1][CASTE_PROFESSION_NAME:STANDARD:Druid:Druids] 
@@ -908,6 +935,7 @@ druids
 [CASTE:DRUID_FEMALE][CASTE_PROFESSION_NAME:STANDARD:Druid:Druids] 
 	[CASTE_NAME:kobold druid:kobold druids:kobold]
       [FEMALE][CREATURE_CLASS:ALL_CREATURES]
+      [CREATURE_CLASS:KOBOLD_FEMALE]
    [DESCRIPTION:*DRUID* A small, dog-like humanoid with long drooping ears.  Kobold Druids have forsaken the star signs they were born under and stand in contact with nature. They transform into mighty spirit bears in combat, but in their rage they abandon their equipment and let go of weapon and shield. After a week their wrath has succumbed and they appear a bit confused and helpless, before they gather their wits again.]
    [NATURAL_SKILL:MAGIC_NATURE:15]
    [POP_RATIO:1]

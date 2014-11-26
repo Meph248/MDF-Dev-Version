@@ -3,14 +3,24 @@ succubus/summon-hook
 
 orc/reaction-hook
 
+waterwell enable
+waterwell
+
+timestream 1.0
+
+multilevel 15
+multilevel shadowcolor 0 0 0 0.8
+multilevel fogcolor 0.1 0.1 0.2
+multilevel fogdensity 0.2
+
 emigration 0
 AddPetToCiv
 base_upgradebuilding
+slab_engrave
+
 base_improveitem
-
-fixbutchery
 fixbutchery enable
-
+pantheon
 ##############################
 # Generic dwarfmode bindings #
 ##############################
@@ -712,7 +722,7 @@ keybinding add Alt-A@dwarfmode/QueryBuilding/Some/Workshop/Job gui/workshop-job
 keybinding add Alt-W@dwarfmode/QueryBuilding/Some/Workshop/Job gui/workflow
 keybinding add Alt-W@overallstatus "gui/workflow status"
 
-# unit info
+# unit info 
 keybinding add Ctrl-U unit-info-viewer
 
 keybinding add Ctrl-W@dwarfmode/QueryBuilding/Some "gui/workflow"
@@ -816,4 +826,4 @@ fix/growthbug enable
 # Clear console #
 #################
 
-#clsclscls
+#clsclsclsclss

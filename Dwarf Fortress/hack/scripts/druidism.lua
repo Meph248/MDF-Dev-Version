@@ -1721,12 +1721,45 @@ function calculateUnitMerit(u,respond)
 	end
 end
 
-function releaseAnimal(unit)
+function releaseAnimal(u)
 	u.flags1.tame = false
 	u.civ_id=-1
 	adoptPet(nil,u)
 	u.animal.leave_countdown=2
 	u.flags1.forest=true
+	
+	-- remove animal from pastures
+	for i = #u.general_refs - 1, 0, -1 do
+		if getmetatable(u.general_refs[i]) == 'general_ref_building_civzone_assignedst' then
+			local zone = df.building.find(u.general_refs[i].building_id)
+			if zone then
+				for j = #zone.assigned_creature - 1, 0, -1 do
+					local u_id = zone.assigned_creature[j]
+					if u_id == u.id then
+						zone.assigned_creature:erase(j)
+					end
+				end
+			end
+			u.general_refs:erase(i)
+		end
+	end
+
+	-- cancel dragging
+	local dragger_id = u.relations.dragger_id
+	if dragger_id and dragger_id >= 0 then
+		u.relations.dragger_id = -1
+		local dragger = df.u.find(dragger_id)
+		dragger.relations.draggee_id = -1
+		local job = dragger.job.current_job
+		if job then
+			dragger.job.current_job = nil
+			for i = #job.general_refs - 1, 0, -1 do
+				if getmetatable(job.general_refs[i]) == 'general_ref_unit_workerst' then
+					job.general_refs:erase(i)
+				end
+			end
+		end
+	end
 	
 	merit = 0
 	unitRaw = df.global.world.raws.creatures.all[u.race]
@@ -1753,7 +1786,7 @@ function releaseAnimal(unit)
 	
 	merit = merit - (casualty*petValue*wildOriginMultiplier)
 
-	for inv_id,item_inv in ipairs(unit.inventory) do
+	for inv_id,item_inv in ipairs(u.inventory) do
 		itemcheck = item_inv.item
 		merit = merit + getItemValue(itemcheck)
 	end

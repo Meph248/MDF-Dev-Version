@@ -739,10 +739,12 @@ creature_warlock_civ
 	---------------------------------------------------------------------------------------------------------------
 	
 	[CASTE:WARLOCK_OVERLORD]
+	[CREATURE_CLASS:WARLOCK_MALE]
 	[DESCRIPTION:The ruler of the dungeon. He reigns supreme from the throne room and oversees the construction of the tower, the building of an army and the terrorization of the good people of the world. Evil always finds a way.]
 	[MALE]
 	
 	[CASTE:WARLOCK_OVERLORDF]
+	[CREATURE_CLASS:WARLOCK_FEMALE]
 	[DESCRIPTION:The ruler of the dungeon. She reigns supreme from the throne room and oversees the construction of the tower, the building of an army and the terrorization of the good people of the world. Evil always finds a way.]
 	[FEMALE]
 	
@@ -814,6 +816,7 @@ creature_warlock_civ
 	---------------------------------------------------------------------------------------------------------------
 	
 	[CASTE:WARLOCK_M][CREATURE_CLASS:WARLOCK_M]
+	[CREATURE_CLASS:WARLOCK_MALE]
 		[DESCRIPTION:A dark sorcerer that bends matter to their will and use their fallen enemies to their advantage. They fight with magic powers that bypass any armor.]
 	[MALE][NOT_LIVING][NOFEAR]
 	[CASTE_NAME:warlock:warlocks:warlock]
@@ -835,6 +838,7 @@ creature_warlock_civ
 	---------------------------------------------------------------------------------------------------------------
 		
 	[CASTE:WARLOCK_F][CREATURE_CLASS:WARLOCK_F]
+	[CREATURE_CLASS:WARLOCK_FEMALE]
 		[DESCRIPTION:A dark sorcerer that bends matter to their will and use their fallen enemies to their advantage. They fight with magic powers that bypass any armor.]
 	[FEMALE][NOT_LIVING][NOFEAR]
 	[CASTE_NAME:witch:witches:witch]
@@ -858,6 +862,7 @@ creature_warlock_civ
 	---------------------------------------------------------------------------------------------------------------
 		
 		[CASTE:WARLOCK_V_M][CREATURE_CLASS:WARLOCK_M]
+		[CREATURE_CLASS:WARLOCK_MALE]
 		[DESCRIPTION:A vampire that has joined your ranks. Being distrusted and hunted by regular society, vampires are more than welcome in warlock dungeons. The easy access to extracted blood and blood wine make the need for draining live prey unnecessary. At least as long as their hunger is satisfied that way.]
 	[MALE][NOT_LIVING][NOFEAR]
 	[CASTE_NAME:vampire:vampires:vampiric]
@@ -879,6 +884,7 @@ creature_warlock_civ
 	---------------------------------------------------------------------------------------------------------------
 	
 		[CASTE:WARLOCK_V_F][CREATURE_CLASS:WARLOCK_F]
+		[CREATURE_CLASS:WARLOCK_FEMALE]
 		[DESCRIPTION:A vampire that has joined your ranks. Being distrusted and hunted by regular society, vampires are more than welcome in warlock dungeons. The easy access to extracted blood and blood wine make the need for draining live prey unnecessary. At least as long as their hunger is satisfied that way.]
 	[FEMALE][NOT_LIVING][NOFEAR]
 	[CASTE_NAME:vampire:vampires:vampiric]
@@ -2618,7 +2624,7 @@ creature_warlock_civ
 	[CANOPENDOORS][NO_DRINK]
 	[BENIGN][GRAZER:1]SPECIFIC_FOOD:CREATURE:WARLOCK
 	[PREFSTRING:pleasant sounding screams]
-	[PREFSTRING:fine odour]
+	[PREFSTRING:fine odour][PACK_ANIMAL]
 
 	[CAN_DO_INTERACTION:RIOT]
 	[CDI:WAIT_PERIOD:5000]
@@ -2876,7 +2882,7 @@ creature_warlock_civ
 	[CANOPENDOORS][NO_DRINK]
 	[BENIGN][GRAZER:1]SPECIFIC_FOOD:CREATURE:WARLOCK
 	[PREFSTRING:pleasant sounding screams]
-	[PREFSTRING:fine odour]
+	[PREFSTRING:fine odour][PACK_ANIMAL]
 	
 	[CAN_DO_INTERACTION:RIOT]
 	[CDI:WAIT_PERIOD:5000]
@@ -3132,7 +3138,7 @@ creature_warlock_civ
 	[CANOPENDOORS]
 	[BENIGN][GRAZER:1]SPECIFIC_FOOD:CREATURE:WARLOCK
 	[PREFSTRING:pleasant sounding screams]
-	[PREFSTRING:fine odour][NO_DRINK]
+	[PREFSTRING:fine odour][NO_DRINK][PACK_ANIMAL]
 	
 	[CAN_DO_INTERACTION:RIOT]
 	[CDI:WAIT_PERIOD:5000]
@@ -3371,7 +3377,7 @@ creature_warlock_civ
 [MAXAGE:1000:1000][GRAZER:1]SPECIFIC_FOOD:CREATURE:WARLOCK
 
 	[CREATURE_TILE:151][COLOR:7:0:0]
-	[GLOWTILE:151][GLOWCOLOR:4:0:1]
+	[GLOWTILE:151][GLOWCOLOR:4:0:1][PACK_ANIMAL]
 
 	[CAN_DO_INTERACTION:RIOT]
 	[CDI:WAIT_PERIOD:5000]
@@ -3609,16 +3615,13 @@ creature_warlock_civ
 	[LIKES_FIGHTING] 
 	
 	[NO_DRINK]
-	[CANOPENDOORS]
+	[CANOPENDOORS][PACK_ANIMAL]
 	[PERSONALITY:ANXIETY:50:75:100]
 	[PERSONALITY:TRUST:0:25:50]
 	[PERSONALITY:ACTIVITY_LEVEL:50:75:100]
 
 [TRADE_CAPACITY:1500][PETVALUE:80][CREATURE_CLASS:PRISONER]-IMMOBILE-[GRAZER:1]SPECIFIC_FOOD:CREATURE:WARLOCK
-	
-	[CAN_DO_INTERACTION:RIOT]
-	[CDI:WAIT_PERIOD:5000]
-	[CDI:TARGET:A:SELF_ONLY]lol
+	[PACK_ANIMAL]
 	
 	[BODY:HUMANOID:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:OUTERBRAIN:BRAIN:SKULL:5FINGERS:3TOES:MOUTH:TONGUE:FACIAL_FEATURES:TEETH:RIBCAGE][EXTRA_BUTCHER_OBJECT:BY_TYPE:THOUGHT][EBO_ITEM:PLANT:NONE:PLANT_MAT:SOUL_KOBOLD:STRUCTURAL][EXTRA_BUTCHER_OBJECT:BY_TYPE:THOUGHT][EBO_ITEM:MEAT:NONE:CREATURE_MAT:SCALP_KOBOLD:MUSCLE]-INTELLIGENT-
 	[BODY_DETAIL_PLAN:COMMON_ANIMAL_MATERIALS]
@@ -3821,10 +3824,7 @@ creature_warlock_civ
 	[BENIGN][GRAZER:1]SPECIFIC_FOOD:CREATURE:WARLOCK
 	[PREFSTRING:pleasant sounding screams][NO_DRINK]
 	[PREFSTRING:fine odour]
-
-	[CAN_DO_INTERACTION:RIOT]
-	[CDI:WAIT_PERIOD:5000]
-	[CDI:TARGET:A:SELF_ONLY]lol
+[PACK_ANIMAL]
 	
 	[BODY:HUMANOID:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:OUTERBRAIN:BRAIN:SKULL:5FINGERS:5TOES:MOUTH:TONGUE:FACIAL_FEATURES:TEETH:RIBCAGE][EXTRA_BUTCHER_OBJECT:BY_TYPE:THOUGHT][EBO_ITEM:PLANT:NONE:PLANT_MAT:SOUL_ORC:STRUCTURAL][EXTRA_BUTCHER_OBJECT:BY_TYPE:THOUGHT][EBO_ITEM:MEAT:NONE:CREATURE_MAT:SCALP_ORC:MUSCLE]-INTELLIGENT-
 	[BODY_DETAIL_PLAN:COMMON_ANIMAL_MATERIALS]
@@ -4076,10 +4076,7 @@ creature_warlock_civ
 	[BENIGN][GRAZER:1]SPECIFIC_FOOD:CREATURE:WARLOCK[NO_DRINK]
 	[PREFSTRING:pleasant sounding screams]
 	[PREFSTRING:fine odour]
-	
-	[CAN_DO_INTERACTION:RIOT]
-	[CDI:WAIT_PERIOD:5000]
-	[CDI:TARGET:A:SELF_ONLY]lol
+	[PACK_ANIMAL]
 	
 	[BODY:HUMANOID:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:OUTERBRAIN:BRAIN:SKULL:5FINGERS:5TOES:MOUTH:TONGUE:FACIAL_FEATURES:TEETH:RIBCAGE][EXTRA_BUTCHER_OBJECT:BY_TYPE:THOUGHT][EBO_ITEM:PLANT:NONE:PLANT_MAT:SOUL_DROW:STRUCTURAL][EXTRA_BUTCHER_OBJECT:BY_TYPE:THOUGHT][EBO_ITEM:MEAT:NONE:CREATURE_MAT:SCALP_DROW:MUSCLE]-INTELLIGENT-
 	[BODY_DETAIL_PLAN:COMMON_ANIMAL_MATERIALS]
@@ -4315,10 +4312,7 @@ creature_warlock_civ
 	[BENIGN][GRAZER:1]SPECIFIC_FOOD:CREATURE:WARLOCK[NO_DRINK]
 	[PREFSTRING:pleasant sounding screams]
 	[PREFSTRING:fine odour]
-
-	[CAN_DO_INTERACTION:RIOT]
-	[CDI:WAIT_PERIOD:5000]
-	[CDI:TARGET:A:SELF_ONLY]lol
+[PACK_ANIMAL]
 	
 	[BODY:HUMANOID:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:OUTERBRAIN:BRAIN:SKULL:5FINGERS:5TOES:MOUTH:TONGUE:FACIAL_FEATURES:TEETH:RIBCAGE][EXTRA_BUTCHER_OBJECT:BY_TYPE:THOUGHT][EBO_ITEM:PLANT:NONE:PLANT_MAT:SOUL_GNOME:STRUCTURAL][EXTRA_BUTCHER_OBJECT:BY_TYPE:THOUGHT][EBO_ITEM:MEAT:NONE:CREATURE_MAT:SCALP_GNOME:MUSCLE]-INTELLIGENT-
 	[BODY_DETAIL_PLAN:COMMON_ANIMAL_MATERIALS]
